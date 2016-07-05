@@ -9,23 +9,23 @@ class Deals < Client
   end
 
   def create(deal)
-    HTTP.post("#{API_URL}/deals", :params => default_param, :json => deal)
+    HTTP.post("#{API_URL}/deals", :params => default_param, :json => deal).parse
   end
 
   def update(deal)
-    HTTP.put("#{API_URL}/deals/#{deal["id"]}", :params => default_param, :json => deal)
+    HTTP.put("#{API_URL}/deals/#{deal["id"]}", :params => default_param, :json => deal).parse
   end
 
   def delete(deal)
-    HTTP.delete("#{API_URL}/deals/#{deal["id"]}", :params => default_param)
+    HTTP.delete("#{API_URL}/deals/#{deal["id"]}", :params => default_param).parse
   end
 
   def delete_many(ids)
-    HTTP.delete("#{API_URL}/deals/", :params => default_param, :json => {:ids => ids.join(',')} )
+    HTTP.delete("#{API_URL}/deals/", :params => default_param, :json => {:ids => ids.join(',')} ).parse
   end
 
-  def activities(id)
-    HTTP.get("#{API_URL}/deals/#{id}/activities", :params => default_param).parse
+  def activities(deal)
+    HTTP.get("#{API_URL}/deals/#{deal["id"]}/activities", :params => default_param).parse
   end
 
   def find(id)
