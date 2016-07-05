@@ -9,3 +9,5 @@
 /tmp/
 
 .byebug_history
+
+.env

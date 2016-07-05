@@ -32,6 +32,10 @@ class Deals < Client
     HTTP.get("#{API_URL}/deals/#{id}", :params => default_param).parse
   end
 
+  def find_by_title(title)
+    HTTP.get("#{API_URL}/deals/find/", :params => default_param.merge!({:term => title})).parse
+  end
+
   def followers(id)
     HTTP.get("#{API_URL}/deals/#{id}/followers", :params => default_param).parse
   end
