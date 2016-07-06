@@ -75,7 +75,7 @@ class Deals < Client
 
   def products(deal)
     HTTP.get("#{API_URL}/deals/#{deal["id"]}/products",
-              :params => default_param
+              :params => default_param.merge!(:include_product_data=>1)
             ).parse
   end
 
@@ -90,7 +90,7 @@ class Deals < Client
 
   def activities(deal)
     HTTP.get("#{API_URL}/deals/#{deal["id"]}/activities",
-              :params => default_param.merge!(:include_product_data=>1)
+              :params => default_param
             ).parse
   end
 

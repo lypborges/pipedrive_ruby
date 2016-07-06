@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Felipe Borges Ferreira"]
   spec.email         = ["lypborges@gmail.com"]
 
-  spec.summary       = %q{Sample of gem.}
-  spec.description   = %q{Gem just for learning.}
+  spec.summary       = %q{Wrapper for Pipedrive API call.}
+  spec.description   = %q{It's a working in progress and should be use in production yet.}
   spec.homepage      = "https://github.com/lypborges/pipedrive_ruby"
   spec.license       = "MIT"
 
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "http", "~> 2.0.2"
+  spec.add_dependency "http", "~> 2.0"
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
