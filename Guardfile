@@ -28,11 +28,18 @@ guard :rspec, cmd: "bundle exec rspec" do
   require "guard/rspec/dsl"
   dsl = Guard::RSpec::Dsl.new(self)
 
+  #resources folder
+  watch(%r{^lib/resources/(.+)\.rb$}) do |m|
+    "spec/resources/#{m[1]}_spec.rb"
+  #   .tap do |result|
+  #    Guard::UI.info "Sending changes to Lib: #{result.inspect}"
+  #    Guard::UI.info "The original match is: #{m.inspect}"
+  #  end
+  end
+
 
   # RSpec files
   rspec = dsl.rspec
-  watch(%r{^lib/resources/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
-  watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch(rspec.spec_helper) { rspec.spec_dir }
   watch(rspec.spec_support) { rspec.spec_dir }
   watch(rspec.spec_files)
