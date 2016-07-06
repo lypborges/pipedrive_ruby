@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 06 Jul 2016 17:23:05 GMT
+      - Wed, 06 Jul 2016 20:12:50 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -42,135 +42,9 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"id":291,"title":"Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":47,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$47","cc_email":"prepared-tray+deal291@pipedrivemail.com"},{"id":298,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal298@pipedrivemail.com"},{"id":295,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal295@pipedrivemail.com"},{"id":292,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal292@pipedrivemail.com"},{"id":296,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal296@pipedrivemail.com"},{"id":293,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal293@pipedrivemail.com"},{"id":297,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal297@pipedrivemail.com"},{"id":294,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal294@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+      string: '{"success":true,"data":[{"id":444,"title":"Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal444@pipedrivemail.com"},{"id":445,"title":"0
+        - Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal445@pipedrivemail.com"},{"id":446,"title":"1
+        - Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":835,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$835","cc_email":"prepared-tray+deal446@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Wed, 06 Jul 2016 17:23:05 GMT
-- request:
-    method: get
-    uri: https://api.pipedrive.com/v1/deals/find/?api_token=<API_KEY>&term=1%20-Novo%20Negocio
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Wed, 06 Jul 2016 17:55:08 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"id":309,"title":"1 -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal309@pipedrivemail.com"},{"id":335,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal335@pipedrivemail.com"},{"id":329,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal329@pipedrivemail.com"},{"id":323,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal323@pipedrivemail.com"},{"id":317,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal317@pipedrivemail.com"},{"id":310,"title":"1
-        -Novo Negocio (c\u00f3pia)","user_id":742863,"visible_to":"3","status":"open","value":418,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$418","cc_email":"prepared-tray+deal310@pipedrivemail.com"},{"id":337,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal337@pipedrivemail.com"},{"id":331,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal331@pipedrivemail.com"},{"id":325,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal325@pipedrivemail.com"},{"id":319,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal319@pipedrivemail.com"},{"id":312,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal312@pipedrivemail.com"},{"id":339,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal339@pipedrivemail.com"},{"id":333,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal333@pipedrivemail.com"},{"id":327,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal327@pipedrivemail.com"},{"id":321,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal321@pipedrivemail.com"},{"id":315,"title":"1
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal315@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
-    http_version: 
-  recorded_at: Wed, 06 Jul 2016 17:55:08 GMT
-- request:
-    method: get
-    uri: https://api.pipedrive.com/v1/deals/find/?api_token=<API_KEY>&term=0%20-Novo%20Negocio
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Wed, 06 Jul 2016 17:55:47 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '98'
-      X-Ratelimit-Reset:
-      - '8'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"id":345,"title":"0 -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal345@pipedrivemail.com"},{"id":308,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal308@pipedrivemail.com"},{"id":336,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal336@pipedrivemail.com"},{"id":330,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal330@pipedrivemail.com"},{"id":324,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal324@pipedrivemail.com"},{"id":318,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal318@pipedrivemail.com"},{"id":311,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal311@pipedrivemail.com"},{"id":338,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal338@pipedrivemail.com"},{"id":332,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal332@pipedrivemail.com"},{"id":326,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal326@pipedrivemail.com"},{"id":320,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal320@pipedrivemail.com"},{"id":314,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal314@pipedrivemail.com"},{"id":343,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal343@pipedrivemail.com"},{"id":334,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal334@pipedrivemail.com"},{"id":328,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal328@pipedrivemail.com"},{"id":322,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal322@pipedrivemail.com"},{"id":316,"title":"0
-        -Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal316@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
-    http_version: 
-  recorded_at: Wed, 06 Jul 2016 17:55:47 GMT
+  recorded_at: Wed, 06 Jul 2016 20:12:51 GMT
 recorded_with: VCR 3.0.3

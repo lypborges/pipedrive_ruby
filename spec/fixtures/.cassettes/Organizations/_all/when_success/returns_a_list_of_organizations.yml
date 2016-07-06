@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/organizations?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 06 Jul 2016 20:33:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"id":1,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"Apple","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":1,"activities_count":1,"done_activities_count":0,"undone_activities_count":1,"reference_activities_count":0,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"a","update_time":"2016-07-06
+        20:11:54","add_time":"2016-06-30 12:23:37","visible_to":"3","next_activity_date":"2016-07-04","next_activity_time":null,"next_activity_id":1,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":2,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"Microsoft","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":1,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"m","update_time":"2016-07-06
+        19:56:57","add_time":"2016-07-05 01:37:55","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":3,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-06
+        20:26:00","add_time":"2016-07-06 20:26:00","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":4,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-06
+        20:26:02","add_time":"2016-07-06 20:26:02","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":5,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-06
+        20:26:36","add_time":"2016-07-06 20:26:36","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":6,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-06
+        20:26:37","add_time":"2016-07-06 20:26:37","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":7,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-06
+        20:27:55","add_time":"2016-07-06 20:27:54","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":8,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-06
+        20:30:01","add_time":"2016-07-06 20:30:00","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":9,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-06
+        20:30:17","add_time":"2016-07-06 20:30:17","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":10,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"0
+        - New Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"0","update_time":"2016-07-06
+        20:33:26","add_time":"2016-07-06 20:33:25","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"},{"id":11,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"1
+        - New Company","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"1","update_time":"2016-07-06
+        20:33:26","add_time":"2016-07-06 20:33:26","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Wed, 06 Jul 2016 20:33:28 GMT
+recorded_with: VCR 3.0.3

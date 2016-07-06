@@ -2,6 +2,8 @@
 # Each deal has a monetary value and must be placed in a Stage. Deals can be owned by a User, and followed by one or many Users.
 # Each Deal consists of standard data fields but can also contain a number of custom fields. The custom fields can be recognized by long hashes as keys.
 # These hashes can be mapped against DealField.key. The corresponding label for each such custom field can be obtained from DealField.name.
+
+# TODO after finish Deals and Organization, use metaprogramming for reduce the code.
 class Deals < Client
 
   def all
@@ -13,43 +15,68 @@ class Deals < Client
   end
 
   def create(deal)
-    HTTP.post("#{API_URL}/deals", :params => default_param, :json => deal).parse
+    HTTP.post("#{API_URL}/deals",
+                :params => default_param,
+                :json => deal
+              ).parse
   end
 
   def update(deal)
-    HTTP.put("#{API_URL}/deals/#{deal["id"]}", :params => default_param, :json => deal).parse
+    HTTP.put("#{API_URL}/deals/#{deal["id"]}",
+              :params => default_param,
+              :json => deal
+            ).parse
   end
 
   def delete(deal)
-    HTTP.delete("#{API_URL}/deals/#{deal["id"]}", :params => default_param).parse
+    HTTP.delete("#{API_URL}/deals/#{deal["id"]}",
+                  :params => default_param
+                ).parse
   end
 
   def delete_many(deals)
-    ids =[] 
+    ids =[]
     deals.each do |deal|
       ids << deal["data"]["id"]
     end
-    HTTP.delete("#{API_URL}/deals/", :params => default_param, :json => {:ids => ids.join(',')} ).parse
+    HTTP.delete("#{API_URL}/deals/",
+                  :params => default_param,
+                  :json => {:ids => ids.join(',')}
+                ).parse
   end
 
   def duplicate(deal)
-    HTTP.post("#{API_URL}/deals/#{deal["id"]}/duplicate", :params => default_param).parse
+    HTTP.post("#{API_URL}/deals/#{deal["id"]}/duplicate",
+                :params => default_param
+              ).parse
   end
 
   def merge(deal, merge_with_deal)
+    HTTP.post("#{API_URL}/deals/#{deal["id"]}/merge",
+              :params => default_param,
+              :form => {
+                        :id => deal["id"],
+                        :merge_with_id => merge_with_deal["id"]
+                        }
+              ).parse
   end
 
   def add_followers(deal, user)
   end
 
-  def followers(id)
-    HTTP.get("#{API_URL}/deals/#{id}/followers", :params => default_param).parse
+  def followers(deal)
+    HTTP.get("#{API_URL}/deals/#{deal["id"]}/followers",
+              :params => default_param
+            ).parse
   end
 
   def delete_follower(deal, user)
   end
 
   def products(deal)
+    HTTP.get("#{API_URL}/deals/#{deal["id"]}/products",
+              :params => default_param
+            ).parse
   end
 
   def add_product(deal,product)
@@ -62,7 +89,9 @@ class Deals < Client
   end
 
   def activities(deal)
-    HTTP.get("#{API_URL}/deals/#{deal["id"]}/activities", :params => default_param).parse
+    HTTP.get("#{API_URL}/deals/#{deal["id"]}/activities",
+              :params => default_param.merge!(:include_product_data=>1)
+            ).parse
   end
 
   def log(deal)

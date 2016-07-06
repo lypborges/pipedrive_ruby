@@ -13,7 +13,8 @@ describe 'Deals', :vcr=> true do
       @deals_response << @deals.create({:title => "#{number} - Novo Negocio"})
     end
     all = @deals.all
-    @deal = all["data"][0]
+    @deal = all["data"].first
+    @another_deal = all["data"].last
   end
 
   after(:all) do
@@ -39,7 +40,7 @@ describe 'Deals', :vcr=> true do
         expect(response["success"]).to be_falsey
       end
     end
-  end #end of create method
+  end #end of create
 
   describe '#all' do
     context 'when success' do
@@ -49,7 +50,7 @@ describe 'Deals', :vcr=> true do
         expect(response["data"]).to respond_to(:each)
       end
     end
-  end #end of all method
+  end #end of all
 
   describe '#update' do
     context 'when success' do
@@ -66,7 +67,7 @@ describe 'Deals', :vcr=> true do
         expect(response["success"]).to be_falsey
       end
     end
-  end #end of create method
+  end #end of create
 
   describe '#delete' do
     context 'when success' do
@@ -81,7 +82,7 @@ describe 'Deals', :vcr=> true do
         expect(response["success"]).to be_falsey
       end
     end
-  end #end of delete method
+  end #end of delete
 
   describe '#delete_many' do
     context 'when success' do
@@ -90,7 +91,7 @@ describe 'Deals', :vcr=> true do
         expect(response["success"]).to be_truthy
       end
     end
-  end #end of delete_many method
+  end #end of delete_many
 
   describe '#activities' do
     context 'when success' do
@@ -105,7 +106,7 @@ describe 'Deals', :vcr=> true do
         expect(response["success"]).to be_falsey
       end
     end
-  end #end of activities method
+  end #end of activities
 
   describe '#find' do
     context 'when success' do
@@ -120,7 +121,7 @@ describe 'Deals', :vcr=> true do
         expect(response["success"]).to be_falsey
       end
     end
-  end #end of find method
+  end #end of find
 
   describe '#find_by_title' do
     context 'when success' do
@@ -135,22 +136,37 @@ describe 'Deals', :vcr=> true do
         expect(response["data"]).to be_nil
       end
     end
-  end #end of find_by_title method
+  end #end of find_by_title
 
   describe '#followers' do
     context 'when success' do
       it 'returns success true' do
-        response = @deals.followers(@deal["id"])
+        response = @deals.followers(@deal)
         expect(response["success"]).to be_truthy
       end
     end
     context 'when not found' do
       it 'return data nil' do
-        response = @deals.followers(not_found_deal["id"])
+        response = @deals.followers(not_found_deal)
         expect(response["data"]).to be_nil
       end
     end
-  end #end of followers method
+  end #end of followers
+
+  describe '#products' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.products(@deal)
+        expect(response["success"]).to be_truthy
+      end
+    end
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.products(not_found_deal)
+        expect(response["data"]).to be_falsey
+      end
+    end
+  end #end of products
 
   describe '#duplicate' do
     context 'when success' do
@@ -159,7 +175,29 @@ describe 'Deals', :vcr=> true do
         expect(response["success"]).to be_truthy
       end
     end
-  end
 
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.duplicate(invalid_new_deal)
+        expect(response["success"]).to be_falsey
+      end
+    end
+  end #end of duplicate
+
+  describe '#merge' do
+    context 'when success' do
+      it 'return success true' do
+        response = @deals.merge(@deal,@another_deal)
+        expect(response["success"]).to be_truthy
+      end
+    end
+
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.merge(invalid_new_deal,invalid_new_deal)
+        expect(response["success"]).to be_falsey
+      end
+    end
+  end # end of merge
 
 end #end of Deals Resource
