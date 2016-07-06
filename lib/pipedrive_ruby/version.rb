@@ -1,3 +1,3 @@
 module PipedriveRuby
-  VERSION = "1.0.0alpha2"
+  VERSION = "1.0.1.pre1"
 end
