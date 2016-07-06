@@ -24,7 +24,11 @@ class Deals < Client
     HTTP.delete("#{API_URL}/deals/#{deal["id"]}", :params => default_param).parse
   end
 
-  def delete_many(ids)
+  def delete_many(deals)
+    ids =[] 
+    deals.each do |deal|
+      ids << deal["data"]["id"]
+    end
     HTTP.delete("#{API_URL}/deals/", :params => default_param, :json => {:ids => ids.join(',')} ).parse
   end
 

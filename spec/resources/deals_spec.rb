@@ -10,10 +10,15 @@ describe 'Deals', :vcr=> true do
     @deals = Deals.new(ENV["API_TOKEN"])
     @deals_response =[]
     2.times do |number|
-      @deals_response << @deals.create({:title => "#{number} -Novo Negocio"})
+      @deals_response << @deals.create({:title => "#{number} - Novo Negocio"})
     end
     all = @deals.all
     @deal = all["data"][0]
+  end
+
+  after(:all) do
+    # delete what left from test on sandbox
+    @deals.delete_many(@deals_response)
   end
 
   describe '#create' do
