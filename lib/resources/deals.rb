@@ -8,6 +8,10 @@ class Deals < Client
     HTTP.get("#{API_URL}/deals", :params => default_param).parse
   end
 
+  def find(id)
+    HTTP.get("#{API_URL}/deals/#{id}", :params => default_param).parse
+  end
+
   def create(deal)
     HTTP.post("#{API_URL}/deals", :params => default_param, :json => deal).parse
   end
@@ -24,21 +28,65 @@ class Deals < Client
     HTTP.delete("#{API_URL}/deals/", :params => default_param, :json => {:ids => ids.join(',')} ).parse
   end
 
-  def activities(deal)
-    HTTP.get("#{API_URL}/deals/#{deal["id"]}/activities", :params => default_param).parse
+  def duplicate(deal)
+
   end
 
-  def find(id)
-    HTTP.get("#{API_URL}/deals/#{id}", :params => default_param).parse
+  def merge(deal, merge_with_deal)
   end
 
-  def find_by_title(title)
-    HTTP.get("#{API_URL}/deals/find/", :params => default_param.merge!({:term => title})).parse
+  def add_followers(deal, user)
   end
 
   def followers(id)
     HTTP.get("#{API_URL}/deals/#{id}/followers", :params => default_param).parse
   end
 
+  def delete_follower(deal, user)
+  end
+
+  def products(deal)
+  end
+
+  def add_product(deal,product)
+  end
+
+  def update_procut(deal,product)
+  end
+
+  def delete_product(deal,product)
+  end
+
+  def activities(deal)
+    HTTP.get("#{API_URL}/deals/#{deal["id"]}/activities", :params => default_param).parse
+  end
+
+  def log(deal)
+  end
+
+  def add_participant(deal,person)
+  end
+
+  def participants(deal)
+  end
+
+  def delete_participant(deal,participant)
+  end
+
+  def files(deal)
+  end
+
+  def permitted_users(deal)
+  end
+
+  def emails(deal)
+  end
+
+  def find_by_title(title)
+    HTTP.get("#{API_URL}/deals/find/", :params => default_param.merge!({:term => title})).parse
+  end
+
+  def timeline(deal)
+  end
 
 end
