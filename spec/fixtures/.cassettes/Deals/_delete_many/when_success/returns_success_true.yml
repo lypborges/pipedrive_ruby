@@ -1,0 +1,119 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"ids":"{\"success\"=>true, \"data\"=>{\"id\"=>345, \"creator_user_id\"=>{\"id\"=>742863,
+        \"name\"=>\"Felipe Borges Ferreira\", \"email\"=>\"lypborges@gmail.com\",
+        \"has_pic\"=>true, \"pic_hash\"=>\"bfccbfcd721e34fd60c0851a2fd27332\", \"active_flag\"=>true,
+        \"value\"=>742863}, \"user_id\"=>{\"id\"=>742863, \"name\"=>\"Felipe Borges
+        Ferreira\", \"email\"=>\"lypborges@gmail.com\", \"has_pic\"=>true, \"pic_hash\"=>\"bfccbfcd721e34fd60c0851a2fd27332\",
+        \"active_flag\"=>true, \"value\"=>742863}, \"person_id\"=>nil, \"org_id\"=>nil,
+        \"stage_id\"=>1, \"title\"=>\"0 -Novo Negocio\", \"value\"=>0, \"currency\"=>\"BRL\",
+        \"add_time\"=>\"2016-07-06 17:55:45\", \"update_time\"=>\"2016-07-06 17:55:45\",
+        \"stage_change_time\"=>nil, \"active\"=>true, \"deleted\"=>false, \"status\"=>\"open\",
+        \"next_activity_date\"=>nil, \"next_activity_time\"=>nil, \"next_activity_id\"=>nil,
+        \"last_activity_id\"=>nil, \"last_activity_date\"=>nil, \"lost_reason\"=>nil,
+        \"visible_to\"=>\"3\", \"close_time\"=>nil, \"pipeline_id\"=>1, \"won_time\"=>nil,
+        \"first_won_time\"=>nil, \"lost_time\"=>nil, \"products_count\"=>nil, \"files_count\"=>nil,
+        \"notes_count\"=>0, \"followers_count\"=>0, \"email_messages_count\"=>nil,
+        \"activities_count\"=>nil, \"done_activities_count\"=>nil, \"undone_activities_count\"=>nil,
+        \"reference_activities_count\"=>nil, \"participants_count\"=>0, \"expected_close_date\"=>nil,
+        \"stage_order_nr\"=>1, \"person_name\"=>nil, \"org_name\"=>nil, \"next_activity_subject\"=>nil,
+        \"next_activity_type\"=>nil, \"next_activity_duration\"=>nil, \"next_activity_note\"=>nil,
+        \"formatted_value\"=>\"R$0\", \"rotten_time\"=>nil, \"weighted_value\"=>0,
+        \"formatted_weighted_value\"=>\"R$0\", \"owner_name\"=>\"Felipe Borges Ferreira\",
+        \"cc_email\"=>\"prepared-tray+deal345@pipedrivemail.com\", \"org_hidden\"=>false,
+        \"person_hidden\"=>false}, \"related_objects\"=>{\"user\"=>{\"742863\"=>{\"id\"=>742863,
+        \"name\"=>\"Felipe Borges Ferreira\", \"email\"=>\"lypborges@gmail.com\",
+        \"has_pic\"=>true, \"pic_hash\"=>\"bfccbfcd721e34fd60c0851a2fd27332\", \"active_flag\"=>true}}}},{\"success\"=>true,
+        \"data\"=>{\"id\"=>346, \"creator_user_id\"=>{\"id\"=>742863, \"name\"=>\"Felipe
+        Borges Ferreira\", \"email\"=>\"lypborges@gmail.com\", \"has_pic\"=>true,
+        \"pic_hash\"=>\"bfccbfcd721e34fd60c0851a2fd27332\", \"active_flag\"=>true,
+        \"value\"=>742863}, \"user_id\"=>{\"id\"=>742863, \"name\"=>\"Felipe Borges
+        Ferreira\", \"email\"=>\"lypborges@gmail.com\", \"has_pic\"=>true, \"pic_hash\"=>\"bfccbfcd721e34fd60c0851a2fd27332\",
+        \"active_flag\"=>true, \"value\"=>742863}, \"person_id\"=>nil, \"org_id\"=>nil,
+        \"stage_id\"=>1, \"title\"=>\"1 -Novo Negocio\", \"value\"=>0, \"currency\"=>\"BRL\",
+        \"add_time\"=>\"2016-07-06 17:55:45\", \"update_time\"=>\"2016-07-06 17:55:46\",
+        \"stage_change_time\"=>nil, \"active\"=>true, \"deleted\"=>false, \"status\"=>\"open\",
+        \"next_activity_date\"=>nil, \"next_activity_time\"=>nil, \"next_activity_id\"=>nil,
+        \"last_activity_id\"=>nil, \"last_activity_date\"=>nil, \"lost_reason\"=>nil,
+        \"visible_to\"=>\"3\", \"close_time\"=>nil, \"pipeline_id\"=>1, \"won_time\"=>nil,
+        \"first_won_time\"=>nil, \"lost_time\"=>nil, \"products_count\"=>nil, \"files_count\"=>nil,
+        \"notes_count\"=>0, \"followers_count\"=>0, \"email_messages_count\"=>nil,
+        \"activities_count\"=>nil, \"done_activities_count\"=>nil, \"undone_activities_count\"=>nil,
+        \"reference_activities_count\"=>nil, \"participants_count\"=>0, \"expected_close_date\"=>nil,
+        \"stage_order_nr\"=>1, \"person_name\"=>nil, \"org_name\"=>nil, \"next_activity_subject\"=>nil,
+        \"next_activity_type\"=>nil, \"next_activity_duration\"=>nil, \"next_activity_note\"=>nil,
+        \"formatted_value\"=>\"R$0\", \"rotten_time\"=>nil, \"weighted_value\"=>0,
+        \"formatted_weighted_value\"=>\"R$0\", \"owner_name\"=>\"Felipe Borges Ferreira\",
+        \"cc_email\"=>\"prepared-tray+deal346@pipedrivemail.com\", \"org_hidden\"=>false,
+        \"person_hidden\"=>false}, \"related_objects\"=>{\"user\"=>{\"742863\"=>{\"id\"=>742863,
+        \"name\"=>\"Felipe Borges Ferreira\", \"email\"=>\"lypborges@gmail.com\",
+        \"has_pic\"=>true, \"pic_hash\"=>\"bfccbfcd721e34fd60c0851a2fd27332\", \"active_flag\"=>true}}}}"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 06 Jul 2016 17:55:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":["{\"success\"=>true"," \"data\"=>{\"id\"=>345","
+        \"creator_user_id\"=>{\"id\"=>742863"," \"name\"=>\"Felipe Borges Ferreira\"","
+        \"email\"=>\"lypborges@gmail.com\""," \"has_pic\"=>true"," \"pic_hash\"=>\"bfccbfcd721e34fd60c0851a2fd27332\"","
+        \"active_flag\"=>true"," \"value\"=>742863}"," \"user_id\"=>{\"id\"=>742863","
+        \"person_id\"=>nil"," \"org_id\"=>nil"," \"stage_id\"=>1"," \"title\"=>\"0
+        -Novo Negocio\""," \"value\"=>0"," \"currency\"=>\"BRL\""," \"add_time\"=>\"2016-07-06
+        17:55:45\""," \"update_time\"=>\"2016-07-06 17:55:45\""," \"stage_change_time\"=>nil","
+        \"active\"=>true"," \"deleted\"=>false"," \"status\"=>\"open\""," \"next_activity_date\"=>nil","
+        \"next_activity_time\"=>nil"," \"next_activity_id\"=>nil"," \"last_activity_id\"=>nil","
+        \"last_activity_date\"=>nil"," \"lost_reason\"=>nil"," \"visible_to\"=>\"3\"","
+        \"close_time\"=>nil"," \"pipeline_id\"=>1"," \"won_time\"=>nil"," \"first_won_time\"=>nil","
+        \"lost_time\"=>nil"," \"products_count\"=>nil"," \"files_count\"=>nil"," \"notes_count\"=>0","
+        \"followers_count\"=>0"," \"email_messages_count\"=>nil"," \"activities_count\"=>nil","
+        \"done_activities_count\"=>nil"," \"undone_activities_count\"=>nil"," \"reference_activities_count\"=>nil","
+        \"participants_count\"=>0"," \"expected_close_date\"=>nil"," \"stage_order_nr\"=>1","
+        \"person_name\"=>nil"," \"org_name\"=>nil"," \"next_activity_subject\"=>nil","
+        \"next_activity_type\"=>nil"," \"next_activity_duration\"=>nil"," \"next_activity_note\"=>nil","
+        \"formatted_value\"=>\"R$0\""," \"rotten_time\"=>nil"," \"weighted_value\"=>0","
+        \"formatted_weighted_value\"=>\"R$0\""," \"owner_name\"=>\"Felipe Borges Ferreira\"","
+        \"cc_email\"=>\"prepared-tray+deal345@pipedrivemail.com\""," \"org_hidden\"=>false","
+        \"person_hidden\"=>false}"," \"related_objects\"=>{\"user\"=>{\"742863\"=>{\"id\"=>742863","
+        \"active_flag\"=>true}}}}"," \"data\"=>{\"id\"=>346"," \"title\"=>\"1 -Novo
+        Negocio\""," \"update_time\"=>\"2016-07-06 17:55:46\""," \"cc_email\"=>\"prepared-tray+deal346@pipedrivemail.com\""]}}'
+    http_version: 
+  recorded_at: Wed, 06 Jul 2016 17:55:49 GMT
+recorded_with: VCR 3.0.3

@@ -29,7 +29,7 @@ class Deals < Client
   end
 
   def duplicate(deal)
-
+    HTTP.post("#{API_URL}/deals/#{deal["id"]}/duplicate", :params => default_param).parse
   end
 
   def merge(deal, merge_with_deal)
