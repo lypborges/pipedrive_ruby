@@ -20,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install pipedrive_ruby
+    $ gem install pipedrive_ruby --pre
 
 ## Usage
 
