@@ -1,7 +1,7 @@
 # PipedriveRuby
 [![Build Status](https://travis-ci.org/lypborges/pipedrive_ruby.svg?branch=master)](https://travis-ci.org/lypborges/pipedrive_ruby)
 
-[![Coverage Status](https://coveralls.io/repos/github/lypborges/pipedrive_ruby/badge.svg?branch=master)](https://coveralls.io/github/lypborges/pipedrive_ruby?branch=master)
+[![Code Climate](https://codeclimate.com/github/lypborges/pipedrive_ruby/badges/gpa.svg)](https://codeclimate.com/github/lypborges/pipedrive_ruby)
 
 Dont't use in production. It's a working in progress.
 
