@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["lypborges@gmail.com"]
 
   spec.summary       = %q{Wrapper for Pipedrive API call.}
-  spec.description   = %q{It's a working in progress and should be use in production yet.}
+  spec.description   = %q{Gem for use Pipedrive API for multiple tokens.}
   spec.homepage      = "https://github.com/lypborges/pipedrive_ruby"
   spec.license       = "MIT"
 
@@ -36,6 +36,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr", "~> 3.0"
   spec.add_development_dependency "dotenv", "~> 2.1"
   spec.add_development_dependency "byebug", "~> 9.0"
-  spec.add_development_dependency "guard", "~> 2.14"
-  spec.add_development_dependency "guard-rspec", "~> 4.7"
 end
