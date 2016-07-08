@@ -75,7 +75,7 @@ describe 'Organizations', vcr: true do
       it 'return Hash with name inside data' do
         updated_deal = { 'id' => @organization['id'], 'name' => 'New Named' }
         response = @organizations.update(updated_deal)
-        expect(response['data']['name']).to be == updated_deal[:name]
+        expect(response['data']['name']).to be == updated_deal['name']
       end
     end
 

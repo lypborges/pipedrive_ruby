@@ -1,4 +1,4 @@
-# PipedriveRuby
+# PipedriveRuby [![Build Status](https://travis-ci.org/lypborges/pipedrive_ruby.svg?branch=master)](https://travis-ci.org/lypborges/pipedrive_ruby)
 
 Dont't use in production. It's a working in progress.
 

@@ -19,7 +19,7 @@ describe 'Deals', vcr: true do
 
   after(:all) do
     # delete what left from test on sandbox
-    @deals.delete_many(@deals_response)
+    @deals.remove_many(@deals_response)
   end
 
   describe '#create' do
