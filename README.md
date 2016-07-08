@@ -37,10 +37,10 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 Bug reports and pull requests are welcome on GitHub at https://github.com/lypborges/pipedrive_ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Publishing new version with
-https://github.com/svenfuchs/gem-release
-`gem install gem-release` if you don't have.
-`gem release --tag`
-`gem bump --version pre`
+- Using https://github.com/svenfuchs/gem-release
+- `gem install gem-release` if you don't have.
+- `gem release --tag`
+- `gem bump --version pre`
 
 
 ## License
