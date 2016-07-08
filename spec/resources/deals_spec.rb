@@ -1,202 +1,202 @@
 require 'spec_helper'
 
 describe 'Deals', vcr: true do
-    let(:valid_new_deal) { { title: 'Novo Negocio' } }
-    let(:invalid_new_deal) { {} }
-    let(:not_found_deal) { { 'id' => 0 } }
+  let(:valid_new_deal) { { title: 'Novo Negocio' } }
+  let(:invalid_new_deal) { {} }
+  let(:not_found_deal) { { 'id' => 0 } }
 
-    before(:all) do
-        client = PipedriveRuby::PipedriveClient.new(ENV['API_TOKEN'])
-        @deals = client.deals
-        @deals_response = []
-        2.times do |number|
-            @deals_response << @deals.create(title: "#{number} - Novo Negocio")
-        end
-        all = @deals.all
-        @deal = all['data'].first
-        @another_deal = all['data'].last
+  before(:all) do
+    client = PipedriveRuby::PipedriveClient.new(ENV['API_TOKEN'])
+    @deals = client.deals
+    @deals_response = []
+    2.times do |number|
+      @deals_response << @deals.create(title: "#{number} - Novo Negocio")
+    end
+    all = @deals.all
+    @deal = all['data'].first
+    @another_deal = all['data'].last
+  end
+
+  after(:all) do
+    # delete what left from test on sandbox
+    @deals.delete_many(@deals_response)
+  end
+
+  describe '#create' do
+    context 'when success' do
+      it 'return success true' do
+        response = @deals.create(valid_new_deal)
+        expect(response['success']).to be_truthy
+      end
+      it 'return Hash with title inside data' do
+        response = @deals.create(valid_new_deal)
+        expect(response['data']['title']).to be == valid_new_deal[:title]
+      end
     end
 
-    after(:all) do
-        # delete what left from test on sandbox
-        @deals.delete_many(@deals_response)
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.create(invalid_new_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of create
+
+  describe '#all' do
+    context 'when success' do
+      it 'returns a list of deals' do
+        response = @deals.all
+        expect(response['success']).to be_truthy
+        expect(response['data']).to respond_to(:each)
+      end
+    end
+  end # end of all
+
+  describe '#update' do
+    context 'when success' do
+      it 'returns success true' do
+        updated_deal = { 'id' => @deal['id'], 'value' => rand(1000) }
+        response = @deals.update(updated_deal)
+        expect(response['success']).to be_truthy
+      end
     end
 
-    describe '#create' do
-        context 'when success' do
-            it 'return success true' do
-                response = @deals.create(valid_new_deal)
-                expect(response['success']).to be_truthy
-            end
-            it 'return Hash with title inside data' do
-                response = @deals.create(valid_new_deal)
-                expect(response['data']['title']).to be == valid_new_deal[:title]
-            end
-        end
+    context 'when not found' do
+      it 'returns success false' do
+        response = @deals.update(not_found_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of create
 
-        context 'when fails' do
-            it 'return success false' do
-                response = @deals.create(invalid_new_deal)
-                expect(response['success']).to be_falsey
-            end
-        end
-    end # end of create
+  describe '#delete' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.remove(@deal)
+        expect(response['success']).to be_truthy
+      end
+    end
+    context 'when fails' do
+      it 'returns success false' do
+        response = @deals.remove(not_found_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of delete
 
-    describe '#all' do
-        context 'when success' do
-            it 'returns a list of deals' do
-                response = @deals.all
-                expect(response['success']).to be_truthy
-                expect(response['data']).to respond_to(:each)
-            end
-        end
-    end # end of all
+  describe '#delete_many' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.remove_many(@deals_response)
+        expect(response['success']).to be_truthy
+      end
+    end
+  end # end of delete_many
 
-    describe '#update' do
-        context 'when success' do
-            it 'returns success true' do
-                updated_deal = { 'id' => @deal['id'], 'value' => rand(1000) }
-                response = @deals.update(updated_deal)
-                expect(response['success']).to be_truthy
-            end
-        end
+  describe '#activities' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.activities(@deal)
+        expect(response['success']).to be_truthy
+      end
+    end
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.activities(not_found_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of activities
 
-        context 'when not found' do
-            it 'returns success false' do
-                response = @deals.update(not_found_deal)
-                expect(response['success']).to be_falsey
-            end
-        end
-    end # end of create
+  describe '#find' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.find(@deal['id'])
+        expect(response['success']).to be_truthy
+      end
+    end
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.find(not_found_deal['id'])
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of find
 
-    describe '#delete' do
-        context 'when success' do
-            it 'returns success true' do
-                response = @deals.remove(@deal)
-                expect(response['success']).to be_truthy
-            end
-        end
-        context 'when fails' do
-            it 'returns success false' do
-                response = @deals.remove(not_found_deal)
-                expect(response['success']).to be_falsey
-            end
-        end
-    end # end of delete
+  describe '#find_by_title' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.find_by_title(@deal['title'])
+        expect(response['success']).to be_truthy
+      end
+    end
+    context 'when not found' do
+      it 'return data nil' do
+        response = @deals.find_by_title('not exist')
+        expect(response['data']).to be_nil
+      end
+    end
+  end # end of find_by_title
 
-    describe '#delete_many' do
-        context 'when success' do
-            it 'returns success true' do
-                response = @deals.remove_many(@deals_response)
-                expect(response['success']).to be_truthy
-            end
-        end
-    end # end of delete_many
+  describe '#followers' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.followers(@deal)
+        expect(response['success']).to be_truthy
+      end
+    end
+    context 'when not found' do
+      it 'return data nil' do
+        response = @deals.followers(not_found_deal)
+        expect(response['data']).to be_nil
+      end
+    end
+  end # end of followers
 
-    describe '#activities' do
-        context 'when success' do
-            it 'returns success true' do
-                response = @deals.activities(@deal)
-                expect(response['success']).to be_truthy
-            end
-        end
-        context 'when fails' do
-            it 'return success false' do
-                response = @deals.activities(not_found_deal)
-                expect(response['success']).to be_falsey
-            end
-        end
-    end # end of activities
+  describe '#products' do
+    context 'when success' do
+      it 'returns success true' do
+        response = @deals.products(@deal)
+        expect(response['success']).to be_truthy
+      end
+    end
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.products(not_found_deal)
+        expect(response['data']).to be_falsey
+      end
+    end
+  end # end of products
 
-    describe '#find' do
-        context 'when success' do
-            it 'returns success true' do
-                response = @deals.find(@deal['id'])
-                expect(response['success']).to be_truthy
-            end
-        end
-        context 'when fails' do
-            it 'return success false' do
-                response = @deals.find(not_found_deal['id'])
-                expect(response['success']).to be_falsey
-            end
-        end
-    end # end of find
+  describe '#duplicate' do
+    context 'when success' do
+      it 'return success true' do
+        response = @deals.duplicate(@deal)
+        expect(response['success']).to be_truthy
+      end
+    end
 
-    describe '#find_by_title' do
-        context 'when success' do
-            it 'returns success true' do
-                response = @deals.find_by_title(@deal['title'])
-                expect(response['success']).to be_truthy
-            end
-        end
-        context 'when not found' do
-            it 'return data nil' do
-                response = @deals.find_by_title('not exist')
-                expect(response['data']).to be_nil
-            end
-        end
-    end # end of find_by_title
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.duplicate(invalid_new_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of duplicate
 
-    describe '#followers' do
-        context 'when success' do
-            it 'returns success true' do
-                response = @deals.followers(@deal)
-                expect(response['success']).to be_truthy
-            end
-        end
-        context 'when not found' do
-            it 'return data nil' do
-                response = @deals.followers(not_found_deal)
-                expect(response['data']).to be_nil
-            end
-        end
-    end # end of followers
+  describe '#merge' do
+    context 'when success' do
+      it 'return success true' do
+        response = @deals.merge(@deal, @another_deal)
+        expect(response['success']).to be_truthy
+      end
+    end
 
-    describe '#products' do
-        context 'when success' do
-            it 'returns success true' do
-                response = @deals.products(@deal)
-                expect(response['success']).to be_truthy
-            end
-        end
-        context 'when fails' do
-            it 'return success false' do
-                response = @deals.products(not_found_deal)
-                expect(response['data']).to be_falsey
-            end
-        end
-    end # end of products
-
-    describe '#duplicate' do
-        context 'when success' do
-            it 'return success true' do
-                response = @deals.duplicate(@deal)
-                expect(response['success']).to be_truthy
-            end
-        end
-
-        context 'when fails' do
-            it 'return success false' do
-                response = @deals.duplicate(invalid_new_deal)
-                expect(response['success']).to be_falsey
-            end
-        end
-    end # end of duplicate
-
-    describe '#merge' do
-        context 'when success' do
-            it 'return success true' do
-                response = @deals.merge(@deal, @another_deal)
-                expect(response['success']).to be_truthy
-            end
-        end
-
-        context 'when fails' do
-            it 'return success false' do
-                response = @deals.merge(invalid_new_deal, invalid_new_deal)
-                expect(response['success']).to be_falsey
-            end
-        end
-    end # end of merge
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.merge(invalid_new_deal, invalid_new_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of merge
 end # end of Deals Resource
