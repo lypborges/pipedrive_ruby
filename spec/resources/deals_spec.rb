@@ -6,7 +6,8 @@ describe 'Deals', vcr: true do
     let(:not_found_deal) { { 'id' => 0 } }
 
     before(:all) do
-        @deals = Deals.new(ENV['API_TOKEN'])
+        client = PipedriveRuby::PipedriveClient.new(ENV['API_TOKEN'])
+        @deals = client.deals
         @deals_response = []
         2.times do |number|
             @deals_response << @deals.create(title: "#{number} - Novo Negocio")
@@ -71,13 +72,13 @@ describe 'Deals', vcr: true do
     describe '#delete' do
         context 'when success' do
             it 'returns success true' do
-                response = @deals.delete(@deal)
+                response = @deals.remove(@deal)
                 expect(response['success']).to be_truthy
             end
         end
         context 'when fails' do
             it 'returns success false' do
-                response = @deals.delete(not_found_deal)
+                response = @deals.remove(not_found_deal)
                 expect(response['success']).to be_falsey
             end
         end
@@ -86,7 +87,7 @@ describe 'Deals', vcr: true do
     describe '#delete_many' do
         context 'when success' do
             it 'returns success true' do
-                response = @deals.delete_many(@deals_response)
+                response = @deals.remove_many(@deals_response)
                 expect(response['success']).to be_truthy
             end
         end

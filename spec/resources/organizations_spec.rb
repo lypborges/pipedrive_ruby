@@ -6,7 +6,7 @@ describe 'Organizations', vcr: true do
     let(:not_found_org) { { 'id' => 0 } }
 
     before(:all) do
-        @organizations = Organizations.new(ENV['API_TOKEN'])
+        @organizations = PipedriveRuby::PipedriveClient.new(ENV['API_TOKEN']).organizations
         @organizations_response = []
         2.times do |number|
             @organizations_response << @organizations.create(name: "#{number} - New Company")
