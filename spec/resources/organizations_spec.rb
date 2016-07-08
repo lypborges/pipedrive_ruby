@@ -64,4 +64,28 @@ describe 'Organizations', vcr: true do
       end
     end
   end # end of create
-end # end of Deals Resource
+
+  describe '#update' do
+    context 'when success' do
+      it 'return success true' do
+        updated_deal = { 'id' => @organization['id'], 'name' => 'New Named' }
+        response = @organizations.update(updated_deal)
+        expect(response['success']).to be_truthy
+      end
+      it 'return Hash with name inside data' do
+        updated_deal = { 'id' => @organization['id'], 'name' => 'New Named' }
+        response = @organizations.update(updated_deal)
+        expect(response['data']['name']).to be == updated_deal[:name]
+      end
+    end
+
+    context 'when fails' do
+      it 'return success false' do
+        response = @organizations.update(invalid_new_org)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of create
+
+
+end # end of Organizations Resource

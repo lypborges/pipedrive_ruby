@@ -3,6 +3,6 @@
 module PipedriveRuby
     class Organizations < PipedriveRuby::Base
         def_delegators :@client, :default_param
-        def_delegators :@endpoints, :all, :find, :create
+        def_delegators :@endpoints, :all, :find, :create, :update
     end
 end
