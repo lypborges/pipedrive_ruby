@@ -1,5 +1,5 @@
 module PipedriveRuby
-    # responsable for hold all commum endpoints
+    # responsable for hold all commum endpoints shared between n resources
     class SharedEndpoints
       extend Forwardable
       include HTTP::Chainable

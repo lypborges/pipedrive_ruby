@@ -1,5 +1,5 @@
 module PipedriveRuby
-  # responsable for initialize all resources
+  # responsable for interface all resources with PipedriveClient
     class Base
       extend Forwardable
       include HTTP::Chainable
