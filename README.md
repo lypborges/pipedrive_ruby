@@ -3,7 +3,9 @@
 
 [![Code Climate](https://codeclimate.com/github/lypborges/pipedrive_ruby/badges/gpa.svg)](https://codeclimate.com/github/lypborges/pipedrive_ruby)
 
-Dont't use in production. It's a working in progress.
+[![Test Coverage](https://codeclimate.com/github/lypborges/pipedrive_ruby/badges/coverage.svg)](https://codeclimate.com/github/lypborges/pipedrive_ruby/coverage)
+
+It's a working in progress.
 
 ## Tested with Ruby versions:
 - 2.0.0
