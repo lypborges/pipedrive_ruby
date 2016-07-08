@@ -41,7 +41,6 @@ module PipedriveRuby
       resources.each do |resource|
         ids << resource['data']['id']
       end
-
       delete("#{@base_url}/",
              params: default_param,
              json: { ids: ids.join(',') }).parse
