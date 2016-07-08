@@ -1,12 +1,11 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'coveralls'
 require 'webmock/rspec'
 require 'pipedrive_ruby'
 require 'vcr'
 require 'dotenv'
-
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 Dotenv.load
-Coveralls.wear!
 
 WebMock.disable_net_connect!(allow_localhost: true)
 
