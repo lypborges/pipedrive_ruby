@@ -1,5 +1,10 @@
 # PipedriveRuby [![Build Status](https://travis-ci.org/lypborges/pipedrive_ruby.svg?branch=master)](https://travis-ci.org/lypborges/pipedrive_ruby)
-
+# Tested against
+Ruby
+- 2.0.0
+- 2.1.9
+- 2.2.5
+- 2.3.1
 Dont't use in production. It's a working in progress.
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pipedrive_ruby`. To experiment with that code, run `bin/console` for an interactive prompt.
