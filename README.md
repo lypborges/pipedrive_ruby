@@ -39,8 +39,8 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/lypbor
 ## Publishing new version with
 - Using https://github.com/svenfuchs/gem-release
 - `gem install gem-release` if you don't have.
-- `gem release --tag`
-- `gem bump --version pre`
+- `gem bump --version pre`, this will change the version according
+- `gem release --tag` this will, publish to rubygems.org and tag on github
 
 
 ## License
