@@ -8,7 +8,6 @@
 /spec/reports/
 /tmp/
 /vendor/cache/
-
 .byebug_history
 
 .env
