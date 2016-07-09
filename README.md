@@ -29,7 +29,7 @@ Or install it yourself as:
 
 ## Usage
 
-See Wiki [getting started!](https://github.com/lypborges/pipedrive_ruby/wiki/Getting-Started)
+See Wiki [getting started!](https://github.com/lypborges/pipedrive_ruby/wiki)
 
 ## Development
 
