@@ -1,9 +1,5 @@
 # PipedriveRuby
-[![Build Status](https://travis-ci.org/lypborges/pipedrive_ruby.svg?branch=master)](https://travis-ci.org/lypborges/pipedrive_ruby)
-
-[![Code Climate](https://codeclimate.com/github/lypborges/pipedrive_ruby/badges/gpa.svg)](https://codeclimate.com/github/lypborges/pipedrive_ruby)
-
-[![Test Coverage](https://codeclimate.com/github/lypborges/pipedrive_ruby/badges/coverage.svg)](https://codeclimate.com/github/lypborges/pipedrive_ruby/coverage)
+[![Build Status](https://travis-ci.org/lypborges/pipedrive_ruby.svg?branch=master)](https://travis-ci.org/lypborges/pipedrive_ruby)[![Code Climate](https://codeclimate.com/github/lypborges/pipedrive_ruby/badges/gpa.svg)](https://codeclimate.com/github/lypborges/pipedrive_ruby)[![Test Coverage](https://codeclimate.com/github/lypborges/pipedrive_ruby/badges/coverage.svg)](https://codeclimate.com/github/lypborges/pipedrive_ruby/coverage)
 
 It's a working in progress.
 
