@@ -10,7 +10,7 @@ module PipedriveRuby
         end
 
         def followers(deal)
-            get("#{API_URL}/deals/#{deal['id']}/followers",
+            get("#{@base_url}/#{deal['id']}/followers",
                      params: default_param).parse
         end
 
@@ -18,7 +18,7 @@ module PipedriveRuby
         end
 
         def products(deal)
-            get("#{API_URL}/deals/#{deal['id']}/products",
+            get("#{@base_url}/#{deal['id']}/products",
                      params: default_param.merge!(include_product_data: 1)).parse
         end
 
@@ -32,8 +32,7 @@ module PipedriveRuby
         end
 
         def activities(deal)
-            get("#{API_URL}/deals/#{deal['id']}/activities",
-                     params: default_param).parse
+            get("#{@base_url}/#{deal['id']}/activities", params: default_param).parse
         end
 
         def log(deal)
@@ -52,13 +51,14 @@ module PipedriveRuby
         end
 
         def permitted_users(deal)
+          get("#{@base_url}/#{deal['id']}/permittedUsers", params: default_param).parse
         end
 
         def emails(deal)
         end
 
         def find_by_title(title)
-            get("#{API_URL}/deals/find/", params: default_param.merge!(term: title)).parse
+            get("#{@base_url}/find/", params: default_param.merge!(term: title)).parse
         end
 
         def timeline(deal)

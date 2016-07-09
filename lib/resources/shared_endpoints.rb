@@ -6,9 +6,7 @@ module PipedriveRuby
 
     def initialize(resource_name, client)
       @client = client
-      @resource = resource_name.split('::').last
-      @resource.downcase!
-      @base_url = "#{API_URL}/#{@resource}"
+      @base_url = PipedriveRuby::base_url(resource_name)
     end
 
     def all

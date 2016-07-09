@@ -5,8 +5,10 @@ module PipedriveRuby
       include HTTP::Chainable
 
       def initialize(pipedrive_client)
+          class_name = self.class.name
           @client = pipedrive_client
-          @endpoints = PipedriveRuby::SharedEndpoints.new(self.class.name, @client)
+          @endpoints = PipedriveRuby::SharedEndpoints.new(class_name, @client)
+          @base_url = PipedriveRuby::base_url(class_name)
       end
 
       def_delegators :@client, :default_param

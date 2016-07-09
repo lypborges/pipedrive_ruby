@@ -12,4 +12,11 @@ require 'resources/organizations'
 # https://developers.pipedrive.com/v1
 module PipedriveRuby
   API_URL = 'https://api.pipedrive.com/v1'.freeze
+
+  def self.base_url(class_name)
+    resource = class_name.split('::').last
+    resource.downcase!
+    base_url = "#{API_URL}/#{resource}"
+  end
+
 end

@@ -153,6 +153,22 @@ describe 'Deals', vcr: true do
     end
   end # end of followers
 
+  describe '#permitted_users' do
+    context 'when success' do
+      it 'return success true' do
+        response = @deals.permitted_users(@deal)
+        expect(response['success']).to be_truthy
+      end
+    end
+
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.permitted_users(invalid_new_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of permitted_users
+
   describe '#products' do
     context 'when success' do
       it 'returns success true' do
@@ -199,4 +215,5 @@ describe 'Deals', vcr: true do
       end
     end
   end # end of merge
+
 end # end of Deals Resource
