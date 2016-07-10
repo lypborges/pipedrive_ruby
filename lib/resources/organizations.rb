@@ -2,8 +2,6 @@
 # Persons can be associated with organizations so that each organization can contain one or more Persons.
 module PipedriveRuby
     class Organizations < PipedriveRuby::Base
-        attr_reader :client, :endpoints
-
         def_delegators :client, :default_param
         def_delegators :endpoints, :all, :find, :create, :update
     end
