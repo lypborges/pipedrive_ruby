@@ -4,33 +4,35 @@ module PipedriveRuby
     extend Forwardable
     include HTTP::Chainable
 
+    attr_reader :client, :base_url
+
     def initialize(resource_name, client)
       @client = client
       @base_url = PipedriveRuby::base_url(resource_name)
     end
 
     def all
-      get(@base_url.to_s, params: default_param).parse
+      get(base_url.to_s, params: default_param).parse
     end
 
     def find(id)
-      get("#{@base_url}/#{id}", params: default_param).parse
+      get("#{base_url}/#{id}", params: default_param).parse
     end
 
     def create(resource)
-      post("#{@base_url}/",
+      post("#{base_url}/",
            params: default_param,
            json: resource).parse
     end
 
     def update(resource)
-      put("#{@base_url}/#{resource['id']}",
+      put("#{base_url}/#{resource['id']}",
           params: default_param,
           json: resource).parse
     end
 
     def remove(resource)
-      delete("#{@base_url}/#{resource['id']}",
+      delete("#{base_url}/#{resource['id']}",
              params: default_param).parse
     end
 
@@ -39,19 +41,19 @@ module PipedriveRuby
       resources.each do |resource|
         ids << resource['data']['id']
       end
-      delete("#{@base_url}/",
+      delete("#{base_url}/",
              params: default_param,
              json: { ids: ids.join(',') }).parse
     end
 
     def duplicate(resource)
-      post("#{@base_url}/#{resource['id']}/duplicate",
+      post("#{base_url}/#{resource['id']}/duplicate",
            params: default_param).parse
     end
 
     def merge(resource, merge_with_resource)
       id = resource['id']
-      post("#{@base_url}/#{id}/merge",
+      post("#{base_url}/#{id}/merge",
            params: default_param,
            form: {
              id: id,
@@ -59,6 +61,6 @@ module PipedriveRuby
            }).parse
     end
 
-    def_delegators :@client, :default_param
+    def_delegators :client, :default_param
   end
 end

@@ -4,6 +4,8 @@ module PipedriveRuby
       extend Forwardable
       include HTTP::Chainable
 
+      attr_reader :client,:endpoints,:base_url
+
       def initialize(pipedrive_client)
           class_name = self.class.name
           @client = pipedrive_client
@@ -11,7 +13,7 @@ module PipedriveRuby
           @base_url = PipedriveRuby::base_url(class_name)
       end
 
-      def_delegators :@client, :default_param
+      def_delegators :client, :default_param
 
     end
 end
