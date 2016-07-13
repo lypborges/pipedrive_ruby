@@ -36,6 +36,7 @@ module PipedriveRuby
         end
 
         def log(deal)
+          get("#{base_url}/#{deal['id']}/flow", params: default_param).parse
         end
 
         def add_participant(deal, person)

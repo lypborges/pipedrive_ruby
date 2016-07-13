@@ -216,4 +216,20 @@ describe 'Deals', vcr: true do
     end
   end # end of merge
 
+  describe '#log' do
+    context 'when success' do
+      it 'return success true' do
+        response = @deals.log(@deal)
+        expect(response['success']).to be_truthy
+      end
+    end
+
+    context 'when fails' do
+      it 'return success false' do
+        response = @deals.log(invalid_new_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of log
+
 end # end of Deals Resource
