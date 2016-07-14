@@ -49,9 +49,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/lypbor
 
 ##Tips
 
-before push always run tests:
-`codeclimate analyze`
-`rspec`
+before push/pull requests always run tests:
+- `codeclimate analyze`
+- `spec`
 
 
 ## License
