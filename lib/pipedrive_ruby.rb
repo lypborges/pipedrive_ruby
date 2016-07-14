@@ -1,10 +1,10 @@
 require 'pipedrive_ruby/version'
 require 'http'
 require 'byebug'
-require 'resources/pipedrive_client'
-require 'resources/base'
+require 'pipedrive_client'
+require 'http_factory'
 
-require 'resources/shared_endpoints'
+require 'resources/base'
 require 'resources/deals'
 require 'resources/organizations'
 
@@ -12,11 +12,4 @@ require 'resources/organizations'
 # https://developers.pipedrive.com/v1
 module PipedriveRuby
   API_URL = 'https://api.pipedrive.com/v1'.freeze
-
-  def self.base_url(class_name)
-    resource = class_name.split('::').last
-    resource.downcase!
-    base_url = "#{API_URL}/#{resource}"
-  end
-
 end

@@ -47,6 +47,12 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/lypbor
 - `gem bump --version pre`, this will change the version according
 - `gem release --tag` this will, publish to rubygems.org and tag on github
 
+##Tips
+
+before push always run tests:
+`codeclimate analyze`
+`rspec`
+
 
 ## License
 

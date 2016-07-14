@@ -1,6 +1,6 @@
 module PipedriveRuby
   # responsable for hold all commum endpoints shared between n resources
-  class SharedEndpoints
+  class HttpFactory
     extend Forwardable
     include HTTP::Chainable
 
@@ -8,7 +8,7 @@ module PipedriveRuby
 
     def initialize(resource_name, client)
       @client = client
-      @base_url = PipedriveRuby::base_url(resource_name)
+      @base_url = make_base_url(resource_name)
     end
 
     def all
@@ -69,13 +69,31 @@ module PipedriveRuby
 
     private
 
+    def default_param
+      { api_token: @client.api_token }
+    end
+
+    def make_base_url(class_name)
+      resource = class_name.split('::').last
+      "#{PipedriveRuby::API_URL}/#{resource.downcase!}"
+    end
+
     def custom_request(options={})
-      default_options = {:params => default_param}
-      options.merge!(default_options)
+      options = set_defaults_params(options)
       path = "#{base_url}/".concat(options[:path])
       HTTP.send(options[:method], path, params: options[:params]).parse
     end
 
-    def_delegators :client, :default_param
+    def set_defaults_params(options)
+      default_options = {:params => default_param}
+      params = options[:params]
+      if params
+        params.merge!(default_options[:params])
+      else
+        options.merge!(default_options)
+      end
+      options
+    end
+
   end
 end

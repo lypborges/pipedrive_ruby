@@ -18,7 +18,7 @@ module PipedriveRuby
 
         def products(deal)
           custom_get(:path => "#{deal['id']}/products",
-                      :params => default_param.merge!(include_product_data: 1)
+                      :params => {:include_product_data => 1}
                     )
         end
 
@@ -59,7 +59,7 @@ module PipedriveRuby
         end
 
         def find_by_title(title)
-            custom_get(:path => "find/", :params => default_param.merge!(term: title))
+            custom_get(:path => "find/", :params => {:term => title})
         end
 
         def timeline(deal)
