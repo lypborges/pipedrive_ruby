@@ -2250,4 +2250,634 @@ http_interactions:
       string: '{"success":true,"data":{"id":835}}'
     http_version: 
   recorded_at: Wed, 13 Jul 2016 18:24:14 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/850?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 13 Jul 2016 18:44:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":850}}'
+    http_version: 
+  recorded_at: Wed, 13 Jul 2016 18:44:14 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/853?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 06:45:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":853}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 06:45:13 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/864?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 06:58:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '5'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":864}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 06:58:40 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/866?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:02:02 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '97'
+      X-Ratelimit-Reset:
+      - '5'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":866}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:02:02 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/870?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:07:22 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":870}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:07:22 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/873?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:08:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":873}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:08:41 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/875?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:11:11 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":875}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:11:11 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/878?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:12:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '97'
+      X-Ratelimit-Reset:
+      - '1'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":878}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:12:32 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/887?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:14:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":887}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:14:22 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/895?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:17:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":895}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:17:56 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/898?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:19:22 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '9'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":898}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:19:22 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/901?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:20:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":901}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:20:15 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/903?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:23:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":903}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:23:37 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/906?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:27:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":906}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:27:49 GMT
 recorded_with: VCR 3.0.3

@@ -2771,4 +2771,682 @@ http_interactions:
         Borges Ferreira","cc_email":"prepared-tray+deal837@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
     http_version: 
   recorded_at: Wed, 13 Jul 2016 18:24:10 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/850/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 13 Jul 2016 18:44:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":852,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":595,"currency":"BRL","add_time":"2016-07-13
+        18:44:15","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2016-07-13
+        18:44:14","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$595","rotten_time":null,"weighted_value":595,"formatted_weighted_value":"R$595","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal852@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Wed, 13 Jul 2016 18:44:15 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/853/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 06:45:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":855,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":844,"currency":"BRL","add_time":"2016-07-14
+        06:45:17","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2016-07-14
+        06:45:13","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$844","rotten_time":null,"weighted_value":844,"formatted_weighted_value":"R$844","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal855@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 06:45:17 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/864/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 06:58:40 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":866,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2016-07-14
+        06:58:40","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal866@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 06:58:39 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/866/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:02:03 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":869,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia) (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2016-07-14
+        07:02:03","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2016-07-14
+        07:02:02","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal869@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:02:03 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/870/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:07:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":872,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":484,"currency":"BRL","add_time":"2016-07-14
+        07:07:28","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2016-07-14
+        07:07:22","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$484","rotten_time":null,"weighted_value":484,"formatted_weighted_value":"R$484","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal872@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:07:28 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/873/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:08:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":875,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2016-07-14
+        07:08:33","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal875@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:08:33 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/875/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:11:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":878,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia) (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2016-07-14
+        07:11:08","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal878@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:11:08 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/878/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:12:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '7'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":887,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia) (c\u00f3pia) (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2016-07-14
+        07:12:26","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal887@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:12:26 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/887/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:14:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '6'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":890,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia) (c\u00f3pia) (c\u00f3pia) (c\u00f3pia)","value":742,"currency":"BRL","add_time":"2016-07-14
+        07:14:26","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2016-07-14
+        07:14:23","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$742","rotten_time":null,"weighted_value":742,"formatted_weighted_value":"R$742","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal890@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:14:26 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/895/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:17:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":897,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2016-07-14
+        07:17:54","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal897@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:17:54 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/898/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:19:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":900,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":93,"currency":"BRL","add_time":"2016-07-14
+        07:19:23","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2016-07-14
+        07:19:22","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$93","rotten_time":null,"weighted_value":93,"formatted_weighted_value":"R$93","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal900@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:19:22 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/901/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:20:09 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '5'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":903,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2016-07-14
+        07:20:09","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal903@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:20:08 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/903/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:23:37 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":906,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia) (c\u00f3pia)","value":682,"currency":"BRL","add_time":"2016-07-14
+        07:23:37","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$682","rotten_time":null,"weighted_value":682,"formatted_weighted_value":"R$682","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal906@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:23:36 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/906/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 07:27:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":909,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia) (c\u00f3pia) (c\u00f3pia)","value":875,"currency":"BRL","add_time":"2016-07-14
+        07:27:43","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":0,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$875","rotten_time":null,"weighted_value":875,"formatted_weighted_value":"R$875","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal909@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 07:27:42 GMT
 recorded_with: VCR 3.0.3

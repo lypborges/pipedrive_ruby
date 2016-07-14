@@ -12,7 +12,7 @@ module PipedriveRuby
     end
 
     def all
-      get(base_url.to_s, params: default_param).parse
+      get(base_url, params: default_param).parse
     end
 
     def find(id)
@@ -59,6 +59,21 @@ module PipedriveRuby
              id: id,
              merge_with_id: merge_with_resource['id']
            }).parse
+    end
+
+    def custom_get(options={})
+      default_options = {:method => :get}
+      options.merge!(default_options)
+      custom_request(options)
+    end
+
+    private
+
+    def custom_request(options={})
+      default_options = {:params => default_param}
+      options.merge!(default_options)
+      path = "#{base_url}/".concat(options[:path])
+      HTTP.send(options[:method], path, params: options[:params]).parse
     end
 
     def_delegators :client, :default_param
