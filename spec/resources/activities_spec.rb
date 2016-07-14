@@ -19,7 +19,6 @@ describe 'Activities', vcr: true do
 
   after(:all) do
     # delete what left from test on sandbox
-    byebug
     @activities.remove_many(@activities_response)
   end
 
