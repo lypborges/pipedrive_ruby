@@ -47,4 +47,306 @@ http_interactions:
         11:00:16","is_bulk_update_flag":null,"log_time":"2016-07-14 11:00:16","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
   recorded_at: Thu, 14 Jul 2016 11:03:51 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/998/flow?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 12:42:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"object":"dealChange","timestamp":"2016-07-14
+        12:42:46","data":{"id":2203,"item_id":998,"user_id":742863,"field_key":"status","old_value":"open","new_value":"deleted","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:42:46","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        11:03:49","data":{"id":2188,"item_id":998,"user_id":742863,"field_key":"add_time","old_value":null,"new_value":"2016-07-14
+        11:03:49","is_bulk_update_flag":null,"log_time":"2016-07-14 11:03:49","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 12:42:52 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/999/flow?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 12:43:37 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"object":"dealChange","timestamp":"2016-07-14
+        12:43:33","data":{"id":2212,"item_id":999,"user_id":742863,"field_key":"status","old_value":"open","new_value":"deleted","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:43:33","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        12:43:32","data":{"id":2210,"item_id":999,"user_id":742863,"field_key":"value","old_value":"0","new_value":"301","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:43:32","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        11:03:49","data":{"id":2189,"item_id":999,"user_id":742863,"field_key":"add_time","old_value":null,"new_value":"2016-07-14
+        11:03:49","is_bulk_update_flag":null,"log_time":"2016-07-14 11:03:49","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 12:43:38 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1000/flow?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 12:46:36 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"object":"dealChange","timestamp":"2016-07-14
+        12:46:33","data":{"id":2219,"item_id":1000,"user_id":742863,"field_key":"value","old_value":"214","new_value":"930","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:46:33","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        12:46:31","data":{"id":2218,"item_id":1000,"user_id":742863,"field_key":"status","old_value":"open","new_value":"deleted","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:46:31","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        11:04:02","data":{"id":2191,"item_id":1000,"user_id":742863,"field_key":"add_time","old_value":null,"new_value":"2016-07-14
+        11:04:02","is_bulk_update_flag":null,"log_time":"2016-07-14 11:04:02","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 12:46:37 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1005/flow?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 12:47:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"object":"dealChange","timestamp":"2016-07-14
+        12:47:13","data":{"id":2227,"item_id":1005,"user_id":742863,"field_key":"value","old_value":"0","new_value":"561","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:47:13","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        12:47:10","data":{"id":2225,"item_id":1005,"user_id":742863,"field_key":"status","old_value":"open","new_value":"deleted","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:47:10","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        12:42:43","data":{"id":2202,"item_id":1005,"user_id":742863,"field_key":"add_time","old_value":null,"new_value":"2016-07-14
+        12:42:43","is_bulk_update_flag":null,"log_time":"2016-07-14 12:42:43","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 12:47:19 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1008/flow?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 12:48:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"object":"dealChange","timestamp":"2016-07-14
+        12:48:47","data":{"id":2235,"item_id":1008,"user_id":742863,"field_key":"status","old_value":"open","new_value":"deleted","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:48:47","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        12:48:43","data":{"id":2233,"item_id":1008,"user_id":742863,"field_key":"value","old_value":"0","new_value":"454","is_bulk_update_flag":null,"log_time":"2016-07-14
+        12:48:43","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        12:43:31","data":{"id":2209,"item_id":1008,"user_id":742863,"field_key":"add_time","old_value":null,"new_value":"2016-07-14
+        12:43:31","is_bulk_update_flag":null,"log_time":"2016-07-14 12:43:31","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 12:48:52 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1017/flow?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 13:03:19 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"object":"dealChange","timestamp":"2016-07-14
+        13:03:17","data":{"id":2252,"item_id":1017,"user_id":742863,"field_key":"value","old_value":"0","new_value":"455","is_bulk_update_flag":null,"log_time":"2016-07-14
+        13:03:17","additional_data":[]}},{"object":"dealChange","timestamp":"2016-07-14
+        12:48:42","data":{"id":2232,"item_id":1017,"user_id":742863,"field_key":"add_time","old_value":null,"new_value":"2016-07-14
+        12:48:42","is_bulk_update_flag":null,"log_time":"2016-07-14 12:48:42","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 13:03:20 GMT
 recorded_with: VCR 3.0.3

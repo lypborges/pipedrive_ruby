@@ -9,12 +9,8 @@ Dotenv.load
 
 WebMock.disable_net_connect!(allow_localhost: true)
 
-port_matcher = lambda do |request_1, request_2|
-  URI(request_1.uri).port == URI(request_2.uri).port
-end
-
 VCR.configure do |c|
-  c.default_cassette_options = { record: :new_episodes, match_requests_on: [:host, :path, :port_matcher] }
+  c.default_cassette_options = { record: :new_episodes, match_requests_on: [:host, :path] }
   c.allow_http_connections_when_no_cassette = true
   c.cassette_library_dir = './spec/fixtures/.cassettes'
   c.hook_into :webmock

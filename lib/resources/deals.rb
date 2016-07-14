@@ -25,7 +25,7 @@ module PipedriveRuby
         def add_product(deal, product)
         end
 
-        def update_procut(deal, product)
+        def update_product(deal, product)
         end
 
         def delete_product(deal, product)
@@ -43,12 +43,14 @@ module PipedriveRuby
         end
 
         def participants(deal)
+          custom_get(:path => "#{deal['id']}/participants")
         end
 
         def delete_participant(deal, participant)
         end
 
         def files(deal)
+          custom_get(:path => "#{deal['id']}/files")
         end
 
         def permitted_users(deal)
@@ -56,13 +58,14 @@ module PipedriveRuby
         end
 
         def emails(deal)
+          custom_get(:path => "#{deal['id']}/emailMessages")
         end
 
         def find_by_title(title)
             custom_get(:path => "find/", :params => {:term => title})
         end
 
-        def timeline(deal)
+        def timeline
         end
 
         def_delegators :endpoints, :all, :find, :create, :update, :remove, :remove_many, :duplicate, :merge
