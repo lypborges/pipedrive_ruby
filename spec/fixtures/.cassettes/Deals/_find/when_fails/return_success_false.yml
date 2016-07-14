@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 06 Jul 2016 20:12:39 GMT
+      - Thu, 14 Jul 2016 11:04:06 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -45,5 +45,5 @@ http_interactions:
       string: '{"success":false,"error":"Deal not found","error_info":"Please check
         developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Wed, 06 Jul 2016 20:12:39 GMT
+  recorded_at: Thu, 14 Jul 2016 11:04:06 GMT
 recorded_with: VCR 3.0.3
