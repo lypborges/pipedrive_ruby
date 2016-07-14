@@ -1,3 +1,5 @@
 # ActivityFields represent different fields that Activity has.
-class ActivitiesFields
+module PipedriveRuby
+  class ActivitiesFields < PipedriveRuby::Base
+  end
 end

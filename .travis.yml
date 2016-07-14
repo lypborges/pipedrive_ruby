@@ -5,6 +5,4 @@ rvm:
   - 2.1.9
   - 2.2.5
   - 2.3.1
-exclude_paths:
-- "doc/"
 before_install: gem install bundler -v 1.12.5

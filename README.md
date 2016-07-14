@@ -9,7 +9,7 @@ It's a working in progress.
 - 2.2.5
 - 2.3.1
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pipedrive_ruby`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new gem! To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Installation
 
