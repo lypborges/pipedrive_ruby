@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/activities/32?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/activities/77?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 14 Jul 2016 19:40:27 GMT
+      - Thu, 14 Jul 2016 21:33:51 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -42,16 +42,16 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":32,"company_id":1051939,"user_id":742863,"done":false,"type":"call","reference_type":"none","reference_id":null,"due_date":"2016-07-14","due_time":"","duration":"","add_time":"2016-07-14
-        19:35:56","marked_as_done_time":"","subject":"Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":true,"update_time":"2016-07-14
-        19:35:56","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"person_name":null,"org_name":null,"note":"","deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+      string: '{"success":true,"data":{"id":77,"company_id":1051939,"user_id":742863,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2016-07-14","due_time":"","duration":"","add_time":"2016-07-14
+        21:33:45","marked_as_done_time":"","subject":"0 - Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2016-07-14
+        21:33:50","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"person_name":null,"org_name":null,"note":"","deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
         Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Jul 2016 19:40:26 GMT
+  recorded_at: Thu, 14 Jul 2016 21:33:51 GMT
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/activities/33?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/activities/79?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -70,7 +70,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 14 Jul 2016 19:41:19 GMT
+      - Thu, 14 Jul 2016 21:37:43 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -91,11 +91,109 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":33,"company_id":1051939,"user_id":742863,"done":false,"type":"call","reference_type":"none","reference_id":null,"due_date":"2016-07-14","due_time":"","duration":"","add_time":"2016-07-14
-        19:35:57","marked_as_done_time":"","subject":"Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2016-07-14
-        19:41:18","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"person_name":null,"org_name":null,"note":"","deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+      string: '{"success":true,"data":{"id":79,"company_id":1051939,"user_id":742863,"done":false,"type":"call","reference_type":"none","reference_id":null,"due_date":"2016-07-14","due_time":"","duration":"","add_time":"2016-07-14
+        21:33:54","marked_as_done_time":"","subject":"Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2016-07-14
+        21:37:42","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"person_name":null,"org_name":null,"note":"","deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
         Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Jul 2016 19:41:19 GMT
+  recorded_at: Thu, 14 Jul 2016 21:37:43 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/activities/80?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:38:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":80,"company_id":1051939,"user_id":742863,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2016-07-14","due_time":"","duration":"","add_time":"2016-07-14
+        21:33:55","marked_as_done_time":"","subject":"Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2016-07-14
+        21:38:52","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"person_name":null,"org_name":null,"note":"","deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+        Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:38:53 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/activities/87?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:45:10 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":87,"company_id":1051939,"user_id":742863,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2016-07-14","due_time":"","duration":"","add_time":"2016-07-14
+        21:44:38","marked_as_done_time":"","subject":"0 - Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":true,"update_time":"2016-07-14
+        21:45:09","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"person_name":null,"org_name":null,"note":"","deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+        Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:45:10 GMT
 recorded_with: VCR 3.0.3

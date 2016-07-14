@@ -1,5 +1,6 @@
 # ActivityFields represent different fields that Activity has.
 module PipedriveRuby
-  class ActivitiesFields < PipedriveRuby::Base
+  class ActivityFields < PipedriveRuby::Base
+    def_delegators :endpoints, :all
   end
 end

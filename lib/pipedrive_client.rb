@@ -13,7 +13,7 @@ module PipedriveRuby
     # where resource could be deals organizations etc...
     def method_missing(method)
       begin
-        class_name = 'PipedriveRuby::' + method.to_s.capitalize
+        class_name = 'PipedriveRuby::' + method.to_s.split("_").collect(&:capitalize).join
         Object.const_get(class_name).new(self)
       rescue NameError
         "#{method} class not found"

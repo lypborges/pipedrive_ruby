@@ -19,8 +19,11 @@ describe 'PipedriveClient' do
 
   describe '#method_missing' do
     context 'when success' do
-      it 'have a valid resource' do
+      it 'have a valid simple resource' do
         expect(api_client.deals).to be_a_kind_of(PipedriveRuby::Deals)
+      end
+      it 'have a valid resource' do
+        expect(api_client.activity_fields).to be_a_kind_of(PipedriveRuby::ActivityFields)
       end
     end
     context 'when fails' do

@@ -37,6 +37,7 @@ module PipedriveRuby
     end
 
     def remove_many(resources)
+      byebug
       ids = []
       resources.each do |resource|
         ids << resource['data']['id']
@@ -74,8 +75,10 @@ module PipedriveRuby
     end
 
     def make_base_url(class_name)
-      resource = class_name.split('::').last
-      "#{PipedriveRuby::API_URL}/#{resource.downcase!}"
+      length = class_name.size
+      resource_name =  class_name.split('::').last
+      resource = resource_name[0].downcase + resource_name[1, length]
+      "#{PipedriveRuby::API_URL}/#{resource}"
     end
 
     def custom_request(options={})

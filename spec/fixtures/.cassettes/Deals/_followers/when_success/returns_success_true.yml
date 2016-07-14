@@ -506,4 +506,602 @@ http_interactions:
         19:43:57"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
   recorded_at: Thu, 14 Jul 2016 19:44:00 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1149/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 20:55:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1376,"deal_id":1149,"add_time":"2016-07-14
+        20:54:58"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 20:55:04 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1152/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 20:56:36 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1380,"deal_id":1152,"add_time":"2016-07-14
+        20:56:28"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 20:56:36 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1155/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 20:57:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1384,"deal_id":1155,"add_time":"2016-07-14
+        20:57:46"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 20:57:50 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1158/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:07:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1388,"deal_id":1158,"add_time":"2016-07-14
+        21:07:02"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:07:07 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1161/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:08:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1392,"deal_id":1161,"add_time":"2016-07-14
+        21:08:08"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:08:13 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1163/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:10:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1394,"deal_id":1163,"add_time":"2016-07-14
+        21:08:11"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:09:59 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1166/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:28:40 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1398,"deal_id":1166,"add_time":"2016-07-14
+        21:09:55"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:28:40 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1170/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:30:03 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1404,"deal_id":1170,"add_time":"2016-07-14
+        21:29:50"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:30:03 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1173/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:32:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1408,"deal_id":1173,"add_time":"2016-07-14
+        21:32:09"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:32:18 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1176/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:33:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1412,"deal_id":1176,"add_time":"2016-07-14
+        21:33:31"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:33:42 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1179/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:37:31 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1416,"deal_id":1179,"add_time":"2016-07-14
+        21:37:26"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:37:31 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1182/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:39:02 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1420,"deal_id":1182,"add_time":"2016-07-14
+        21:38:55"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:39:02 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/1185/followers?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Jul 2016 21:43:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '4'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"user_id":742863,"id":1424,"deal_id":1185,"add_time":"2016-07-14
+        21:43:28"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 14 Jul 2016 21:43:38 GMT
 recorded_with: VCR 3.0.3

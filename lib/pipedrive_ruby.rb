@@ -8,9 +8,9 @@ require 'resources/base'
 require 'resources/deals'
 require 'resources/organizations'
 require 'resources/activities'
+require 'resources/activitiy_fields'
 
 # TODO (Felipe Borges Ferreira)
-require 'resources/activities_fields'
 require 'resources/activities_types'
 require 'resources/authorizations'
 require 'resources/currencies'
