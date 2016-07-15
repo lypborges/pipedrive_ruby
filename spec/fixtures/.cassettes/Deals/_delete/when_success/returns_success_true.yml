@@ -1080,4 +1080,49 @@ http_interactions:
       string: '{"success":true,"data":{"id":1185}}'
     http_version: 
   recorded_at: Thu, 14 Jul 2016 21:43:42 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/1200?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 15 Jul 2016 11:29:22 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":1200}}'
+    http_version: 
+  recorded_at: Fri, 15 Jul 2016 11:29:23 GMT
 recorded_with: VCR 3.0.3

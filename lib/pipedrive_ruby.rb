@@ -9,9 +9,9 @@ require 'resources/deals'
 require 'resources/organizations'
 require 'resources/activities'
 require 'resources/activitiy_fields'
+require 'resources/activity_types'
 
 # TODO (Felipe Borges Ferreira)
-require 'resources/activities_types'
 require 'resources/authorizations'
 require 'resources/currencies'
 require 'resources/deals_fields'
