@@ -10,7 +10,6 @@ module PipedriveRuby
       create(authorization)
     end
 
-    private
     def_delegators :endpoints, :create
 
   end
