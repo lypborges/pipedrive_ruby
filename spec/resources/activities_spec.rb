@@ -28,7 +28,7 @@ describe 'Activities', vcr: true do
         response = @activities.create(valid_new_activitie)
         expect(response['success']).to be_truthy
       end
-      it 'return Hash with title inside data' do
+      it 'return Hash with subject inside data' do
         response = @activities.create(valid_new_activitie)
         expect(response['data']['subject']).to be == valid_new_activitie[:subject]
       end
