@@ -12,18 +12,18 @@ describe 'Authorizations', vcr: true do
   describe '#all' do
     context 'when success' do
       it 'return success true' do
-        response = @authorizations.create(valid_authorization)
+        response = @authorizations.all(valid_authorization)
         expect(response['success']).to be_truthy
       end
       it 'return Hash with user_id inside data' do
-        response = @authorizations.create(valid_authorization)
+        response = @authorizations.all(valid_authorization)
         expect(response['data']).to respond_to(:each)
       end
     end
 
     context 'when fails' do
       it 'return success false' do
-        response = @authorizations.create(invalid_authorization)
+        response = @authorizations.all(invalid_authorization)
         expect(response['success']).to be_falsey
       end
     end

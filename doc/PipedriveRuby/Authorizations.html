@@ -140,7 +140,7 @@ and password of the user.</p>
         <li class="public ">
   <span class="summary_signature">
     
-      <a href="#all-instance_method" title="#all (instance method)">#<strong>all</strong>  &#x21d2; Object </a>
+      <a href="#all-instance_method" title="#all (instance method)">#<strong>all</strong>(authorization)  &#x21d2; Object </a>
     
 
     
@@ -189,7 +189,7 @@ and password of the user.</p>
       <div class="method_details first">
   <h3 class="signature first" id="all-instance_method">
   
-    #<strong>all</strong>  &#x21d2; <tt>Object</tt> 
+    #<strong>all</strong>(authorization)  &#x21d2; <tt>Object</tt> 
   
 
   
@@ -208,8 +208,8 @@ and password of the user.</p>
     <td>
       <pre class="code"><span class="info file"># File 'lib/resources/authorizations.rb', line 9</span>
 
-<span class='kw'>def</span> <span class='id identifier rubyid_all'>all</span>
-  <span class='id identifier rubyid_create'>create</span>
+<span class='kw'>def</span> <span class='id identifier rubyid_all'>all</span><span class='lparen'>(</span><span class='id identifier rubyid_authorization'>authorization</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_create'>create</span><span class='lparen'>(</span><span class='id identifier rubyid_authorization'>authorization</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -221,7 +221,7 @@ and password of the user.</p>
 </div>
 
       <div id="footer">
-  Generated on Fri Jul 15 08:51:45 2016 by
+  Generated on Fri Jul 15 09:05:45 2016 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.0 (ruby-2.2.5).
 </div>

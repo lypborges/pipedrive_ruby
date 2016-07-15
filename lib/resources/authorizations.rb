@@ -6,10 +6,12 @@ module PipedriveRuby
   # Authorization objects contain the API tokens the user has with different company accounts in Pipedrive. These can be fetched without an API token but using the email and password of the user.
   class Authorizations < PipedriveRuby::Base
 
-    def all
-      create
+    def all(authorization)
+      create(authorization)
     end
 
+    private
     def_delegators :endpoints, :create
+
   end
 end
