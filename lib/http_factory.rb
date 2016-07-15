@@ -37,7 +37,6 @@ module PipedriveRuby
     end
 
     def remove_many(resources)
-      byebug
       ids = []
       resources.each do |resource|
         ids << resource['data']['id']
