@@ -22,4 +22,4 @@ describe 'Currencies', vcr: true do
   end # end of all
 
 
-end # end of Deals Resource
+end # end of Currencies Resource

@@ -8,7 +8,6 @@ module PipedriveRuby
   # Returns all supported currencies in given account which should be used when saving monetary values with other objects.
   # The 'code' parameter of the returning objects is the currency code according to ISO 4217 for all non-custom currencies.
   class Currencies < PipedriveRuby::Base
-
     def_delegators :endpoints, :all
   end
 end

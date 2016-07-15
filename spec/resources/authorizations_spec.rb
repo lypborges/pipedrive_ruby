@@ -15,7 +15,7 @@ describe 'Authorizations', vcr: true do
         response = @authorizations.all(valid_authorization)
         expect(response['success']).to be_truthy
       end
-      it 'return Hash with user_id inside data' do
+      it 'return Hash with a list' do
         response = @authorizations.all(valid_authorization)
         expect(response['data']).to respond_to(:each)
       end
@@ -30,4 +30,4 @@ describe 'Authorizations', vcr: true do
   end # end of all
 
 
-end # end of Deals Resource
+end # end of Authorizations Resource

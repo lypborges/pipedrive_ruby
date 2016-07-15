@@ -44,7 +44,7 @@ describe 'ActivityTypes', vcr: true do
 
   describe '#all' do
     context 'when success' do
-      it 'returns a list of deals' do
+      it 'returns a list of activity_types' do
         response = @activity_types.all
         expect(response['success']).to be_truthy
         expect(response['data']).to respond_to(:each)
@@ -94,4 +94,4 @@ describe 'ActivityTypes', vcr: true do
   end # end of delete_many
 
 
-end # end of Deals Resource
+end # end of ActivityTypes Resource

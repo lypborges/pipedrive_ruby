@@ -11,9 +11,9 @@ require 'resources/activities'
 require 'resources/activitiy_fields'
 require 'resources/activity_types'
 require 'resources/authorizations'
+require 'resources/currencies'
 
 # TODO (Felipe Borges Ferreira)
-require 'resources/currencies'
 require 'resources/deals_fields'
 require 'resources/email_messages'
 require 'resources/email_threads'
@@ -36,6 +36,7 @@ require 'resources/roles'
 require 'resources/search_results'
 require 'resources/stages'
 require 'resources/user_connections'
+#
 require 'resources/user_settings'
 require 'resources/users'
 

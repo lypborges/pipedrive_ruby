@@ -68,14 +68,14 @@ describe 'Organizations', vcr: true do
   describe '#update' do
     context 'when success' do
       it 'return success true' do
-        updated_deal = { 'id' => @organization['id'], 'name' => 'New Named' }
-        response = @organizations.update(updated_deal)
+        updated_organization = { 'id' => @organization['id'], 'name' => 'New Named' }
+        response = @organizations.update(updated_organization)
         expect(response['success']).to be_truthy
       end
       it 'return Hash with name inside data' do
-        updated_deal = { 'id' => @organization['id'], 'name' => 'New Named' }
-        response = @organizations.update(updated_deal)
-        expect(response['data']['name']).to be == updated_deal['name']
+        updated_organization = { 'id' => @organization['id'], 'name' => 'New Named' }
+        response = @organizations.update(updated_organization)
+        expect(response['data']['name']).to be == updated_organization['name']
       end
     end
 

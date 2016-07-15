@@ -9,7 +9,7 @@ describe 'ActivityFields', vcr: true do
 
   describe '#all' do
     context 'when success' do
-      it 'returns a list of deals' do
+      it 'returns a list of activity_fields' do
         response = @activity_fields.all
         expect(response['success']).to be_truthy
         expect(response['data']).to respond_to(:each)
@@ -18,4 +18,4 @@ describe 'ActivityFields', vcr: true do
   end # end of all
 
 
-end # end of Deals Resource
+end # end of ActivityFields Resource

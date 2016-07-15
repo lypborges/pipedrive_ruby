@@ -1,3 +1,6 @@
 # Lists settings of authorized user.
-class UserSettings
+module PipedriveRuby
+  class UserSettings < PipedriveRuby::Base
+    def_delegators :endpoints, :all
+  end
 end
