@@ -18,7 +18,9 @@ describe 'PushNotifications', vcr: true do
 
   after(:all) do
     # delete what left from test on sandbox
-    @push_notifications.remove_many(@push_notifications_response)
+    @push_notifications_response.each do |notification|
+      @push_notifications.remove(notification["data"])
+    end
   end
 
   describe '#create' do
