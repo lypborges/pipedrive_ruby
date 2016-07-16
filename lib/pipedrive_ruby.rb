@@ -12,9 +12,9 @@ require 'resources/activitiy_fields'
 require 'resources/activity_types'
 require 'resources/authorizations'
 require 'resources/currencies'
+require 'resources/deal_fields'
 
 # TODO (Felipe Borges Ferreira)
-require 'resources/deals_fields'
 require 'resources/email_messages'
 require 'resources/email_threads'
 require 'resources/files'

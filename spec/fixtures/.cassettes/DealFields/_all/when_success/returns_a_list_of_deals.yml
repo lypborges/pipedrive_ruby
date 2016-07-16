@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/dealFields?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 16 Jul 2016 13:59:30 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"id":12443,"key":"title","name":"T\u00edtulo","order_nr":1,"picklist_data":null,"field_type":"varchar","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"use_field":"id","link":"\/deal\/view\/","mandatory_flag":true},{"id":12444,"key":"creator_user_id","name":"Criador","order_nr":2,"picklist_data":null,"field_type":"user","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12445,"key":"user_id","name":"Propriet\u00e1rio","order_nr":3,"picklist_data":null,"field_type":"user","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true},{"id":12446,"key":"value","name":"Valor","order_nr":4,"picklist_data":null,"field_type":"monetary","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":null,"key":"currency","name":"Moeda","field_type":"varchar","edit_flag":false,"active_flag":true,"is_subfield":true,"mandatory_flag":true},{"id":12447,"key":"org_id","name":"Organiza\u00e7\u00e3o","order_nr":5,"picklist_data":null,"field_type":"org","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"person_id":"<=0"}},{"id":12448,"key":"pipeline","name":"Funil","order_nr":6,"picklist_data":null,"field_type":"double","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12449,"key":"person_id","name":"Pessoa
+        de contato","order_nr":7,"picklist_data":null,"field_type":"people","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"org_id":"<=0"}},{"id":12450,"key":"stage_id","name":"Etapa","order_nr":8,"picklist_data":null,"field_type":"stage","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"use_field":"stage","mandatory_flag":true},{"id":12451,"key":"status","name":"Status","order_nr":9,"field_type":"status","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"options":[{"id":"open","label":"Em
+        aberto"},{"id":"lost","label":"Perdido"},{"id":"won","label":"Ganho"},{"id":"deleted","label":"Exclu\u00eddo"}],"mandatory_flag":true},{"id":12452,"key":"add_time","name":"Neg\u00f3cio
+        criado em","order_nr":10,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true},{"id":12453,"key":"update_time","name":"Data
+        atualizada","order_nr":11,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12454,"key":"stage_change_time","name":"\u00daltima
+        altera\u00e7\u00e3o de etapa","order_nr":12,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12455,"key":"next_activity_date","name":"Data
+        da Pr\u00f3xima Atividade","order_nr":13,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12456,"key":"last_activity_date","name":"Data
+        da \u00daltima Atividade","order_nr":14,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12457,"key":"won_time","name":"Data
+        de ganho","order_nr":15,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"status":"=won"},"bulk_edit_allowed_conditions":{"status":"=won"}},{"id":12458,"key":"lost_time","name":"Data
+        de perda","order_nr":16,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"status":"=lost"},"bulk_edit_allowed_conditions":{"status":"=lost"}},{"id":12459,"key":"close_time","name":"Neg\u00f3cio
+        fechado em","order_nr":17,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12460,"key":"lost_reason","name":"Motivo
+        da perda","order_nr":18,"picklist_data":null,"field_type":"varchar_options","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"status":"=lost"},"bulk_edit_allowed_conditions":{"status":"=lost"}},{"id":12461,"key":"visible_to","name":"Vis\u00edvel
+        para","order_nr":19,"field_type":"visible_to","add_time":"2016-06-25 11:35:41","update_time":"2016-06-25
+        11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"options":[{"id":1,"label":"Propriet\u00e1rio
+        e seguidores"},{"id":3,"label":"Empresa inteira"}],"mandatory_flag":true},{"id":12462,"key":"id","name":"ID","order_nr":20,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12463,"key":"activities_count","name":"Total
+        de atividades","order_nr":21,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12464,"key":"done_activities_count","name":"Atividades
+        conclu\u00eddas","order_nr":22,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12465,"key":"undone_activities_count","name":"Atividades
+        por fazer","order_nr":23,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12466,"key":"email_messages_count","name":"N\u00famero
+        de mensagens de e-mail","order_nr":24,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12467,"key":"expected_close_date","name":"Data
+        de fechamento esperada","order_nr":25,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12529,"key":"ba4158d21c7536e4ab2debe6ad583ebdcd994754","name":"New
+        deal field","order_nr":87,"picklist_data":null,"field_type":"text","add_time":"2016-07-16
+        13:59:25","update_time":"2016-07-16 13:59:25","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12530,"key":"ec1b29f9a67244835ea97737f1bed518f27673c1","name":"New
+        deal field","order_nr":88,"picklist_data":null,"field_type":"text","add_time":"2016-07-16
+        13:59:26","update_time":"2016-07-16 13:59:26","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Sat, 16 Jul 2016 13:59:31 GMT
+recorded_with: VCR 3.0.3
