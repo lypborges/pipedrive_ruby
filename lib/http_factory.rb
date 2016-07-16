@@ -11,8 +11,9 @@ module PipedriveRuby
       @base_url = make_base_url(resource_name)
     end
 
-    def all
-      get(base_url, params: default_param).parse
+    def all(params={})
+      params.merge!(default_param)
+      get(base_url, params: params).parse
     end
 
     def find(id)

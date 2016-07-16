@@ -32,8 +32,8 @@ require 'resources/product_fields'
 require 'resources/products'
 
 require 'resources/push_notifications'
-
 require 'resources/recents'
+
 require 'resources/roles'
 require 'resources/search_results'
 require 'resources/stages'
