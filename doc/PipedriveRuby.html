@@ -81,7 +81,7 @@
   <dl>
     <dt>Defined in:</dt>
     <dd>lib/pipedrive_ruby.rb<span class="defines">,<br />
-  lib/http_factory.rb,<br /> lib/resources/base.rb,<br /> lib/resources/deals.rb,<br /> lib/pipedrive_client.rb,<br /> lib/resources/currencies.rb,<br /> lib/resources/activities.rb,<br /> lib/resources/deal_fields.rb,<br /> lib/pipedrive_ruby/version.rb,<br /> lib/resources/organizations.rb,<br /> lib/resources/user_settings.rb,<br /> lib/resources/authorizations.rb,<br /> lib/resources/activity_types.rb,<br /> lib/resources/user_connections.rb,<br /> lib/resources/activitiy_fields.rb,<br /> lib/resources/push_notifications.rb</span>
+  lib/http_factory.rb,<br /> lib/resources/base.rb,<br /> lib/resources/deals.rb,<br /> lib/pipedrive_client.rb,<br /> lib/resources/recents.rb,<br /> lib/resources/currencies.rb,<br /> lib/resources/activities.rb,<br /> lib/resources/deal_fields.rb,<br /> lib/pipedrive_ruby/version.rb,<br /> lib/resources/organizations.rb,<br /> lib/resources/user_settings.rb,<br /> lib/resources/authorizations.rb,<br /> lib/resources/activity_types.rb,<br /> lib/resources/search_results.rb,<br /> lib/resources/user_connections.rb,<br /> lib/resources/activitiy_fields.rb,<br /> lib/resources/push_notifications.rb</span>
 </dd>
   </dl>
   
@@ -111,7 +111,7 @@ for detailed documentation of web hooks.</p>
     
   
     
-      <strong class="classes">Classes:</strong> <span class='object_link'><a href="PipedriveRuby/Activities.html" title="PipedriveRuby::Activities (class)">Activities</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityFields.html" title="PipedriveRuby::ActivityFields (class)">ActivityFields</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityTypes.html" title="PipedriveRuby::ActivityTypes (class)">ActivityTypes</a></span>, <span class='object_link'><a href="PipedriveRuby/Authorizations.html" title="PipedriveRuby::Authorizations (class)">Authorizations</a></span>, <span class='object_link'><a href="PipedriveRuby/Base.html" title="PipedriveRuby::Base (class)">Base</a></span>, <span class='object_link'><a href="PipedriveRuby/Currencies.html" title="PipedriveRuby::Currencies (class)">Currencies</a></span>, <span class='object_link'><a href="PipedriveRuby/DealFields.html" title="PipedriveRuby::DealFields (class)">DealFields</a></span>, <span class='object_link'><a href="PipedriveRuby/Deals.html" title="PipedriveRuby::Deals (class)">Deals</a></span>, <span class='object_link'><a href="PipedriveRuby/HttpFactory.html" title="PipedriveRuby::HttpFactory (class)">HttpFactory</a></span>, <span class='object_link'><a href="PipedriveRuby/Organizations.html" title="PipedriveRuby::Organizations (class)">Organizations</a></span>, <span class='object_link'><a href="PipedriveRuby/PipedriveClient.html" title="PipedriveRuby::PipedriveClient (class)">PipedriveClient</a></span>, <span class='object_link'><a href="PipedriveRuby/PushNotifications.html" title="PipedriveRuby::PushNotifications (class)">PushNotifications</a></span>, <span class='object_link'><a href="PipedriveRuby/UserConnections.html" title="PipedriveRuby::UserConnections (class)">UserConnections</a></span>, <span class='object_link'><a href="PipedriveRuby/UserSettings.html" title="PipedriveRuby::UserSettings (class)">UserSettings</a></span>
+      <strong class="classes">Classes:</strong> <span class='object_link'><a href="PipedriveRuby/Activities.html" title="PipedriveRuby::Activities (class)">Activities</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityFields.html" title="PipedriveRuby::ActivityFields (class)">ActivityFields</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityTypes.html" title="PipedriveRuby::ActivityTypes (class)">ActivityTypes</a></span>, <span class='object_link'><a href="PipedriveRuby/Authorizations.html" title="PipedriveRuby::Authorizations (class)">Authorizations</a></span>, <span class='object_link'><a href="PipedriveRuby/Base.html" title="PipedriveRuby::Base (class)">Base</a></span>, <span class='object_link'><a href="PipedriveRuby/Currencies.html" title="PipedriveRuby::Currencies (class)">Currencies</a></span>, <span class='object_link'><a href="PipedriveRuby/DealFields.html" title="PipedriveRuby::DealFields (class)">DealFields</a></span>, <span class='object_link'><a href="PipedriveRuby/Deals.html" title="PipedriveRuby::Deals (class)">Deals</a></span>, <span class='object_link'><a href="PipedriveRuby/HttpFactory.html" title="PipedriveRuby::HttpFactory (class)">HttpFactory</a></span>, <span class='object_link'><a href="PipedriveRuby/Organizations.html" title="PipedriveRuby::Organizations (class)">Organizations</a></span>, <span class='object_link'><a href="PipedriveRuby/PipedriveClient.html" title="PipedriveRuby::PipedriveClient (class)">PipedriveClient</a></span>, <span class='object_link'><a href="PipedriveRuby/PushNotifications.html" title="PipedriveRuby::PushNotifications (class)">PushNotifications</a></span>, <span class='object_link'><a href="PipedriveRuby/Recents.html" title="PipedriveRuby::Recents (class)">Recents</a></span>, <span class='object_link'><a href="PipedriveRuby/SearchResults.html" title="PipedriveRuby::SearchResults (class)">SearchResults</a></span>, <span class='object_link'><a href="PipedriveRuby/UserConnections.html" title="PipedriveRuby::UserConnections (class)">UserConnections</a></span>, <span class='object_link'><a href="PipedriveRuby/UserSettings.html" title="PipedriveRuby::UserSettings (class)">UserSettings</a></span>
     
   
 </p>
@@ -120,12 +120,34 @@ for detailed documentation of web hooks.</p>
   <dl class="constants">
     
       <dt id="API_URL-constant" class="">API_URL =
-        
+        <div class="docstring">
+  <div class="discussion">
+    
+<p>this is the url for API V1</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
       </dt>
       <dd><pre class="code"><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>https://api.pipedrive.com/v1</span><span class='tstring_end'>&#39;</span></span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre></dd>
     
       <dt id="VERSION-constant" class="">VERSION =
-        
+        <div class="docstring">
+  <div class="discussion">
+    
+<p>version of gem</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
       </dt>
       <dd><pre class="code"><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>1.0.1.pre11</span><span class='tstring_end'>&quot;</span></span></pre></dd>
     
@@ -142,7 +164,7 @@ for detailed documentation of web hooks.</p>
 </div>
 
       <div id="footer">
-  Generated on Sat Jul 16 11:02:21 2016 by
+  Generated on Sat Jul 16 16:50:52 2016 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.0 (ruby-2.2.5).
 </div>

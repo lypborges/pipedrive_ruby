@@ -13,6 +13,12 @@ require 'resources/activity_types'
 require 'resources/authorizations'
 require 'resources/currencies'
 require 'resources/deal_fields'
+require 'resources/push_notifications'
+require 'resources/recents'
+require 'resources/search_results'
+require 'resources/user_settings'
+require 'resources/users'
+
 
 # TODO (Felipe Borges Ferreira)
 require 'resources/email_messages'
@@ -30,20 +36,14 @@ require 'resources/persons'
 require 'resources/pipelines'
 require 'resources/product_fields'
 require 'resources/products'
-
-require 'resources/push_notifications'
-require 'resources/recents'
-
 require 'resources/roles'
-require 'resources/search_results'
 require 'resources/stages'
 require 'resources/user_connections'
 #
-require 'resources/user_settings'
-require 'resources/users'
 
 # If you need to use the PipedriveAPI
 # https://developers.pipedrive.com/v1
 module PipedriveRuby
+  # this is the url for API V1
   API_URL = 'https://api.pipedrive.com/v1'.freeze
 end
