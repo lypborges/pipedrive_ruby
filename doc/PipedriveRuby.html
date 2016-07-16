@@ -81,7 +81,7 @@
   <dl>
     <dt>Defined in:</dt>
     <dd>lib/pipedrive_ruby.rb<span class="defines">,<br />
-  lib/http_factory.rb,<br /> lib/resources/base.rb,<br /> lib/resources/deals.rb,<br /> lib/pipedrive_client.rb,<br /> lib/resources/currencies.rb,<br /> lib/resources/activities.rb,<br /> lib/pipedrive_ruby/version.rb,<br /> lib/resources/user_settings.rb,<br /> lib/resources/organizations.rb,<br /> lib/resources/activity_types.rb,<br /> lib/resources/authorizations.rb,<br /> lib/resources/user_connections.rb,<br /> lib/resources/activitiy_fields.rb</span>
+  lib/http_factory.rb,<br /> lib/resources/base.rb,<br /> lib/resources/deals.rb,<br /> lib/pipedrive_client.rb,<br /> lib/resources/currencies.rb,<br /> lib/resources/activities.rb,<br /> lib/pipedrive_ruby/version.rb,<br /> lib/resources/user_settings.rb,<br /> lib/resources/organizations.rb,<br /> lib/resources/activity_types.rb,<br /> lib/resources/authorizations.rb,<br /> lib/resources/user_connections.rb,<br /> lib/resources/activitiy_fields.rb,<br /> lib/resources/push_notifications.rb</span>
 </dd>
   </dl>
   
@@ -90,7 +90,14 @@
 <h2>Overview</h2><div class="docstring">
   <div class="discussion">
     
-<p>ActivityFields represent different fields that Activity has.</p>
+<p>Manage subscriptions of push notifications / web hooks / REST hooks about
+data changes. A subscription means a designated HTTP(S) endpoint which will
+receive a request every time a certain event happens on your Pipedrive
+account. E.g. when you have subscribed to receive events about all new
+deals (&#39;deal.added&#39;), this HTTP(S) will receive a request per each
+such event. See <a
+href="https://app.pipedrive.com/push_notifications#dialog:/push_notifications/help">app.pipedrive.com/push_notifications#dialog:/push_notifications/help</a>
+for detailed documentation of web hooks.</p>
 
 
   </div>
@@ -104,7 +111,7 @@
     
   
     
-      <strong class="classes">Classes:</strong> <span class='object_link'><a href="PipedriveRuby/Activities.html" title="PipedriveRuby::Activities (class)">Activities</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityFields.html" title="PipedriveRuby::ActivityFields (class)">ActivityFields</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityTypes.html" title="PipedriveRuby::ActivityTypes (class)">ActivityTypes</a></span>, <span class='object_link'><a href="PipedriveRuby/Authorizations.html" title="PipedriveRuby::Authorizations (class)">Authorizations</a></span>, <span class='object_link'><a href="PipedriveRuby/Base.html" title="PipedriveRuby::Base (class)">Base</a></span>, <span class='object_link'><a href="PipedriveRuby/Currencies.html" title="PipedriveRuby::Currencies (class)">Currencies</a></span>, <span class='object_link'><a href="PipedriveRuby/Deals.html" title="PipedriveRuby::Deals (class)">Deals</a></span>, <span class='object_link'><a href="PipedriveRuby/HttpFactory.html" title="PipedriveRuby::HttpFactory (class)">HttpFactory</a></span>, <span class='object_link'><a href="PipedriveRuby/Organizations.html" title="PipedriveRuby::Organizations (class)">Organizations</a></span>, <span class='object_link'><a href="PipedriveRuby/PipedriveClient.html" title="PipedriveRuby::PipedriveClient (class)">PipedriveClient</a></span>, <span class='object_link'><a href="PipedriveRuby/UserConnections.html" title="PipedriveRuby::UserConnections (class)">UserConnections</a></span>, <span class='object_link'><a href="PipedriveRuby/UserSettings.html" title="PipedriveRuby::UserSettings (class)">UserSettings</a></span>
+      <strong class="classes">Classes:</strong> <span class='object_link'><a href="PipedriveRuby/Activities.html" title="PipedriveRuby::Activities (class)">Activities</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityFields.html" title="PipedriveRuby::ActivityFields (class)">ActivityFields</a></span>, <span class='object_link'><a href="PipedriveRuby/ActivityTypes.html" title="PipedriveRuby::ActivityTypes (class)">ActivityTypes</a></span>, <span class='object_link'><a href="PipedriveRuby/Authorizations.html" title="PipedriveRuby::Authorizations (class)">Authorizations</a></span>, <span class='object_link'><a href="PipedriveRuby/Base.html" title="PipedriveRuby::Base (class)">Base</a></span>, <span class='object_link'><a href="PipedriveRuby/Currencies.html" title="PipedriveRuby::Currencies (class)">Currencies</a></span>, <span class='object_link'><a href="PipedriveRuby/Deals.html" title="PipedriveRuby::Deals (class)">Deals</a></span>, <span class='object_link'><a href="PipedriveRuby/HttpFactory.html" title="PipedriveRuby::HttpFactory (class)">HttpFactory</a></span>, <span class='object_link'><a href="PipedriveRuby/Organizations.html" title="PipedriveRuby::Organizations (class)">Organizations</a></span>, <span class='object_link'><a href="PipedriveRuby/PipedriveClient.html" title="PipedriveRuby::PipedriveClient (class)">PipedriveClient</a></span>, <span class='object_link'><a href="PipedriveRuby/PushNotifications.html" title="PipedriveRuby::PushNotifications (class)">PushNotifications</a></span>, <span class='object_link'><a href="PipedriveRuby/UserConnections.html" title="PipedriveRuby::UserConnections (class)">UserConnections</a></span>, <span class='object_link'><a href="PipedriveRuby/UserSettings.html" title="PipedriveRuby::UserSettings (class)">UserSettings</a></span>
     
   
 </p>
@@ -135,7 +142,7 @@
 </div>
 
       <div id="footer">
-  Generated on Fri Jul 15 19:12:46 2016 by
+  Generated on Fri Jul 15 22:29:40 2016 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.0 (ruby-2.2.5).
 </div>
