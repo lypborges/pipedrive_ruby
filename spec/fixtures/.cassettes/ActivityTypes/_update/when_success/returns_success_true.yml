@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://api.pipedrive.com/v1/activityTypes/1?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"type":"email"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:22:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":1,"company_id":null,"order_nr":1,"name":"Ligar","key_string":"call","icon_key":"call","active_flag":false,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
+        11:35:41","update_time":"2016-07-19 18:22:00"}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:22:00 GMT
+recorded_with: VCR 3.0.3

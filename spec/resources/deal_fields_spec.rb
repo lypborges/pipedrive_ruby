@@ -9,11 +9,11 @@ describe 'DealFields', vcr: true do
     client = PipedriveRuby::PipedriveClient.new(ENV['API_TOKEN'])
     @deal_fields = client.deal_fields
     @deal_fields_response = []
-    2.times do |number|
-      @deal_fields_response << @deal_fields.create(:name => "#{number} - New deal field",:field_type => "text")
-    end
-    @deal_field = @deal_fields_response.first["data"]
-    @another_deal_field = @deal_fields_response.last["data"]
+  end
+
+  before(:each) do
+    @deal_field = @deal_fields.create(:name => "#{rand(99)} - New deal field",:field_type => "text")
+    @deal_fields_response << @deal_field
   end
 
   after(:all) do
@@ -44,8 +44,9 @@ describe 'DealFields', vcr: true do
   describe '#update' do
     context 'when success' do
       it 'return success true' do
-        @another_deal_field["name"] = "Other name"
-        response = @deal_fields.update(@another_deal_field)
+        another_deal_field = @deal_fields.create(:name => "#{rand(99)} - New deal field",:field_type => "text")
+        @deal_fields_response << another_deal_field
+        response = @deal_fields.update(another_deal_field['data'])
         expect(response['success']).to be_truthy
       end
     end
@@ -71,7 +72,7 @@ describe 'DealFields', vcr: true do
   describe '#delete' do
     context 'when success' do
       it 'returns success true' do
-        response = @deal_fields.remove(@deal_field)
+        response = @deal_fields.remove(@deal_field['data'])
         expect(response['success']).to be_truthy
       end
     end
@@ -95,7 +96,9 @@ describe 'DealFields', vcr: true do
   describe '#find' do
     context 'when success' do
       it 'returns success true' do
-        response = @deal_fields.find(@another_deal_field['id'])
+        another_deal_field = @deal_fields.create(:name => "#{rand(99)} - New deal field",:field_type => "text")
+        @deal_fields_response << another_deal_field
+        response = @deal_fields.find(another_deal_field['id'])
         expect(response['success']).to be_truthy
       end
     end

@@ -11,12 +11,15 @@ describe 'Products', vcr: true do
     @invalid_user = {'id' => 0}
     @products = client.products
     @products_response = []
-    2.times do |number|
-      @products_response << @products.create(name: "#{number} - Novo Produto")
-    end
-    all = @products.all
-    @product = all['data'].first
-    @another_deal = all['data'].last
+  end
+
+  before(:each) do
+    @product = @products.create(name: "#{rand(99)} - Novo Produto")
+    @products_response << @product
+    @another_deal = @products.create(name: "#{rand(99)} - Novo Produto")
+    @products_response << @another_deal
+    @product = @product['data']
+    @another_deal = @another_deal['data']
   end
 
   after(:all) do

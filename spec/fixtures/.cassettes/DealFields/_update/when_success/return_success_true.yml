@@ -1,0 +1,152 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"68 - New deal field","field_type":"text"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:24:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12708,"key":"c59512a0889c07d0aefb5e968bbf8a6502bc7621","name":"68
+        - New deal field","order_nr":264,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:54","update_time":"2016-07-19 18:24:54","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:24:55 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"73 - New deal field","field_type":"text"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:24:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '3'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12709,"key":"0f3bdbf5aaae7a8f3e0be47d20a4fa89e751ef9b","name":"73
+        - New deal field","order_nr":265,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:55","update_time":"2016-07-19 18:24:55","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:24:56 GMT
+- request:
+    method: put
+    uri: https://api.pipedrive.com/v1/dealFields/12709?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"id":12709,"key":"0f3bdbf5aaae7a8f3e0be47d20a4fa89e751ef9b","name":"73
+        - New deal field","order_nr":265,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:55","update_time":"2016-07-19 18:24:55","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:24:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12709,"key":"0f3bdbf5aaae7a8f3e0be47d20a4fa89e751ef9b","name":"73
+        - New deal field","order_nr":265,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:55","update_time":"2016-07-19 18:24:57","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:24:57 GMT
+recorded_with: VCR 3.0.3

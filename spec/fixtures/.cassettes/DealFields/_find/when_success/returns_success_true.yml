@@ -1,0 +1,265 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"96 - New deal field","field_type":"text"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:24:36 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12700,"key":"0fa0a53a05958069a2b2e43b26aed1b01c33ead4","name":"96
+        - New deal field","order_nr":256,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:36","update_time":"2016-07-19 18:24:35","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:24:36 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"55 - New deal field","field_type":"text"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:24:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '5'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12701,"key":"a327d4d3a7062900d0d9a55cc58d5fe84585d115","name":"55
+        - New deal field","order_nr":257,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:37","update_time":"2016-07-19 18:24:37","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:24:38 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/dealFields//?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:24:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '97'
+      X-Ratelimit-Reset:
+      - '4'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"id":12443,"key":"title","name":"T\u00edtulo","order_nr":1,"picklist_data":null,"field_type":"varchar","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"use_field":"id","link":"\/deal\/view\/","mandatory_flag":true},{"id":12444,"key":"creator_user_id","name":"Criador","order_nr":2,"picklist_data":null,"field_type":"user","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12445,"key":"user_id","name":"Propriet\u00e1rio","order_nr":3,"picklist_data":null,"field_type":"user","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true},{"id":12446,"key":"value","name":"Valor","order_nr":4,"picklist_data":null,"field_type":"monetary","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":null,"key":"currency","name":"Moeda","field_type":"varchar","edit_flag":false,"active_flag":true,"is_subfield":true,"mandatory_flag":true},{"id":12447,"key":"org_id","name":"Organiza\u00e7\u00e3o","order_nr":5,"picklist_data":null,"field_type":"org","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"person_id":"<=0"}},{"id":12448,"key":"pipeline","name":"Funil","order_nr":6,"picklist_data":null,"field_type":"double","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12449,"key":"person_id","name":"Pessoa
+        de contato","order_nr":7,"picklist_data":null,"field_type":"people","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"org_id":"<=0"}},{"id":12450,"key":"stage_id","name":"Etapa","order_nr":8,"picklist_data":null,"field_type":"stage","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"use_field":"stage","mandatory_flag":true},{"id":12451,"key":"status","name":"Status","order_nr":9,"field_type":"status","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"options":[{"id":"open","label":"Em
+        aberto"},{"id":"lost","label":"Perdido"},{"id":"won","label":"Ganho"},{"id":"deleted","label":"Exclu\u00eddo"}],"mandatory_flag":true},{"id":12452,"key":"add_time","name":"Neg\u00f3cio
+        criado em","order_nr":10,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true},{"id":12453,"key":"update_time","name":"Data
+        atualizada","order_nr":11,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12454,"key":"stage_change_time","name":"\u00daltima
+        altera\u00e7\u00e3o de etapa","order_nr":12,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12455,"key":"next_activity_date","name":"Data
+        da Pr\u00f3xima Atividade","order_nr":13,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12456,"key":"last_activity_date","name":"Data
+        da \u00daltima Atividade","order_nr":14,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12457,"key":"won_time","name":"Data
+        de ganho","order_nr":15,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"status":"=won"},"bulk_edit_allowed_conditions":{"status":"=won"}},{"id":12458,"key":"lost_time","name":"Data
+        de perda","order_nr":16,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"status":"=lost"},"bulk_edit_allowed_conditions":{"status":"=lost"}},{"id":12459,"key":"close_time","name":"Neg\u00f3cio
+        fechado em","order_nr":17,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12460,"key":"lost_reason","name":"Motivo
+        da perda","order_nr":18,"picklist_data":null,"field_type":"varchar_options","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":{"status":"=lost"},"bulk_edit_allowed_conditions":{"status":"=lost"}},{"id":12461,"key":"visible_to","name":"Vis\u00edvel
+        para","order_nr":19,"field_type":"visible_to","add_time":"2016-06-25 11:35:41","update_time":"2016-06-25
+        11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"options":[{"id":1,"label":"Propriet\u00e1rio
+        e seguidores"},{"id":3,"label":"Empresa inteira"}],"mandatory_flag":true},{"id":12462,"key":"id","name":"ID","order_nr":20,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12463,"key":"activities_count","name":"Total
+        de atividades","order_nr":21,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12464,"key":"done_activities_count","name":"Atividades
+        conclu\u00eddas","order_nr":22,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12465,"key":"undone_activities_count","name":"Atividades
+        por fazer","order_nr":23,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12466,"key":"email_messages_count","name":"N\u00famero
+        de mensagens de e-mail","order_nr":24,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":12467,"key":"expected_close_date","name":"Data
+        de fechamento esperada","order_nr":25,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:41","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12569,"key":"687e4a4b59396708b18e98c08af9998411653cb7","name":"New
+        deal field","order_nr":127,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        12:30:15","update_time":"2016-07-19 12:30:14","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12570,"key":"e24071f86800683b9c3aae8f4fa107a44d41d38a","name":"New
+        deal field","order_nr":128,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        12:30:16","update_time":"2016-07-19 12:30:16","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12573,"key":"b99e06af3574fb7fd02aedbae266f9ec40c3d215","name":"New
+        deal field","order_nr":131,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        12:37:33","update_time":"2016-07-19 12:37:33","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12574,"key":"ea4f001195e795bd9754c844f36aac0430def3f0","name":"New
+        deal field","order_nr":132,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        12:37:35","update_time":"2016-07-19 12:37:35","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12577,"key":"85bd271231a5d76b0ab9f1419639f657ec0ecc79","name":"New
+        deal field","order_nr":135,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        12:52:52","update_time":"2016-07-19 12:52:52","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12578,"key":"6de25b2b6d75eaaaebdbd9f3e64dd934016e98fc","name":"New
+        deal field","order_nr":136,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        12:52:54","update_time":"2016-07-19 12:52:54","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12583,"key":"ef932eb500ea7638cf072b7a8f270b6aa25c87d2","name":"New
+        deal field","order_nr":141,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        15:46:41","update_time":"2016-07-19 15:46:41","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12584,"key":"e0fdb8c07676b43e9a3046cce8cf9eaf0fa303ea","name":"New
+        deal field","order_nr":142,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        15:46:43","update_time":"2016-07-19 15:46:42","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12595,"key":"9308aaec661c8159109f92fe126a2240351137cb","name":"Other
+        name","order_nr":152,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        16:46:23","update_time":"2016-07-19 16:46:24","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12625,"key":"88b6feda9e27045b75371c13923abdf58c488be4","name":"New
+        deal field","order_nr":181,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:47:29","update_time":"2016-07-19 17:47:28","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12626,"key":"2aa3419db78ad8901dc1e138bafafe9962ccfafa","name":"New
+        deal field","order_nr":182,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:47:29","update_time":"2016-07-19 17:47:29","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12629,"key":"df1901e43fe0b46ebaab41f2c6e89d1fc155503b","name":"New
+        deal field","order_nr":185,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:47:49","update_time":"2016-07-19 17:47:49","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12630,"key":"6b1f2d9a55b0ee39792eb7bd434992229fb50537","name":"New
+        deal field","order_nr":186,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:47:50","update_time":"2016-07-19 17:47:50","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12633,"key":"36a321bb18c1d45e63980575224a7b96c7028792","name":"New
+        deal field","order_nr":189,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:47:55","update_time":"2016-07-19 17:47:55","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12634,"key":"ed2ccc105bd19593b5bbed1a2027f298db8ce272","name":"New
+        deal field","order_nr":190,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:47:56","update_time":"2016-07-19 17:47:56","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12637,"key":"4c88514cb843ed97cffe4844f16ecf9833fe1d66","name":"New
+        deal field","order_nr":193,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:48:00","update_time":"2016-07-19 17:48:00","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12638,"key":"c1765dc892793e841286b98748c9e07d66c0a9f2","name":"New
+        deal field","order_nr":194,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:48:01","update_time":"2016-07-19 17:48:01","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12641,"key":"3aece9ef84ececfbdcd4ce3caef5b46bff882a1a","name":"New
+        deal field","order_nr":197,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:52:04","update_time":"2016-07-19 17:52:04","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12642,"key":"4f4375feeb12d9628b5073cb530dda05846d197b","name":"New
+        deal field","order_nr":198,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:52:05","update_time":"2016-07-19 17:52:05","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12645,"key":"f4d3e9c5775b33b0b4faa9a5276069cc1e029966","name":"New
+        deal field","order_nr":201,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:52:26","update_time":"2016-07-19 17:52:26","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12646,"key":"3da823476d87528db8885c5eea287c935aeb6eb8","name":"New
+        deal field","order_nr":202,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:52:27","update_time":"2016-07-19 17:52:27","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12651,"key":"7a57ac064bad1ead5bf538825713662c6f79ff3e","name":"68
+        - New deal field","order_nr":207,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:59:15","update_time":"2016-07-19 17:59:15","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12652,"key":"e3243d19f550b5c9962616945eba8662310449d1","name":"New
+        deal field","order_nr":208,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:59:17","update_time":"2016-07-19 17:59:17","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12653,"key":"117ece456e52a2767d1c9eba1b355ac3fdfae1db","name":"New
+        deal field","order_nr":209,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        17:59:18","update_time":"2016-07-19 17:59:18","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12655,"key":"2a33d01c0f968517452e32333908d8fe4d610ccb","name":"1
+        - New deal field","order_nr":211,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:03:30","update_time":"2016-07-19 18:03:30","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12656,"key":"e2b460a5da1e838f5ad119c62cf109b2448a3e07","name":"34
+        - New deal field","order_nr":212,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:03:34","update_time":"2016-07-19 18:03:34","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12658,"key":"527bc671ca06edb1d0e9815dcc03e60ce1da37c5","name":"1
+        - New deal field","order_nr":214,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:04:03","update_time":"2016-07-19 18:04:02","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12660,"key":"5d946ee03b8e5e474c0de6be2d89491eb193a013","name":"1
+        - New deal field","order_nr":216,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:04:33","update_time":"2016-07-19 18:04:33","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12663,"key":"d0fed977c406f6de8c05cd3adf8156bbeefa0727","name":"New
+        deal field","order_nr":219,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:05:03","update_time":"2016-07-19 18:05:02","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12664,"key":"6de9db34e69d8866c5a0197ebec15ba853062594","name":"New
+        deal field","order_nr":220,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:05:04","update_time":"2016-07-19 18:05:04","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12673,"key":"5ddb9d9e6aa15e7075ada83c278828a81d166db9","name":"New
+        deal field","order_nr":229,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:08:42","update_time":"2016-07-19 18:08:42","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12675,"key":"b7a7066807f2d2f92e9e19a8a138e44e324255b6","name":"New
+        deal field","order_nr":231,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:08:45","update_time":"2016-07-19 18:08:45","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12693,"key":"e64964150e56f9c248a49640f219e852a80d207a","name":"New
+        deal field","order_nr":249,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:10:35","update_time":"2016-07-19 18:10:35","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12695,"key":"d47c86a8ec287e996b16827e29c7547e27946e8d","name":"New
+        deal field","order_nr":251,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:10:38","update_time":"2016-07-19 18:10:38","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12697,"key":"ba7dc39acedf096d5ccdd40b26ff25b39b0b10ff","name":"30
+        - New deal field","order_nr":253,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:28","update_time":"2016-07-19 18:24:28","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12699,"key":"51d44dc35624f6e1bf7e0c885783e2b02cf30ac1","name":"29
+        - New deal field","order_nr":255,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:33","update_time":"2016-07-19 18:24:33","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12700,"key":"0fa0a53a05958069a2b2e43b26aed1b01c33ead4","name":"96
+        - New deal field","order_nr":256,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:36","update_time":"2016-07-19 18:24:35","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12701,"key":"a327d4d3a7062900d0d9a55cc58d5fe84585d115","name":"55
+        - New deal field","order_nr":257,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        18:24:37","update_time":"2016-07-19 18:24:37","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:24:39 GMT
+recorded_with: VCR 3.0.3
