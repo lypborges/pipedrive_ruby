@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.pipedrive.com/v1/products/200/followers?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/221/followers?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":200,"user_id":"742863"}'
+      string: '{"id":221,"user_id":"742863"}'
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:37:52 GMT
+      - Tue, 19 Jul 2016 17:06:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,16 +44,16 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"user_id":742863,"id":55,"product_id":200,"add_time":"2016-07-19
-        16:37:51"}}'
+      string: '{"success":true,"data":{"user_id":742863,"id":70,"product_id":221,"add_time":"2016-07-19
+        17:06:34"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:37:53 GMT
+  recorded_at: Tue, 19 Jul 2016 17:06:35 GMT
 - request:
     method: delete
-    uri: https://api.pipedrive.com/v1/products/200/followers/55?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/221/followers/70?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":200,"user_id":55}'
+      string: '{"id":221,"user_id":70}'
     headers:
       Connection:
       - close
@@ -71,7 +71,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:37:53 GMT
+      - Tue, 19 Jul 2016 17:06:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -92,15 +92,15 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":55}}'
+      string: '{"success":true,"data":{"id":70}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:37:54 GMT
+  recorded_at: Tue, 19 Jul 2016 17:06:36 GMT
 - request:
     method: post
-    uri: https://api.pipedrive.com/v1/products/202/followers?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/224/followers?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":202,"user_id":"742863"}'
+      string: '{"id":224,"user_id":"742863"}'
     headers:
       Connection:
       - close
@@ -118,7 +118,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:38:09 GMT
+      - Tue, 19 Jul 2016 17:07:04 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -139,16 +139,16 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"user_id":742863,"id":58,"product_id":202,"add_time":"2016-07-19
-        16:38:09"}}'
+      string: '{"success":true,"data":{"user_id":742863,"id":73,"product_id":224,"add_time":"2016-07-19
+        17:07:04"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:38:10 GMT
+  recorded_at: Tue, 19 Jul 2016 17:07:04 GMT
 - request:
     method: delete
-    uri: https://api.pipedrive.com/v1/products/202/followers/58?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/224/followers/73?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":202,"user_id":58}'
+      string: '{"id":224,"user_id":73}'
     headers:
       Connection:
       - close
@@ -166,7 +166,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:38:10 GMT
+      - Tue, 19 Jul 2016 17:07:04 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -187,7 +187,7 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":58}}'
+      string: '{"success":true,"data":{"id":73}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:38:11 GMT
+  recorded_at: Tue, 19 Jul 2016 17:07:05 GMT
 recorded_with: VCR 3.0.3

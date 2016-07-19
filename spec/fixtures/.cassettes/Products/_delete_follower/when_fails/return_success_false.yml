@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.pipedrive.com/v1/products/200/followers?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/221/followers?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":200,"user_id":"742863"}'
+      string: '{"id":221,"user_id":"742863"}'
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:37:54 GMT
+      - Tue, 19 Jul 2016 17:06:36 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,16 +44,16 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"user_id":742863,"id":57,"product_id":200,"add_time":"2016-07-19
-        16:37:54"}}'
+      string: '{"success":true,"data":{"user_id":742863,"id":71,"product_id":221,"add_time":"2016-07-19
+        17:06:36"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:37:55 GMT
+  recorded_at: Tue, 19 Jul 2016 17:06:37 GMT
 - request:
     method: delete
-    uri: https://api.pipedrive.com/v1/products/200/followers/0?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/221/followers/0?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":200,"user_id":0}'
+      string: '{"id":221,"user_id":0}'
     headers:
       Connection:
       - close
@@ -71,7 +71,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:37:55 GMT
+      - Tue, 19 Jul 2016 17:06:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -95,13 +95,13 @@ http_interactions:
       string: '{"success":false,"error":"Follower not found","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:37:55 GMT
+  recorded_at: Tue, 19 Jul 2016 17:06:38 GMT
 - request:
     method: post
-    uri: https://api.pipedrive.com/v1/products/202/followers?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/224/followers?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":202,"user_id":"742863"}'
+      string: '{"id":224,"user_id":"742863"}'
     headers:
       Connection:
       - close
@@ -119,7 +119,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:38:11 GMT
+      - Tue, 19 Jul 2016 17:07:05 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -140,16 +140,16 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"user_id":742863,"id":59,"product_id":202,"add_time":"2016-07-19
-        16:38:11"}}'
+      string: '{"success":true,"data":{"user_id":742863,"id":74,"product_id":224,"add_time":"2016-07-19
+        17:07:05"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:38:12 GMT
+  recorded_at: Tue, 19 Jul 2016 17:07:06 GMT
 - request:
     method: delete
-    uri: https://api.pipedrive.com/v1/products/202/followers/0?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/224/followers/0?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":202,"user_id":0}'
+      string: '{"id":224,"user_id":0}'
     headers:
       Connection:
       - close
@@ -167,7 +167,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:38:12 GMT
+      - Tue, 19 Jul 2016 17:07:06 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -181,9 +181,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '98'
       X-Ratelimit-Reset:
-      - '10'
+      - '7'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -191,5 +191,5 @@ http_interactions:
       string: '{"success":false,"error":"Follower not found","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:38:12 GMT
+  recorded_at: Tue, 19 Jul 2016 17:07:07 GMT
 recorded_with: VCR 3.0.3

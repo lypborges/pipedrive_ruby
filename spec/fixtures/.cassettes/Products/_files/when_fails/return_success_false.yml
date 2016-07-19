@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:37:41 GMT
+      - Tue, 19 Jul 2016 17:06:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,14 +35,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '98'
+      - '99'
       X-Ratelimit-Reset:
-      - '4'
+      - '10'
       Access-Control-Allow-Origin:
       - "*"
     body:
       encoding: ASCII-8BIT
       string: '{"status":false,"error":"Unknown method ."}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:37:42 GMT
+  recorded_at: Tue, 19 Jul 2016 17:06:38 GMT
 recorded_with: VCR 3.0.3

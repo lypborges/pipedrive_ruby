@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.pipedrive.com/v1/products/200/followers?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/221/followers?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":200,"user_id":0}'
+      string: '{"id":221,"user_id":0}'
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:37:51 GMT
+      - Tue, 19 Jul 2016 17:06:43 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -47,13 +47,13 @@ http_interactions:
       string: '{"success":false,"error":"user_id must be given","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:37:52 GMT
+  recorded_at: Tue, 19 Jul 2016 17:06:44 GMT
 - request:
     method: post
-    uri: https://api.pipedrive.com/v1/products/202/followers?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/224/followers?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":202,"user_id":0}'
+      string: '{"id":224,"user_id":0}'
     headers:
       Connection:
       - close
@@ -71,7 +71,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:38:16 GMT
+      - Tue, 19 Jul 2016 17:07:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -87,7 +87,7 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '98'
       X-Ratelimit-Reset:
-      - '7'
+      - '9'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -95,5 +95,5 @@ http_interactions:
       string: '{"success":false,"error":"user_id must be given","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:38:16 GMT
+  recorded_at: Tue, 19 Jul 2016 17:07:11 GMT
 recorded_with: VCR 3.0.3

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/products/200/deals?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/221/deals?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:37:44 GMT
+      - Tue, 19 Jul 2016 17:06:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,19 +35,19 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '98'
       X-Ratelimit-Reset:
-      - '10'
+      - '2'
       Access-Control-Allow-Origin:
       - "*"
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:37:45 GMT
+  recorded_at: Tue, 19 Jul 2016 17:06:41 GMT
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/products/202/deals?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/224/deals?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -66,7 +66,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 16:38:12 GMT
+      - Tue, 19 Jul 2016 17:07:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -89,5 +89,5 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 16:38:13 GMT
+  recorded_at: Tue, 19 Jul 2016 17:07:12 GMT
 recorded_with: VCR 3.0.3

@@ -19,6 +19,13 @@ describe 'Products', vcr: true do
     @another_deal = all['data'].last
   end
 
+  after(:all) do
+    # delete what left from test on sandbox
+    @products_response.each do |product|
+      @products.remove(product["data"])
+    end
+  end
+
   describe '#add_follower' do
     context 'when success' do
       it 'return success true' do
@@ -64,23 +71,6 @@ describe 'Products', vcr: true do
       end
     end
   end # end of all
-
-  describe '#update' do
-    context 'when success' do
-      it 'returns success true' do
-        updated_deal = { 'id' => @product['id'], 'name' => "Other product" }
-        response = @products.update(updated_deal)
-        expect(response['success']).to be_truthy
-      end
-    end
-
-    context 'when not found' do
-      it 'returns success false' do
-        response = @products.update(not_found_deal)
-        expect(response['success']).to be_falsey
-      end
-    end
-  end # end of create
 
   describe '#delete' do
     context 'when success' do
