@@ -1,8 +1,8 @@
 ---
 http_interactions:
 - request:
-    method: delete
-    uri: https://api.pipedrive.com/v1/deals/?api_token=<API_KEY>
+    method: get
+    uri: https://api.pipedrive.com/v1/products/0/deals?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -15,13 +15,13 @@ http_interactions:
       - http.rb/2.0.2
   response:
     status:
-      code: 400
-      message: Bad Request
+      code: 200
+      message: OK
     headers:
       Server:
       - nginx
       Date:
-      - Sat, 16 Jul 2016 19:12:23 GMT
+      - Tue, 19 Jul 2016 12:53:54 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -42,8 +42,7 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":false,"error":"Please provide at least one item to delete","error_info":"Please
-        check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
+      string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Sat, 16 Jul 2016 19:12:24 GMT
+  recorded_at: Tue, 19 Jul 2016 12:53:54 GMT
 recorded_with: VCR 3.0.3

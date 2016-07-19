@@ -18,6 +18,7 @@ require 'resources/recents'
 require 'resources/search_results'
 require 'resources/user_settings'
 require 'resources/users'
+require 'resources/products'
 
 
 # TODO (Felipe Borges Ferreira)
@@ -35,7 +36,6 @@ require 'resources/person_fields'
 require 'resources/persons'
 require 'resources/pipelines'
 require 'resources/product_fields'
-require 'resources/products'
 require 'resources/roles'
 require 'resources/stages'
 require 'resources/user_connections'

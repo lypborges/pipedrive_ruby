@@ -2,57 +2,6 @@
 http_interactions:
 - request:
     method: put
-    uri: https://api.pipedrive.com/v1/organizations/1?api_token=<API_KEY>
-    body:
-      encoding: UTF-8
-      string: '{"id":1,"name":"New Named"}'
-    headers:
-      Connection:
-      - close
-      Content-Type:
-      - application/json; charset=UTF-8
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Thu, 14 Jul 2016 11:03:41 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":1,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
-        Named","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":1,"activities_count":1,"done_activities_count":0,"undone_activities_count":1,"reference_activities_count":0,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-14
-        11:03:41","add_time":"2016-06-30 12:23:37","visible_to":"3","next_activity_date":"2016-07-04","next_activity_time":null,"next_activity_id":1,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"prepared-tray@pipedrivemail.com"},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
-    http_version: 
-  recorded_at: Thu, 14 Jul 2016 11:03:41 GMT
-- request:
-    method: put
     uri: https://api.pipedrive.com/v1/organizations/166?api_token=<API_KEY>
     body:
       encoding: UTF-8
@@ -74,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 15 Jul 2016 22:05:27 GMT
+      - Tue, 19 Jul 2016 12:52:32 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -97,9 +46,9 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":{"id":166,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
-        Named","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-15
-        22:05:27","add_time":"2016-07-08 23:56:49","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"prepared-tray@pipedrivemail.com"},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Named","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-19
+        12:52:32","add_time":"2016-07-08 23:56:49","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"prepared-tray@pipedrivemail.com"},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Fri, 15 Jul 2016 22:05:27 GMT
+  recorded_at: Tue, 19 Jul 2016 12:52:32 GMT
 recorded_with: VCR 3.0.3

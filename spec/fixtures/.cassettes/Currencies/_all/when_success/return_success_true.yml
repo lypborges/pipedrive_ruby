@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 15 Jul 2016 12:05:02 GMT
+      - Tue, 19 Jul 2016 12:52:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,9 +35,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '98'
       X-Ratelimit-Reset:
-      - '10'
+      - '8'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -214,5 +214,5 @@ http_interactions:
         Kwacha","decimal_points":2,"symbol":"ZMW","active_flag":true,"is_custom_flag":false},{"id":167,"code":"ZWL","name":"Zimbabwe
         Dollar","decimal_points":2,"symbol":"ZWL","active_flag":true,"is_custom_flag":false}]}'
     http_version: 
-  recorded_at: Fri, 15 Jul 2016 12:05:03 GMT
+  recorded_at: Tue, 19 Jul 2016 12:52:34 GMT
 recorded_with: VCR 3.0.3

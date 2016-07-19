@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/deals/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"ids":"996,997"}'
+      string: '{"ids":"1359,1360"}'
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 14 Jul 2016 11:04:09 GMT
+      - Tue, 19 Jul 2016 12:53:30 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -37,14 +37,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '98'
       X-Ratelimit-Reset:
-      - '10'
+      - '4'
       Access-Control-Allow-Origin:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":["996","997"]}}'
+      string: '{"success":true,"data":{"id":["1359","1360"]}}'
     http_version: 
-  recorded_at: Thu, 14 Jul 2016 11:04:09 GMT
+  recorded_at: Tue, 19 Jul 2016 12:53:31 GMT
 recorded_with: VCR 3.0.3

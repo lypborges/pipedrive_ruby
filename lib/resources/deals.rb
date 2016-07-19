@@ -9,10 +9,6 @@ module PipedriveRuby
         def add_followers(deal, user)
         end
 
-        def followers(deal)
-          custom_get(:path => "#{deal['id']}/followers")
-        end
-
         def delete_follower(deal, user)
         end
 
@@ -49,26 +45,30 @@ module PipedriveRuby
         def delete_participant(deal, participant)
         end
 
-        def files(deal)
-          custom_get(:path => "#{deal['id']}/files")
-        end
-
-        def permitted_users(deal)
-          custom_get(:path => "#{deal['id']}/permittedUsers")
-        end
-
         def emails(deal)
           custom_get(:path => "#{deal['id']}/emailMessages")
         end
 
-        def find_by_title(title)
-            custom_get(:path => "find/", :params => {:term => title})
+        def find_by_title(term)
+            find_by(term)
         end
 
         def timeline
         end
 
-        def_delegators :endpoints, :all, :find, :create, :update, :remove, :remove_many, :duplicate, :merge
+        def_delegators :endpoints,
+                                  :all,
+                                  :find,
+                                  :find_by,
+                                  :files,
+                                  :followers,
+                                  :create,
+                                  :duplicate,
+                                  :merge,
+                                  :permitted_users,
+                                  :remove,
+                                  :remove_many,
+                                  :update
 
     end
 end

@@ -4,20 +4,18 @@ module PipedriveRuby
     extend Forwardable
     include HTTP::Chainable
 
-    attr_reader :client, :base_url
+    attr_reader :client, :base_url, :class_name, :default_param
 
     def initialize(resource_name, client)
       @client = client
-      @base_url = make_base_url(resource_name)
+      @class_name = resource_name
+      @default_param = { api_token: @client.api_token }
+      @base_url = make_base_url
     end
 
     def all(params={})
       params.merge!(default_param)
       get(base_url, params: params).parse
-    end
-
-    def find(id)
-      get("#{base_url}/#{id}", params: default_param).parse
     end
 
     def create(resource)
@@ -26,10 +24,45 @@ module PipedriveRuby
            json: resource).parse
     end
 
-    def update(resource)
-      put("#{base_url}/#{resource['id']}",
-          params: default_param,
-          json: resource).parse
+    def custom_get(options={})
+      default_options = {:method => :get}
+      options.merge!(default_options)
+      custom_request(options)
+    end
+
+    def duplicate(resource)
+      post("#{base_url}/#{resource['id']}/duplicate",
+           params: default_param).parse
+    end
+
+    def find(id)
+      get("#{base_url}/#{id}", params: default_param).parse
+    end
+
+    def find_by(term)
+        custom_get(:path => "find/", :params => {:term => term})
+    end
+
+    def files(resource)
+      get("#{base_url}/#{resource['id']}/files",params: default_param).parse
+    end
+
+    def followers(resource)
+      custom_get(:path => "#{resource['id']}/followers")
+    end
+
+    def merge(resource, merge_with_resource)
+      id = resource['id']
+      post("#{base_url}/#{id}/merge",
+           params: default_param,
+           form: {
+             id: id,
+             merge_with_id: merge_with_resource['id']
+           }).parse
+    end
+
+    def permitted_users(resource)
+      get("#{base_url}/#{resource['id']}/permittedUsers",params: default_param).parse
     end
 
     def remove(resource)
@@ -47,34 +80,15 @@ module PipedriveRuby
              json: { ids: ids.join(',') }).parse
     end
 
-    def duplicate(resource)
-      post("#{base_url}/#{resource['id']}/duplicate",
-           params: default_param).parse
-    end
-
-    def merge(resource, merge_with_resource)
-      id = resource['id']
-      post("#{base_url}/#{id}/merge",
-           params: default_param,
-           form: {
-             id: id,
-             merge_with_id: merge_with_resource['id']
-           }).parse
-    end
-
-    def custom_get(options={})
-      default_options = {:method => :get}
-      options.merge!(default_options)
-      custom_request(options)
+    def update(resource)
+      put("#{base_url}/#{resource['id']}",
+          params: default_param,
+          json: resource).parse
     end
 
     private
 
-    def default_param
-      { api_token: @client.api_token }
-    end
-
-    def make_base_url(class_name)
+    def make_base_url
       length = class_name.size
       resource_name =  class_name.split('::').last
       resource = resource_name[0].downcase + resource_name[1, length]

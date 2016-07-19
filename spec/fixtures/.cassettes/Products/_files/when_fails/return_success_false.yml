@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/deals/timeline/?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products//files?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -15,13 +15,13 @@ http_interactions:
       - http.rb/2.0.2
   response:
     status:
-      code: 400
-      message: Bad Request
+      code: 404
+      message: Not Found
     headers:
       Server:
       - nginx
       Date:
-      - Thu, 14 Jul 2016 12:50:58 GMT
+      - Tue, 19 Jul 2016 12:53:55 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,15 +35,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '97'
       X-Ratelimit-Reset:
-      - '10'
+      - '1'
       Access-Control-Allow-Origin:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":false,"error":"Start date must be given.","error_info":"Please
-        check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
+      string: '{"status":false,"error":"Unknown method ."}'
     http_version: 
-  recorded_at: Thu, 14 Jul 2016 12:50:59 GMT
+  recorded_at: Tue, 19 Jul 2016 12:53:56 GMT
 recorded_with: VCR 3.0.3

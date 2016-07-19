@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 16 Jul 2016 13:59:26 GMT
+      - Tue, 19 Jul 2016 12:52:53 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,9 +44,9 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12530,"key":"ec1b29f9a67244835ea97737f1bed518f27673c1","name":"New
-        deal field","order_nr":88,"picklist_data":null,"field_type":"text","add_time":"2016-07-16
-        13:59:26","update_time":"2016-07-16 13:59:26","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+      string: '{"success":true,"data":{"id":12577,"key":"85bd271231a5d76b0ab9f1419639f657ec0ecc79","name":"New
+        deal field","order_nr":135,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        12:52:52","update_time":"2016-07-19 12:52:52","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
     http_version: 
-  recorded_at: Sat, 16 Jul 2016 13:59:27 GMT
+  recorded_at: Tue, 19 Jul 2016 12:52:53 GMT
 recorded_with: VCR 3.0.3
