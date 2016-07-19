@@ -200,4 +200,21 @@ describe 'Products', vcr: true do
     end
   end # end of files
 
+  describe '#update' do
+    context 'when success' do
+      it 'returns success true' do
+        @products_response << @products.create(name: "#{rand(99)} - Novo Produto")
+        response = @products.update(@products_response.last['data'])
+        expect(response['success']).to be_truthy
+      end
+    end
+
+    context 'when not found' do
+      it 'returns success false' do
+        response = @products.update(not_found_deal)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of update
+
 end # end of Products Resource
