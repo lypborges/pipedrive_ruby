@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/products/68/deals?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/200/deals?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:53:53 GMT
+      - Tue, 19 Jul 2016 16:37:44 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,14 +35,59 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '98'
+      - '99'
       X-Ratelimit-Reset:
-      - '3'
+      - '10'
       Access-Control-Allow-Origin:
       - "*"
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:53:53 GMT
+  recorded_at: Tue, 19 Jul 2016 16:37:45 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/products/202/deals?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 16:38:12 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 16:38:13 GMT
 recorded_with: VCR 3.0.3

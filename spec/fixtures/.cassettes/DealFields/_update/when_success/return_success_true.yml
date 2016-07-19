@@ -2,12 +2,12 @@
 http_interactions:
 - request:
     method: put
-    uri: https://api.pipedrive.com/v1/dealFields/12580?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/dealFields/12582?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":12580,"key":"7ccad368c8213740996dd1f60392f60e41f06463","name":"Other
-        name","order_nr":138,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
-        12:56:49","update_time":"2016-07-19 12:56:49","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}'
+      string: '{"id":12582,"key":"eced4a57d94aef481f8737f9ce2d2265b6014d47","name":"Other
+        name","order_nr":140,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        15:46:37","update_time":"2016-07-19 15:46:37","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}'
     headers:
       Connection:
       - close
@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:56:51 GMT
+      - Tue, 19 Jul 2016 15:46:38 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -46,9 +46,111 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12580,"key":"7ccad368c8213740996dd1f60392f60e41f06463","name":"Other
-        name","order_nr":138,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
-        12:56:49","update_time":"2016-07-19 12:56:51","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+      string: '{"success":true,"data":{"id":12582,"key":"eced4a57d94aef481f8737f9ce2d2265b6014d47","name":"Other
+        name","order_nr":140,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        15:46:37","update_time":"2016-07-19 15:46:38","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:56:51 GMT
+  recorded_at: Tue, 19 Jul 2016 15:46:39 GMT
+- request:
+    method: put
+    uri: https://api.pipedrive.com/v1/dealFields/12586?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"id":12586,"key":"60fb0ff9c5d5c14bacd692b1857c3c64db5f7f99","name":"Other
+        name","order_nr":144,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        15:47:06","update_time":"2016-07-19 15:47:06","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 15:47:09 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12586,"key":"60fb0ff9c5d5c14bacd692b1857c3c64db5f7f99","name":"Other
+        name","order_nr":144,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        15:47:06","update_time":"2016-07-19 15:47:09","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 15:47:10 GMT
+- request:
+    method: put
+    uri: https://api.pipedrive.com/v1/dealFields/12588?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"id":12588,"key":"b453fb8c6ae5f8ac5acd5d24a45621bc32104ccf","name":"Other
+        name","order_nr":146,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        16:34:00","update_time":"2016-07-19 16:34:00","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 16:34:01 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12588,"key":"b453fb8c6ae5f8ac5acd5d24a45621bc32104ccf","name":"Other
+        name","order_nr":146,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
+        16:34:00","update_time":"2016-07-19 16:34:01","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 16:34:02 GMT
 recorded_with: VCR 3.0.3

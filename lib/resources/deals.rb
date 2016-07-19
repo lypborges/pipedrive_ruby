@@ -6,9 +6,6 @@ module PipedriveRuby
     # This class should hold all endpoints that are specific of deals
     class Deals < PipedriveRuby::Base
 
-        def add_followers(deal, user)
-        end
-
         def delete_follower(deal, user)
         end
 
@@ -57,6 +54,7 @@ module PipedriveRuby
         end
 
         def_delegators :endpoints,
+                                  :add_follower,
                                   :all,
                                   :find,
                                   :find_by,

@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:54:12 GMT
+      - Tue, 19 Jul 2016 15:44:55 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,9 +35,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '98'
+      - '99'
       X-Ratelimit-Reset:
-      - '2'
+      - '10'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -47,5 +47,5 @@ http_interactions:
         address","add_followers_when_importing":false,"search_backend":"elastic","billing_managed_by_sales":false,"max_deal_age_in_average_progress_calculation":90,"third_party_links":[],"elastic_write_target_during_migration":"","auto_create_new_persons_from_forwarder_emails":true,"company_advanced_debug_logs":false,"deal_block_order":[{"type":"detail","visible":true},{"type":"organization","visible":true},{"type":"person","visible":true},{"type":"participant","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true}],"person_block_order":[{"type":"detail","visible":true},{"type":"organization","visible":true},{"type":"deal","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true}],"organization_block_order":[{"type":"detail","visible":true},{"type":"people","visible":true},{"type":"deal","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true},{"type":"related_organizations","visible":true}],"nylas_sync":false,"activity_email_reminders":true,"activity_email_reminders_send_type":"same_day","activity_email_reminders_amount_before":1,"file_convert_allowed":true,"default_currency":"BRL","send_email_notifications":"every_night","show_update_notifications":false,"mailbox_setup_done":false,"create_folder_in_google_drive":true,"share_google_drive_files_with_company":true,"deals_timeline_default_field":"","deals_timeline_interval":"month","deals_timeline_arrange_by":"open","deals_timeline_column_count":4,"deals_timeline_show_progress":true,"share_incoming_emails":true,"connect_threads_with_deals":true,"email_signature":false,"email_signature_text":"","google_calendar_activity_type":"task","google_calendar_ignore_activity_types":[],"format_phone_numbers_enabled":true,"upload_all_visible_persons_to_google":false,"open_email_links_in_new_tab":false,"totals_convert_currency":true,"email_sync_filter":"all","email_sync_filter_labels":[],"deal_details_open":false,"person_details_open":false,"organization_details_open":false,"google_calendar_subject_format":"[deal]
         > [person] > [organization] > [subject]","google_calendar_activity_reminders":[],"hide_email_settings_promotion_banner":false,"user_advanced_debug_logs":false,"show_activityagenda_tutorial":false,"show_filtercolumns_tutorial":false,"show_import_tutorial":false,"show_statistics_tutorial":true,"show_activitycrossitem_tutorial":false,"link_person_to_org":true,"timezone_automatic_update":true,"use_pipedrive_mailto_links":true,"ab_mail_promotion1_enabled":false,"current_pipeline_id":1,"deals_view_mode":"pipeline","filter_activities":"user_742863","filter_deals":"user_742863","filter_org":"user_742863","filter_people":"user_742863","filter_pipeline_1":"user_742863"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:54:12 GMT
+  recorded_at: Tue, 19 Jul 2016 15:44:56 GMT
 recorded_with: VCR 3.0.3

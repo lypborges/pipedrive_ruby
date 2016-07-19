@@ -9,18 +9,14 @@ module PipedriveRuby
       custom_get(:path => "#{product['id']}/deals")
     end
 
-    def add_follower
-    end
-
-    def delete_follower
-    end
-
     def find_by_name(term)
       find_by(term)
     end
 
     def_delegators :endpoints,
+                              :add_follower,
                               :all,
+                              :delete_follower,
                               :find,
                               :find_by,
                               :files,

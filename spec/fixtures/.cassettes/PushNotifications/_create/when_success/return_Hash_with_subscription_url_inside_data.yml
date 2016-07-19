@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:52:39 GMT
+      - Tue, 19 Jul 2016 15:46:16 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,8 +44,8 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":96,"user_id":742863,"company_id":1051939,"subscription_url":"http:\/\/meuwebhook.com.br","type":"regular","event":"deleted.persons","http_auth_user":null,"http_auth_password":null,"add_time":"2016-07-19
-        12:52:39","active_flag":true,"remove_time":null,"http_last_response_code":null}}'
+      string: '{"success":true,"data":{"id":101,"user_id":742863,"company_id":1051939,"subscription_url":"http:\/\/meuwebhook.com.br","type":"regular","event":"deleted.persons","http_auth_user":null,"http_auth_password":null,"add_time":"2016-07-19
+        15:46:16","active_flag":true,"remove_time":null,"http_last_response_code":null}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:52:39 GMT
+  recorded_at: Tue, 19 Jul 2016 15:46:17 GMT
 recorded_with: VCR 3.0.3

@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:53:16 GMT
+      - Tue, 19 Jul 2016 15:44:42 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -42,12 +42,13 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"type":"deal","id":1347,"title":"Novo Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1357,"title":"Novo
+      string: '{"success":true,"data":[{"type":"product","id":121,"title":"Novo Produto","details":"","url":"\/product\/details\/121"},{"type":"deal","id":1357,"title":"Novo
         Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1358,"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1362,"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1363,"title":"Novo
         Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1356,"title":"Novo
-        Negocio (c\u00f3pia)","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"product","id":68,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/68"},{"type":"product","id":69,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/69"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+        Negocio (c\u00f3pia)","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1361,"title":"Novo
+        Negocio (c\u00f3pia)","details":{"value":613,"currency":"BRL","value_formatted":"R$613","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:53:16 GMT
+  recorded_at: Tue, 19 Jul 2016 15:44:43 GMT
 recorded_with: VCR 3.0.3

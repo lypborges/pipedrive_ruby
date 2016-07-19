@@ -159,28 +159,6 @@
         <li class="public ">
   <span class="summary_signature">
     
-      <a href="#add_followers-instance_method" title="#add_followers (instance method)">#<strong>add_followers</strong>(deal, user)  &#x21d2; Object </a>
-    
-
-    
-  </span>
-  
-  
-  
-  
-  
-  
-  
-
-  
-    <span class="summary_desc"><div class='inline'></div></span>
-  
-</li>
-
-      
-        <li class="public ">
-  <span class="summary_signature">
-    
       <a href="#add_participant-instance_method" title="#add_participant (instance method)">#<strong>add_participant</strong>(deal, person)  &#x21d2; Object </a>
     
 
@@ -313,51 +291,7 @@
         <li class="public ">
   <span class="summary_signature">
     
-      <a href="#files-instance_method" title="#files (instance method)">#<strong>files</strong>(deal)  &#x21d2; Object </a>
-    
-
-    
-  </span>
-  
-  
-  
-  
-  
-  
-  
-
-  
-    <span class="summary_desc"><div class='inline'></div></span>
-  
-</li>
-
-      
-        <li class="public ">
-  <span class="summary_signature">
-    
-      <a href="#find_by_title-instance_method" title="#find_by_title (instance method)">#<strong>find_by_title</strong>(title)  &#x21d2; Object </a>
-    
-
-    
-  </span>
-  
-  
-  
-  
-  
-  
-  
-
-  
-    <span class="summary_desc"><div class='inline'></div></span>
-  
-</li>
-
-      
-        <li class="public ">
-  <span class="summary_signature">
-    
-      <a href="#followers-instance_method" title="#followers (instance method)">#<strong>followers</strong>(deal)  &#x21d2; Object </a>
+      <a href="#find_by_title-instance_method" title="#find_by_title (instance method)">#<strong>find_by_title</strong>(term)  &#x21d2; Object </a>
     
 
     
@@ -402,28 +336,6 @@
   <span class="summary_signature">
     
       <a href="#participants-instance_method" title="#participants (instance method)">#<strong>participants</strong>(deal)  &#x21d2; Object </a>
-    
-
-    
-  </span>
-  
-  
-  
-  
-  
-  
-  
-
-  
-    <span class="summary_desc"><div class='inline'></div></span>
-  
-</li>
-
-      
-        <li class="public ">
-  <span class="summary_signature">
-    
-      <a href="#permitted_users-instance_method" title="#permitted_users (instance method)">#<strong>permitted_users</strong>(deal)  &#x21d2; Object </a>
     
 
     
@@ -550,43 +462,15 @@
       <pre class="lines">
 
 
-34
-35
-36</pre>
+27
+28
+29</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 34</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 27</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_activities'>activities</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
     <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/activities</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
-<span class='kw'>end</span></pre>
-    </td>
-  </tr>
-</table>
-</div>
-    
-      <div class="method_details ">
-  <h3 class="signature " id="add_followers-instance_method">
-  
-    #<strong>add_followers</strong>(deal, user)  &#x21d2; <tt>Object</tt> 
-  
-
-  
-
-  
-</h3><table class="source_code">
-  <tr>
-    <td>
-      <pre class="lines">
-
-
-9
-10</pre>
-    </td>
-    <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 9</span>
-
-<span class='kw'>def</span> <span class='id identifier rubyid_add_followers'>add_followers</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='comma'>,</span> <span class='id identifier rubyid_user'>user</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -608,11 +492,11 @@
       <pre class="lines">
 
 
-42
-43</pre>
+35
+36</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 42</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 35</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_add_participant'>add_participant</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='comma'>,</span> <span class='id identifier rubyid_person'>person</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
@@ -636,11 +520,11 @@
       <pre class="lines">
 
 
-25
-26</pre>
+18
+19</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 25</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 18</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_add_product'>add_product</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='comma'>,</span> <span class='id identifier rubyid_product'>product</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
@@ -664,11 +548,11 @@
       <pre class="lines">
 
 
-16
-17</pre>
+9
+10</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 16</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 9</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_delete_follower'>delete_follower</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='comma'>,</span> <span class='id identifier rubyid_user'>user</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
@@ -692,11 +576,11 @@
       <pre class="lines">
 
 
-49
-50</pre>
+42
+43</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 49</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 42</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_delete_participant'>delete_participant</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='comma'>,</span> <span class='id identifier rubyid_participant'>participant</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
@@ -720,11 +604,11 @@
       <pre class="lines">
 
 
-31
-32</pre>
+24
+25</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 31</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 24</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_delete_product'>delete_product</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='comma'>,</span> <span class='id identifier rubyid_product'>product</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
@@ -748,12 +632,12 @@
       <pre class="lines">
 
 
-60
-61
-62</pre>
+45
+46
+47</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 60</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 45</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_emails'>emails</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/emailMessages</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -764,39 +648,9 @@
 </div>
     
       <div class="method_details ">
-  <h3 class="signature " id="files-instance_method">
-  
-    #<strong>files</strong>(deal)  &#x21d2; <tt>Object</tt> 
-  
-
-  
-
-  
-</h3><table class="source_code">
-  <tr>
-    <td>
-      <pre class="lines">
-
-
-52
-53
-54</pre>
-    </td>
-    <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 52</span>
-
-<span class='kw'>def</span> <span class='id identifier rubyid_files'>files</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
-  <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/files</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
-<span class='kw'>end</span></pre>
-    </td>
-  </tr>
-</table>
-</div>
-    
-      <div class="method_details ">
   <h3 class="signature " id="find_by_title-instance_method">
   
-    #<strong>find_by_title</strong>(title)  &#x21d2; <tt>Object</tt> 
+    #<strong>find_by_title</strong>(term)  &#x21d2; <tt>Object</tt> 
   
 
   
@@ -808,45 +662,15 @@
       <pre class="lines">
 
 
-64
-65
-66</pre>
+49
+50
+51</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 64</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 49</span>
 
-<span class='kw'>def</span> <span class='id identifier rubyid_find_by_title'>find_by_title</span><span class='lparen'>(</span><span class='id identifier rubyid_title'>title</span><span class='rparen'>)</span>
-    <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>find/</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='symbol'>:params</span> <span class='op'>=&gt;</span> <span class='lbrace'>{</span><span class='symbol'>:term</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_title'>title</span><span class='rbrace'>}</span><span class='rparen'>)</span>
-<span class='kw'>end</span></pre>
-    </td>
-  </tr>
-</table>
-</div>
-    
-      <div class="method_details ">
-  <h3 class="signature " id="followers-instance_method">
-  
-    #<strong>followers</strong>(deal)  &#x21d2; <tt>Object</tt> 
-  
-
-  
-
-  
-</h3><table class="source_code">
-  <tr>
-    <td>
-      <pre class="lines">
-
-
-12
-13
-14</pre>
-    </td>
-    <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 12</span>
-
-<span class='kw'>def</span> <span class='id identifier rubyid_followers'>followers</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
-  <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/followers</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>def</span> <span class='id identifier rubyid_find_by_title'>find_by_title</span><span class='lparen'>(</span><span class='id identifier rubyid_term'>term</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_find_by'>find_by</span><span class='lparen'>(</span><span class='id identifier rubyid_term'>term</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -868,12 +692,12 @@
       <pre class="lines">
 
 
-38
-39
-40</pre>
+31
+32
+33</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 38</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 31</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_log'>log</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/flow</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -898,45 +722,15 @@
       <pre class="lines">
 
 
-45
-46
-47</pre>
+38
+39
+40</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 45</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 38</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_participants'>participants</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/participants</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
-<span class='kw'>end</span></pre>
-    </td>
-  </tr>
-</table>
-</div>
-    
-      <div class="method_details ">
-  <h3 class="signature " id="permitted_users-instance_method">
-  
-    #<strong>permitted_users</strong>(deal)  &#x21d2; <tt>Object</tt> 
-  
-
-  
-
-  
-</h3><table class="source_code">
-  <tr>
-    <td>
-      <pre class="lines">
-
-
-56
-57
-58</pre>
-    </td>
-    <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 56</span>
-
-<span class='kw'>def</span> <span class='id identifier rubyid_permitted_users'>permitted_users</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
-  <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/permittedUsers</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -958,14 +752,14 @@
       <pre class="lines">
 
 
-19
-20
-21
-22
-23</pre>
+12
+13
+14
+15
+16</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 19</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 12</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_products'>products</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_custom_get'>custom_get</span><span class='lparen'>(</span><span class='symbol'>:path</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_deal'>deal</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>id</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>/products</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
@@ -992,11 +786,11 @@
       <pre class="lines">
 
 
-68
-69</pre>
+53
+54</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 68</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 53</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_timeline'>timeline</span>
 <span class='kw'>end</span></pre>
@@ -1020,11 +814,11 @@
       <pre class="lines">
 
 
-28
-29</pre>
+21
+22</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 28</span>
+      <pre class="code"><span class="info file"># File 'lib/resources/deals.rb', line 21</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_update_product'>update_product</span><span class='lparen'>(</span><span class='id identifier rubyid_deal'>deal</span><span class='comma'>,</span> <span class='id identifier rubyid_product'>product</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
@@ -1038,7 +832,7 @@
 </div>
 
       <div id="footer">
-  Generated on Sat Jul 16 16:50:52 2016 by
+  Generated on Tue Jul 19 12:47:24 2016 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.0 (ruby-2.2.5).
 </div>

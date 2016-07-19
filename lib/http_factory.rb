@@ -13,6 +13,11 @@ module PipedriveRuby
       @base_url = make_base_url
     end
 
+    def add_follower(resource, user)
+      custom_post(:path => "#{resource['id']}/followers",
+                  :json => {:id => resource['id'], :user_id => user['id'] })
+    end
+
     def all(params={})
       params.merge!(default_param)
       get(base_url, params: params).parse
@@ -25,9 +30,23 @@ module PipedriveRuby
     end
 
     def custom_get(options={})
-      default_options = {:method => :get}
-      options.merge!(default_options)
+      options.merge!({:method => :get})
       custom_request(options)
+    end
+
+    def custom_post(options={})
+      options.merge!({:method => :post})
+      custom_request(options)
+    end
+
+    def custom_delete(options={})
+      options.merge!({:method => :delete})
+      custom_request(options)
+    end
+
+    def delete_follower(resource, follower)
+      custom_delete(:path => "#{resource['id']}/followers/#{follower['id']}",
+                  :json => {:id => resource['id'], :user_id => follower['id'] })
     end
 
     def duplicate(resource)
@@ -36,15 +55,15 @@ module PipedriveRuby
     end
 
     def find(id)
-      get("#{base_url}/#{id}", params: default_param).parse
+      custom_get(:path => "#{id}/")
     end
 
     def find_by(term)
-        custom_get(:path => "find/", :params => {:term => term})
+      custom_get(:path => "find/", :params => {:term => term})
     end
 
     def files(resource)
-      get("#{base_url}/#{resource['id']}/files",params: default_param).parse
+      custom_get(:path => "#{resource['id']}/files")
     end
 
     def followers(resource)
@@ -62,7 +81,7 @@ module PipedriveRuby
     end
 
     def permitted_users(resource)
-      get("#{base_url}/#{resource['id']}/permittedUsers",params: default_param).parse
+      custom_get(:path => "#{resource['id']}/permittedUsers")
     end
 
     def remove(resource)
@@ -88,17 +107,32 @@ module PipedriveRuby
 
     private
 
+    def call_http(path, options={})
+      http_method = options[:method]
+      params = options[:params]
+      case http_method
+      when :get
+        HTTP.send(http_method, path, params: params).parse
+      when :post
+        HTTP.send(http_method, path, params: params, json: options[:json]).parse
+      when :delete
+        HTTP.send(http_method, path, params: params, json: options[:json]).parse
+      end
+    end
+
+    def custom_request(options={})
+      http_method = options[:method]
+      return unless [:get, :post, :put, :delete].include? http_method
+      options = set_defaults_params(options)
+      path = "#{base_url}/".concat(options[:path])
+      call_http(path,options)
+    end
+
     def make_base_url
       length = class_name.size
       resource_name =  class_name.split('::').last
       resource = resource_name[0].downcase + resource_name[1, length]
       "#{PipedriveRuby::API_URL}/#{resource}"
-    end
-
-    def custom_request(options={})
-      options = set_defaults_params(options)
-      path = "#{base_url}/".concat(options[:path])
-      HTTP.send(options[:method], path, params: options[:params]).parse
     end
 
     def set_defaults_params(options)

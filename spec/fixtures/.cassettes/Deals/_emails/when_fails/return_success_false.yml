@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:53:41 GMT
+      - Tue, 19 Jul 2016 15:45:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,5 +44,5 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"status":false,"error":"Unknown method ."}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:53:41 GMT
+  recorded_at: Tue, 19 Jul 2016 15:45:13 GMT
 recorded_with: VCR 3.0.3

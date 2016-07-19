@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:53:17 GMT
+      - Tue, 19 Jul 2016 15:44:43 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -42,8 +42,8 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"title":"Novo Negocio"},{"title":"Novo Negocio
-        (c\u00f3pia)"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+      string: '{"success":true,"data":[{"title":"Novo Negocio (c\u00f3pia)"},{"title":"Novo
+        Negocio"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:53:17 GMT
+  recorded_at: Tue, 19 Jul 2016 15:44:44 GMT
 recorded_with: VCR 3.0.3

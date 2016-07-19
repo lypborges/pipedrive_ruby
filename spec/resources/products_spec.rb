@@ -7,6 +7,8 @@ describe 'Products', vcr: true do
 
   before(:all) do
     client = PipedriveRuby::PipedriveClient.new(ENV['API_TOKEN'])
+    @user = {'id'=> ENV['USER_ID']}
+    @invalid_user = {'id' => 0}
     @products = client.products
     @products_response = []
     2.times do |number|
@@ -24,6 +26,22 @@ describe 'Products', vcr: true do
     end
   end
 
+  describe '#add_follower' do
+    context 'when success' do
+      it 'return success true' do
+        response = @products.add_follower(@product,@user)
+        expect(response['success']).to be_truthy
+      end
+    end
+
+    context 'when fails' do
+      it 'return success false' do
+        response = @products.add_follower(@product,@invalid_user)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of add_follower
+
   describe '#create' do
     context 'when success' do
       it 'return success true' do
@@ -32,7 +50,7 @@ describe 'Products', vcr: true do
       end
       it 'return Hash with title inside data' do
         response = @products.create(valid_new_product)
-        expect(response['data']['title']).to be == valid_new_product[:title]
+        expect(response['data']['name']).to be == valid_new_product[:name]
       end
     end
 
@@ -85,6 +103,25 @@ describe 'Products', vcr: true do
       end
     end
   end # end of delete
+
+  describe '#delete_follower' do
+    context 'when success' do
+      it 'return success true' do
+        follower_response = @products.add_follower(@product,@user)
+        follower = {'id' => follower_response['data']['id']}
+        response = @products.delete_follower(@product,follower)
+        expect(response['success']).to be_truthy
+      end
+    end
+
+    context 'when fails' do
+      it 'return success false' do
+        @products.add_follower(@product,@user)
+        response = @products.delete_follower(@product,@invalid_user)
+        expect(response['success']).to be_falsey
+      end
+    end
+  end # end of delete_follower
 
 
   describe '#find' do

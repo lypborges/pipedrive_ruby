@@ -11,7 +11,7 @@ module PipedriveRuby
           @endpoints = PipedriveRuby::HttpFactory.new(class_name, @client)
       end
 
-      def_delegators :endpoints, :custom_get
+      def_delegators :endpoints, :custom_get, :custom_post, :custom_delete
 
     end
 end

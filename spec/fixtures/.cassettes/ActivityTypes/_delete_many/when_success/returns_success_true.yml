@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"ids":"110,111"}'
+      string: '{"ids":"114,115"}'
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:53:03 GMT
+      - Tue, 19 Jul 2016 15:44:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,7 +44,7 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":["110","111"]}}'
+      string: '{"success":true,"data":{"id":["114","115"]}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:53:03 GMT
+  recorded_at: Tue, 19 Jul 2016 15:45:00 GMT
 recorded_with: VCR 3.0.3

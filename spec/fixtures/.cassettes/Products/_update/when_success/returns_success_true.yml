@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: put
-    uri: https://api.pipedrive.com/v1/products/68?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/200?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":68,"name":"Other product"}'
+      string: '{"id":200,"name":"Other product"}'
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:54:03 GMT
+      - Tue, 19 Jul 2016 16:37:45 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,10 +44,58 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":68,"name":"Other product","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"o","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":200,"name":"Other product","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"o","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2016-07-19
-        12:50:37","update_time":"2016-07-19 12:50:37","prices":{"BRL":{"id":68,"product_id":68,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}}},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        16:37:33","update_time":"2016-07-19 16:37:33","prices":{"BRL":{"id":200,"product_id":200,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}}},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:54:03 GMT
+  recorded_at: Tue, 19 Jul 2016 16:37:45 GMT
+- request:
+    method: put
+    uri: https://api.pipedrive.com/v1/products/202?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"id":202,"name":"Other product"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 16:38:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":false,"error":"Bad request","error_info":"Please check developers.pipedrive.com
+        for more information about Pipedrive API.","data":null,"additional_data":null}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 16:38:14 GMT
 recorded_with: VCR 3.0.3

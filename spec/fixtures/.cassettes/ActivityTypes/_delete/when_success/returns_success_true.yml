@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 12:53:08 GMT
+      - Tue, 19 Jul 2016 15:45:05 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,15 +35,15 @@ http_interactions:
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '98'
+      - '99'
       X-Ratelimit-Reset:
-      - '4'
+      - '10'
       Access-Control-Allow-Origin:
       - "*"
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":{"id":1,"company_id":null,"order_nr":1,"name":"Ligar","key_string":"call","icon_key":"call","active_flag":false,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
-        11:35:41","update_time":"2016-07-19 12:53:07"}}'
+        11:35:41","update_time":"2016-07-19 15:45:00"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 12:53:08 GMT
+  recorded_at: Tue, 19 Jul 2016 15:45:06 GMT
 recorded_with: VCR 3.0.3
