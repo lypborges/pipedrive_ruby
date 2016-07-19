@@ -19,13 +19,6 @@ describe 'Products', vcr: true do
     @another_deal = all['data'].last
   end
 
-  after(:all) do
-    # delete what left from test on sandbox
-    @products_response.each do |product|
-      @products.remove(product["data"])
-    end
-  end
-
   describe '#add_follower' do
     context 'when success' do
       it 'return success true' do
