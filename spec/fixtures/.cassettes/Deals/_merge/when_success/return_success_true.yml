@@ -53,4 +53,56 @@ http_interactions:
         Borges Ferreira","cc_email":"prepared-tray+deal1463@pipedrivemail.com","org_hidden":false,"person_hidden":false,"merge_what_id":1444}}'
     http_version: 
   recorded_at: Tue, 19 Jul 2016 18:24:14 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/1457/merge?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: id=1457&merge_with_id=1480
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '26'
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jul 2016 18:31:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '9'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":1480,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"1
+        - Novo Negocio","value":487,"currency":"BRL","add_time":"2016-07-19 18:31:44","update_time":"2016-07-19
+        18:31:54","stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":null,"files_count":null,"notes_count":0,"followers_count":1,"email_messages_count":null,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"participants_count":0,"expected_close_date":null,"687e4a4b59396708b18e98c08af9998411653cb7":null,"e24071f86800683b9c3aae8f4fa107a44d41d38a":null,"b99e06af3574fb7fd02aedbae266f9ec40c3d215":null,"ea4f001195e795bd9754c844f36aac0430def3f0":null,"85bd271231a5d76b0ab9f1419639f657ec0ecc79":null,"6de25b2b6d75eaaaebdbd9f3e64dd934016e98fc":null,"ef932eb500ea7638cf072b7a8f270b6aa25c87d2":null,"e0fdb8c07676b43e9a3046cce8cf9eaf0fa303ea":null,"9308aaec661c8159109f92fe126a2240351137cb":null,"88b6feda9e27045b75371c13923abdf58c488be4":null,"2aa3419db78ad8901dc1e138bafafe9962ccfafa":null,"df1901e43fe0b46ebaab41f2c6e89d1fc155503b":null,"6b1f2d9a55b0ee39792eb7bd434992229fb50537":null,"36a321bb18c1d45e63980575224a7b96c7028792":null,"ed2ccc105bd19593b5bbed1a2027f298db8ce272":null,"4c88514cb843ed97cffe4844f16ecf9833fe1d66":null,"c1765dc892793e841286b98748c9e07d66c0a9f2":null,"3aece9ef84ececfbdcd4ce3caef5b46bff882a1a":null,"4f4375feeb12d9628b5073cb530dda05846d197b":null,"f4d3e9c5775b33b0b4faa9a5276069cc1e029966":null,"3da823476d87528db8885c5eea287c935aeb6eb8":null,"7a57ac064bad1ead5bf538825713662c6f79ff3e":null,"e3243d19f550b5c9962616945eba8662310449d1":null,"117ece456e52a2767d1c9eba1b355ac3fdfae1db":null,"2a33d01c0f968517452e32333908d8fe4d610ccb":null,"e2b460a5da1e838f5ad119c62cf109b2448a3e07":null,"527bc671ca06edb1d0e9815dcc03e60ce1da37c5":null,"5d946ee03b8e5e474c0de6be2d89491eb193a013":null,"d0fed977c406f6de8c05cd3adf8156bbeefa0727":null,"6de9db34e69d8866c5a0197ebec15ba853062594":null,"5ddb9d9e6aa15e7075ada83c278828a81d166db9":null,"b7a7066807f2d2f92e9e19a8a138e44e324255b6":null,"e64964150e56f9c248a49640f219e852a80d207a":null,"d47c86a8ec287e996b16827e29c7547e27946e8d":null,"492068a91fb6506204c0f19b119ae15c7a970244":null,"a7d020fe4d361b0e6b4fb24a2a1089c2e84245db":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$487","rotten_time":null,"weighted_value":487,"formatted_weighted_value":"R$487","owner_name":"Felipe
+        Borges Ferreira","cc_email":"prepared-tray+deal1480@pipedrivemail.com","org_hidden":false,"person_hidden":false,"merge_what_id":1457}}'
+    http_version: 
+  recorded_at: Tue, 19 Jul 2016 18:31:54 GMT
 recorded_with: VCR 3.0.3
