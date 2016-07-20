@@ -9,17 +9,22 @@ describe 'ActivityTypes', vcr: true do
     client = PipedriveRuby::PipedriveClient.new(ENV['API_TOKEN'])
     @activity_types = client.activity_types
     @activity_types_response = []
-    2.times do |number|
-      @activity_types_response << @activity_types.create(:name => "#{number} - New Activity_type", :color => nil)
-    end
-    all = @activity_types.all
-    @activity_type = all['data'].first
-    @another_activitie = all['data'].last
+  end
+
+  before(:each) do
+    @activity_type = @activity_types.create(name: "#{rand(99)} - Novo Produto", :color => nil )
+    @activity_types_response << @activity_type
+    @another_deal = @activity_types.create(name: "#{rand(99)} - Novo Produto", :color => nil )
+    @activity_types_response << @another_deal
+    @activity_type = @activity_type['data']
+    @another_deal = @another_deal['data']
   end
 
   after(:all) do
     # delete what left from test on sandbox
-    @activity_types.remove_many(@activity_types_response)
+    @activity_types_response.each do |activity_type|
+      @activity_types.remove(activity_type["data"])
+    end
   end
 
   describe '#create' do

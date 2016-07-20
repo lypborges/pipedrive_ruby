@@ -1,6 +1,5 @@
 require 'pipedrive_ruby/version'
 require 'http'
-require 'byebug'
 require 'pipedrive_client'
 require 'http_factory'
 require 'resources/base'

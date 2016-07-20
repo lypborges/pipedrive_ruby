@@ -1,11 +1,11 @@
 ---
 http_interactions:
 - request:
-    method: put
-    uri: https://api.pipedrive.com/v1/activityTypes/1?api_token=<API_KEY>
+    method: post
+    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":1,"type":"email"}'
+      string: '{"name":"33 - Novo Produto","color":null}'
     headers:
       Connection:
       - close
@@ -17,13 +17,13 @@ http_interactions:
       - http.rb/2.0.2
   response:
     status:
-      code: 200
-      message: OK
+      code: 201
+      message: Created
     headers:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 18:22:00 GMT
+      - Wed, 20 Jul 2016 18:39:46 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,8 +44,107 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":1,"company_id":null,"order_nr":1,"name":"Ligar","key_string":"call","icon_key":"call","active_flag":false,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
-        11:35:41","update_time":"2016-07-19 18:22:00"}}'
+      string: '{"success":true,"data":{"id":240,"company_id":null,"order_nr":39,"name":"33
+        - Novo Produto","key_string":"33___novo_produto","icon_key":"33 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:46","update_time":"2016-07-20 18:39:46"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:22:00 GMT
+  recorded_at: Wed, 20 Jul 2016 18:39:46 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"46 - Novo Produto","color":null}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jul 2016 18:39:46 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '97'
+      X-Ratelimit-Reset:
+      - '1'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":241,"company_id":null,"order_nr":40,"name":"46
+        - Novo Produto","key_string":"46___novo_produto","icon_key":"46 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:46","update_time":"2016-07-20 18:39:46"}}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 18:39:47 GMT
+- request:
+    method: put
+    uri: https://api.pipedrive.com/v1/activityTypes/240?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"id":240,"type":"email"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jul 2016 18:39:47 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":240,"company_id":null,"order_nr":39,"name":"33
+        - Novo Produto","key_string":"33___novo_produto","icon_key":"33 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:46","update_time":"2016-07-20 18:39:47"}}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 18:39:48 GMT
 recorded_with: VCR 3.0.3

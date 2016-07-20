@@ -1,11 +1,11 @@
 ---
 http_interactions:
 - request:
-    method: delete
+    method: post
     uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"ids":"186,187"}'
+      string: '{"name":"58 - Novo Produto","color":null}'
     headers:
       Connection:
       - close
@@ -17,13 +17,13 @@ http_interactions:
       - http.rb/2.0.2
   response:
     status:
-      code: 200
-      message: OK
+      code: 201
+      message: Created
     headers:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 18:21:59 GMT
+      - Wed, 20 Jul 2016 18:39:58 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,7 +44,105 @@ http_interactions:
       - "*"
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":["186","187"]}}'
+      string: '{"success":true,"data":{"id":252,"company_id":null,"order_nr":51,"name":"58
+        - Novo Produto","key_string":"58___novo_produto1","icon_key":"58 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:58","update_time":"2016-07-20 18:39:58"}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:21:59 GMT
+  recorded_at: Wed, 20 Jul 2016 18:39:58 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"68 - Novo Produto","color":null}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jul 2016 18:39:59 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":253,"company_id":null,"order_nr":52,"name":"68
+        - Novo Produto","key_string":"68___novo_produto1","icon_key":"68 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:59","update_time":"2016-07-20 18:39:59"}}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 18:39:59 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"ids":"238,239,240,241,242,243,244,245,247,248,250,251,252,253"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jul 2016 18:40:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":["238","239","240","241","242","243","244","245","247","248","250","251","252","253"]}}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 18:40:00 GMT
 recorded_with: VCR 3.0.3

@@ -1,6 +1,104 @@
 ---
 http_interactions:
 - request:
+    method: post
+    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"47 - Novo Produto","color":null}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jul 2016 18:39:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":238,"company_id":null,"order_nr":37,"name":"47
+        - Novo Produto","key_string":"47___novo_produto2","icon_key":"47 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:43","update_time":"2016-07-20 18:39:43"}}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 18:39:43 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"10 - Novo Produto","color":null}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jul 2016 18:39:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":239,"company_id":null,"order_nr":38,"name":"10
+        - Novo Produto","key_string":"10___novo_produto","icon_key":"10 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:43","update_time":"2016-07-20 18:39:43"}}'
+    http_version: 
+  recorded_at: Wed, 20 Jul 2016 18:39:44 GMT
+- request:
     method: get
     uri: https://api.pipedrive.com/v1/activityTypes?api_token=<API_KEY>
     body:
@@ -21,7 +119,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 19 Jul 2016 18:22:04 GMT
+      - Wed, 20 Jul 2016 18:39:44 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -43,7 +141,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":[{"id":1,"order_nr":1,"name":"Ligar","key_string":"call","icon_key":"call","active_flag":false,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
-        11:35:41","update_time":"2016-07-19 18:22:00"},{"id":2,"order_nr":1,"name":"Reuni\u00e3o","key_string":"meeting","icon_key":"meeting","active_flag":true,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
+        11:35:41","update_time":"2016-07-19 18:22:05"},{"id":2,"order_nr":1,"name":"Reuni\u00e3o","key_string":"meeting","icon_key":"meeting","active_flag":true,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
         11:35:41","update_time":"2016-07-15 11:33:05"},{"id":3,"order_nr":2,"name":"Tarefa","key_string":"task","icon_key":"task","active_flag":true,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
         11:35:41","update_time":"2016-07-15 11:33:05"},{"id":4,"order_nr":3,"name":"Prazo","key_string":"deadline","icon_key":"deadline","active_flag":true,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
         11:35:41","update_time":"2016-07-15 11:33:05"},{"id":5,"order_nr":4,"name":"E-mail","key_string":"email","icon_key":"email","active_flag":true,"color":null,"is_custom_flag":false,"add_time":"2016-06-25
@@ -560,7 +658,7 @@ http_interactions:
         18:03:35","update_time":"2016-07-19 18:03:38"},{"id":186,"order_nr":29,"name":"0
         - New Activity_type","key_string":"0___new_activity_type77","icon_key":"0
         - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
-        18:21:56","update_time":"2016-07-19 18:21:59"},{"id":188,"order_nr":29,"name":"New
+        18:21:56","update_time":"2016-07-19 18:22:06"},{"id":188,"order_nr":29,"name":"New
         Activity_type","key_string":"new_activity_type25","icon_key":"new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
         18:22:01","update_time":"2016-07-19 18:22:01"},{"id":185,"order_nr":30,"name":"1
         - New Activity_type","key_string":"1___new_activity_type76","icon_key":"1
@@ -568,9 +666,137 @@ http_interactions:
         18:03:36","update_time":"2016-07-19 18:03:38"},{"id":187,"order_nr":30,"name":"1
         - New Activity_type","key_string":"1___new_activity_type77","icon_key":"1
         - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
-        18:21:57","update_time":"2016-07-19 18:21:59"},{"id":189,"order_nr":30,"name":"New
+        18:21:57","update_time":"2016-07-19 18:22:06"},{"id":189,"order_nr":30,"name":"New
         Activity_type","key_string":"new_activity_type26","icon_key":"new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
-        18:22:02","update_time":"2016-07-19 18:22:02"}]}'
+        18:22:02","update_time":"2016-07-19 18:22:02"},{"id":190,"order_nr":31,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type78","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:28:18","update_time":"2016-07-19 18:28:19"},{"id":192,"order_nr":31,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type79","icon_key":"0
+        - new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:28:43","update_time":"2016-07-19 18:28:43"},{"id":191,"order_nr":32,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type78","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:28:19","update_time":"2016-07-19 18:28:19"},{"id":193,"order_nr":32,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type79","icon_key":"1
+        - new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:28:43","update_time":"2016-07-19 18:28:43"},{"id":194,"order_nr":33,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type80","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:28:59","update_time":"2016-07-19 18:29:00"},{"id":196,"order_nr":33,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type81","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:29:01","update_time":"2016-07-19 18:29:02"},{"id":198,"order_nr":33,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type82","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:31:39","update_time":"2016-07-19 18:31:42"},{"id":200,"order_nr":33,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type83","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:33:07","update_time":"2016-07-19 18:33:08"},{"id":202,"order_nr":33,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type84","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:21:53","update_time":"2016-07-20 18:21:54"},{"id":204,"order_nr":33,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type85","icon_key":"0
+        - new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:08","update_time":"2016-07-20 18:22:08"},{"id":195,"order_nr":34,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type80","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:28:59","update_time":"2016-07-19 18:29:00"},{"id":197,"order_nr":34,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type81","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:29:02","update_time":"2016-07-19 18:29:02"},{"id":199,"order_nr":34,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type82","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:31:40","update_time":"2016-07-19 18:31:42"},{"id":201,"order_nr":34,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type83","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-19
+        18:33:07","update_time":"2016-07-19 18:33:08"},{"id":203,"order_nr":34,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type84","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:21:53","update_time":"2016-07-20 18:21:54"},{"id":205,"order_nr":34,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type85","icon_key":"1
+        - new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:08","update_time":"2016-07-20 18:22:08"},{"id":206,"order_nr":35,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type86","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:19","update_time":"2016-07-20 18:22:19"},{"id":208,"order_nr":35,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type87","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:21","update_time":"2016-07-20 18:22:21"},{"id":212,"order_nr":35,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type89","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:23:33","update_time":"2016-07-20 18:23:34"},{"id":214,"order_nr":35,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type90","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:23:58","update_time":"2016-07-20 18:23:58"},{"id":216,"order_nr":35,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type91","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:24:04","update_time":"2016-07-20 18:24:05"},{"id":218,"order_nr":35,"name":"86
+        - Novo Produto","key_string":"86___novo_produto","icon_key":"86 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:36","update_time":"2016-07-20 18:33:59"},{"id":224,"order_nr":35,"name":"68
+        - Novo Produto","key_string":"68___novo_produto","icon_key":"68 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:43","update_time":"2016-07-20 18:33:59"},{"id":226,"order_nr":35,"name":"New
+        Activity_type","key_string":"new_activity_type27","icon_key":"new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:45","update_time":"2016-07-20 18:39:43"},{"id":207,"order_nr":36,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type86","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:19","update_time":"2016-07-20 18:22:19"},{"id":209,"order_nr":36,"name":"0
+        - New Activity_type","key_string":"0___new_activity_type88","icon_key":"0
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:21","update_time":"2016-07-20 18:22:21"},{"id":213,"order_nr":36,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type89","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:23:33","update_time":"2016-07-20 18:23:34"},{"id":215,"order_nr":36,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type90","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:23:58","update_time":"2016-07-20 18:23:58"},{"id":217,"order_nr":36,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type91","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:24:05","update_time":"2016-07-20 18:24:05"},{"id":219,"order_nr":36,"name":"47
+        - Novo Produto","key_string":"47___novo_produto","icon_key":"47 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:37","update_time":"2016-07-20 18:33:59"},{"id":225,"order_nr":36,"name":"58
+        - Novo Produto","key_string":"58___novo_produto","icon_key":"58 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:44","update_time":"2016-07-20 18:33:59"},{"id":229,"order_nr":36,"name":"New
+        Activity_type","key_string":"new_activity_type28","icon_key":"new activity_type","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:48","update_time":"2016-07-20 18:39:43"},{"id":210,"order_nr":37,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type87","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:21","update_time":"2016-07-20 18:22:21"},{"id":220,"order_nr":37,"name":"16
+        - Novo Produto","key_string":"16___novo_produto","icon_key":"16 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:39","update_time":"2016-07-20 18:33:59"},{"id":238,"order_nr":37,"name":"47
+        - Novo Produto","key_string":"47___novo_produto2","icon_key":"47 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:43","update_time":"2016-07-20 18:39:43"},{"id":211,"order_nr":38,"name":"1
+        - New Activity_type","key_string":"1___new_activity_type88","icon_key":"1
+        - new activity_type","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:22:21","update_time":"2016-07-20 18:22:21"},{"id":221,"order_nr":38,"name":"14
+        - Novo Produto","key_string":"14___novo_produto","icon_key":"14 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:39","update_time":"2016-07-20 18:33:59"},{"id":227,"order_nr":38,"name":"57
+        - Novo Produto","key_string":"57___novo_produto","icon_key":"57 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:46","update_time":"2016-07-20 18:33:59"},{"id":239,"order_nr":38,"name":"10
+        - Novo Produto","key_string":"10___novo_produto","icon_key":"10 - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:39:43","update_time":"2016-07-20 18:39:43"},{"id":222,"order_nr":39,"name":"60
+        - Novo Produto","key_string":"60___novo_produto","icon_key":"60 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:41","update_time":"2016-07-20 18:33:59"},{"id":228,"order_nr":39,"name":"69
+        - Novo Produto","key_string":"69___novo_produto","icon_key":"69 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:47","update_time":"2016-07-20 18:33:59"},{"id":223,"order_nr":40,"name":"47
+        - Novo Produto","key_string":"47___novo_produto1","icon_key":"47 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:42","update_time":"2016-07-20 18:33:59"},{"id":230,"order_nr":41,"name":"39
+        - Novo Produto","key_string":"39___novo_produto","icon_key":"39 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:48","update_time":"2016-07-20 18:33:59"},{"id":231,"order_nr":42,"name":"61
+        - Novo Produto","key_string":"61___novo_produto","icon_key":"61 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:49","update_time":"2016-07-20 18:33:59"},{"id":232,"order_nr":43,"name":"14
+        - Novo Produto","key_string":"14___novo_produto1","icon_key":"14 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:51","update_time":"2016-07-20 18:33:59"},{"id":233,"order_nr":43,"name":"76
+        - Novo Produto","key_string":"76___novo_produto","icon_key":"76 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:52","update_time":"2016-07-20 18:33:59"},{"id":234,"order_nr":44,"name":"80
+        - Novo Produto","key_string":"80___novo_produto","icon_key":"80 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:53","update_time":"2016-07-20 18:33:59"},{"id":235,"order_nr":45,"name":"37
+        - Novo Produto","key_string":"37___novo_produto","icon_key":"37 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:54","update_time":"2016-07-20 18:33:59"},{"id":236,"order_nr":46,"name":"69
+        - Novo Produto","key_string":"69___novo_produto1","icon_key":"69 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:56","update_time":"2016-07-20 18:33:59"},{"id":237,"order_nr":47,"name":"51
+        - Novo Produto","key_string":"51___novo_produto","icon_key":"51 - novo produto","active_flag":false,"color":null,"is_custom_flag":true,"add_time":"2016-07-20
+        18:33:57","update_time":"2016-07-20 18:33:59"}]}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:22:04 GMT
+  recorded_at: Wed, 20 Jul 2016 18:39:45 GMT
 recorded_with: VCR 3.0.3
