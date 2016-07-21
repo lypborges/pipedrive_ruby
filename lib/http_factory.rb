@@ -20,13 +20,11 @@ module PipedriveRuby
 
     def all(params={})
       params.merge!(default_param)
-      get(base_url, params: params).parse
+      custom_get(:params => params)
     end
 
     def create(resource)
-      post("#{base_url}/",
-           params: default_param,
-           json: resource).parse
+      custom_post(:params => default_param, :json => resource)
     end
 
     def custom_get(options={})
@@ -36,6 +34,11 @@ module PipedriveRuby
 
     def custom_post(options={})
       options.merge!({:method => :post})
+      custom_request(options)
+    end
+
+    def custom_put(options={})
+      options.merge!({:method => :put})
       custom_request(options)
     end
 
@@ -50,8 +53,7 @@ module PipedriveRuby
     end
 
     def duplicate(resource)
-      post("#{base_url}/#{resource['id']}/duplicate",
-           params: default_param).parse
+      custom_post(:path => "#{resource['id']}/duplicate", :params => default_param)
     end
 
     def find(id)
@@ -85,8 +87,7 @@ module PipedriveRuby
     end
 
     def remove(resource)
-      delete("#{base_url}/#{resource['id']}",
-             params: default_param).parse
+      custom_delete(:path => "#{resource['id']}", :params => default_param)
     end
 
     def remove_many(resources)
@@ -94,15 +95,11 @@ module PipedriveRuby
       resources.each do |resource|
         ids << resource['data']['id']
       end
-      delete("#{base_url}/",
-             params: default_param,
-             json: { ids: ids.join(',') }).parse
+      custom_delete(:params => default_param, :json => { ids: ids.join(',') })
     end
 
     def update(resource)
-      put("#{base_url}/#{resource['id']}",
-          params: default_param,
-          json: resource).parse
+      custom_put(:path => "#{resource['id']}", :params => default_param, :json => resource)
     end
 
     private
@@ -112,11 +109,9 @@ module PipedriveRuby
       params = options[:params]
       case http_method
       when :get
-        HTTP.send(http_method, path, params: params).parse
-      when :post
-        HTTP.send(http_method, path, params: params, json: options[:json]).parse
-      when :delete
-        HTTP.send(http_method, path, params: params, json: options[:json]).parse
+        parse_response(HTTP.send(http_method, path, params: params))
+      else
+        parse_response(HTTP.send(http_method, path, params: params, json: options[:json]))
       end
     end
 
@@ -124,7 +119,8 @@ module PipedriveRuby
       http_method = options[:method]
       return unless [:get, :post, :put, :delete].include? http_method
       options = set_defaults_params(options)
-      path = "#{base_url}/".concat(options[:path])
+      path = "#{base_url}/"
+      path = path.concat(options[:path]) if options[:path]
       call_http(path,options)
     end
 
@@ -133,6 +129,14 @@ module PipedriveRuby
       resource_name =  class_name.split('::').last
       resource = resource_name[0].downcase + resource_name[1, length]
       "#{PipedriveRuby::API_URL}/#{resource}"
+    end
+
+    def parse_response(response)
+      begin
+        response.parse
+      rescue
+        OpenStruct.new(:status => false,:error_info => nil, :data => nil, :additional_data => nil)
+      end
     end
 
     def set_defaults_params(options)

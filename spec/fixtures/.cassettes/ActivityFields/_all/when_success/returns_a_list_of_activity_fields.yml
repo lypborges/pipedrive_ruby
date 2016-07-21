@@ -78,4 +78,86 @@ http_interactions:
         11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
   recorded_at: Tue, 19 Jul 2016 18:22:18 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/activityFields/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 21 Jul 2016 12:32:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"id":1,"key":"id","name":"ID","order_nr":1,"picklist_data":null,"field_type":"int","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":2,"key":"subject","name":"Assunto","order_nr":2,"picklist_data":null,"field_type":"varchar","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true},{"id":3,"key":"type","name":"Tipo","order_nr":3,"field_type":"enum","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"options":[{"id":"meeting","label":"Reuni\u00e3o"},{"id":"task","label":"Tarefa"},{"id":"deadline","label":"Prazo"},{"id":"email","label":"E-mail"},{"id":"lunch","label":"Almo\u00e7o"},{"id":"new_activity_type2","label":"New
+        Activity_type"},{"id":"new_activity_type3","label":"New Activity_type"},{"id":"new_activity_type4","label":"New
+        Activity_type"},{"id":"new_activity_type5","label":"New Activity_type"},{"id":"new_activity_type6","label":"New
+        Activity_type"},{"id":"new_activity_type7","label":"New Activity_type"},{"id":"new_activity_type8","label":"New
+        Activity_type"},{"id":"new_activity_type9","label":"New Activity_type"},{"id":"new_activity_type10","label":"New
+        Activity_type"},{"id":"new_activity_type11","label":"New Activity_type"},{"id":"new_activity_type12","label":"New
+        Activity_type"},{"id":"new_activity_type13","label":"New Activity_type"},{"id":"new_activity_type14","label":"New
+        Activity_type"},{"id":"new_activity_type15","label":"New Activity_type"},{"id":"new_activity_type16","label":"New
+        Activity_type"},{"id":"new_activity_type17","label":"New Activity_type"},{"id":"new_activity_type18","label":"New
+        Activity_type"},{"id":"new_activity_type19","label":"New Activity_type"},{"id":"new_activity_type20","label":"New
+        Activity_type"},{"id":"new_activity_type21","label":"New Activity_type"},{"id":"new_activity_type22","label":"New
+        Activity_type"},{"id":"new_activity_type23","label":"New Activity_type"},{"id":"new_activity_type24","label":"New
+        Activity_type"},{"id":"new_activity_type25","label":"New Activity_type"},{"id":"new_activity_type26","label":"New
+        Activity_type"},{"id":"0___new_activity_type79","label":"0 - New Activity_type"},{"id":"1___new_activity_type79","label":"1
+        - New Activity_type"},{"id":"0___new_activity_type85","label":"0 - New Activity_type"},{"id":"1___new_activity_type85","label":"1
+        - New Activity_type"},{"id":"new_activity_type27","label":"New Activity_type"},{"id":"new_activity_type28","label":"New
+        Activity_type"},{"id":"new_activity_type29","label":"New Activity_type"},{"id":"new_activity_type30","label":"New
+        Activity_type"}],"mandatory_flag":true},{"id":4,"key":"done","name":"Conclu\u00edda","order_nr":4,"field_type":"enum","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"options":[{"id":false,"label":"Por
+        fazer"},{"id":true,"label":"Conclu\u00edda"}],"mandatory_flag":true},{"id":5,"key":"marked_as_done_time","name":"Tempo
+        marcado como pronto","order_nr":5,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":6,"key":"org_id","name":"Organiza\u00e7\u00e3o","order_nr":6,"picklist_data":null,"field_type":"org","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":7,"key":"person_id","name":"Pessoa
+        de contato","order_nr":7,"picklist_data":null,"field_type":"people","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":8,"key":"deal_id","name":"Neg\u00f3cio","order_nr":8,"picklist_data":null,"field_type":"deal","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":9,"key":"due_date","name":"Data
+        de vencimento","order_nr":9,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true},{"id":10,"key":"due_time","name":"Prazo","order_nr":10,"picklist_data":null,"field_type":"time","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true},{"id":11,"key":"duration","name":"Dura\u00e7\u00e3o","order_nr":11,"picklist_data":null,"field_type":"time","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false},{"id":12,"key":"note","name":"Observa\u00e7\u00e3o","order_nr":12,"picklist_data":null,"field_type":"text","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":13,"key":"add_time","name":"Hora
+        adicionada","order_nr":13,"picklist_data":null,"field_type":"date","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true},{"id":14,"key":"user_id","name":"Atribu\u00eddo
+        a usu\u00e1rio","order_nr":14,"picklist_data":null,"field_type":"user","add_time":"2016-06-25
+        11:35:42","update_time":"2016-06-25 11:35:30","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":true}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Thu, 21 Jul 2016 12:32:24 GMT
 recorded_with: VCR 3.0.3
