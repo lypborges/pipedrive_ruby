@@ -360,4 +360,49 @@ http_interactions:
       string: '{"success":true,"data":{"id":342}}'
     http_version: 
   recorded_at: Thu, 21 Jul 2016 12:46:17 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/activities/360?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 21 Jul 2016 16:41:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":360}}'
+    http_version: 
+  recorded_at: Thu, 21 Jul 2016 16:41:24 GMT
 recorded_with: VCR 3.0.3

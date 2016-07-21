@@ -74,12 +74,13 @@ module PipedriveRuby
 
     def merge(resource, merge_with_resource)
       id = resource['id']
-      post("#{base_url}/#{id}/merge",
-           params: default_param,
-           form: {
-             id: id,
-             merge_with_id: merge_with_resource['id']
-           }).parse
+      custom_post(:path => "#{id}/merge",
+                  :params => default_param,
+                  :json => {
+                              :id => id,
+                              :merge_with_id => merge_with_resource['id']
+                            }
+                    )
     end
 
     def permitted_users(resource)
