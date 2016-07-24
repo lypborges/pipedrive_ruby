@@ -133,10 +133,13 @@ module PipedriveRuby
     end
 
     def parse_response(response)
+      response_status = response.status.to_i
       begin
-        response.parse
+        parsed = response.parse
+        parsed[:status_code] = response_status
+        OpenStruct.new(parsed)
       rescue
-        OpenStruct.new(:status => false,:error_info => nil, :data => nil, :additional_data => nil)
+        OpenStruct.new(status_code: response_status ,:status => false,:error_info => nil, :data => nil, :additional_data => nil)
       end
     end
 

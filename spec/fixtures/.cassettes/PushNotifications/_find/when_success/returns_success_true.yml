@@ -414,4 +414,142 @@ http_interactions:
         16:42:01","active_flag":true,"remove_time":null,"http_last_response_code":null}}'
     http_version: 
   recorded_at: Thu, 21 Jul 2016 16:42:03 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/pushNotifications/268/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 24 Jul 2016 20:14:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":268,"user_id":742863,"company_id":1051939,"subscription_url":"http:\/\/meuwebhook.com.br\/0","type":"regular","event":"deleted.persons","http_auth_user":null,"http_auth_password":null,"add_time":"2016-07-24
+        20:14:32","active_flag":false,"remove_time":"2016-07-24 20:14:34","http_last_response_code":null}}'
+    http_version: 
+  recorded_at: Sun, 24 Jul 2016 20:14:35 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/pushNotifications/270/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 24 Jul 2016 20:20:16 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '6'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":270,"user_id":742863,"company_id":1051939,"subscription_url":"http:\/\/meuwebhook.com.br\/0","type":"regular","event":"deleted.persons","http_auth_user":null,"http_auth_password":null,"add_time":"2016-07-24
+        20:20:13","active_flag":false,"remove_time":"2016-07-24 20:20:16","http_last_response_code":null}}'
+    http_version: 
+  recorded_at: Sun, 24 Jul 2016 20:20:17 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/pushNotifications/272/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.0.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 24 Jul 2016 20:28:10 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '97'
+      X-Ratelimit-Reset:
+      - '9'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":272,"user_id":742863,"company_id":1051939,"subscription_url":"http:\/\/meuwebhook.com.br\/0","type":"regular","event":"deleted.persons","http_auth_user":null,"http_auth_password":null,"add_time":"2016-07-24
+        20:28:07","active_flag":false,"remove_time":"2016-07-24 20:28:10","http_last_response_code":null}}'
+    http_version: 
+  recorded_at: Sun, 24 Jul 2016 20:28:11 GMT
 recorded_with: VCR 3.0.3
