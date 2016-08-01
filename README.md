@@ -53,6 +53,8 @@ before push/pull requests always run tests:
 - `codeclimate analyze`
 - `spec`
 
+## Thanks
+- Gustavo Maestri, for teach me ruby ;) (@gumaestri)
 
 ## License
 
