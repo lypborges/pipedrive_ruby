@@ -100,4 +100,61 @@ http_interactions:
         17:06:39","is_bulk_update_flag":null,"log_time":"2016-07-21 17:06:39","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
   recorded_at: Sun, 24 Jul 2016 20:28:40 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/deals/5/flow?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 18 Aug 2017 20:23:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - a950134d-1d67-471b-8279-3a3067608fbf
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":[{"object":"dealChange","timestamp":"2017-08-18
+        20:23:14","data":{"id":16,"item_id":5,"user_id":2876523,"field_key":"status","old_value":"open","new_value":"deleted","is_bulk_update_flag":null,"log_time":"2017-08-18
+        20:23:14","additional_data":[]}},{"object":"dealChange","timestamp":"2017-08-18
+        20:23:13","data":{"id":15,"item_id":5,"user_id":2876523,"field_key":"value","old_value":"0","new_value":"534","is_bulk_update_flag":null,"log_time":"2017-08-18
+        20:23:13","additional_data":[]}},{"object":"dealChange","timestamp":"2017-08-18
+        20:23:10","data":{"id":13,"item_id":5,"user_id":2876523,"field_key":"add_time","old_value":null,"new_value":"2017-08-18
+        20:23:10","is_bulk_update_flag":null,"log_time":"2017-08-18 20:23:10","additional_data":[]}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+    http_version: 
+  recorded_at: Fri, 18 Aug 2017 20:23:23 GMT
 recorded_with: VCR 3.0.3

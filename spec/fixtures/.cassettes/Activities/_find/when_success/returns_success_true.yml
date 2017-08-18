@@ -539,4 +539,59 @@ http_interactions:
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
   recorded_at: Sun, 24 Jul 2016 20:28:31 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/activities/4/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 18 Aug 2017 20:22:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - fec0b144-3329-4249-9cd2-3c2c1849c443
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '93'
+      X-Ratelimit-Reset:
+      - '5'
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":4,"company_id":1968662,"user_id":2876523,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2017-08-18","due_time":"","duration":"","add_time":"2017-08-18
+        20:22:51","marked_as_done_time":"","subject":"0 - Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2017-08-18
+        20:22:54","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"note":"","participants":null,"person_name":null,"org_name":null,"deal_title":null,"assigned_to_user_id":2876523,"created_by_user_id":2876523,"owner_name":"Eduardo
+        Hertz","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"2876523":{"id":2876523,"name":"Eduardo
+        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Fri, 18 Aug 2017 20:22:55 GMT
 recorded_with: VCR 3.0.3

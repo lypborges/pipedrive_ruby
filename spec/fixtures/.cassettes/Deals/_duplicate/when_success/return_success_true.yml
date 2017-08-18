@@ -96,4 +96,59 @@ http_interactions:
         Borges Ferreira","cc_email":"prepared-tray+deal1650@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
     http_version: 
   recorded_at: Sun, 24 Jul 2016 20:28:39 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/5/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 18 Aug 2017 20:23:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - dbfbb7db-cdb8-434b-b36f-c98ab318a91d
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '91'
+      X-Ratelimit-Reset:
+      - '4'
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":7,"creator_user_id":2876523,"user_id":2876523,"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio (c\u00f3pia)","value":534,"currency":"BRL","add_time":"2017-08-18
+        20:23:18","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2017-08-18
+        20:23:14","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":0,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$534","rotten_time":null,"weighted_value":534,"formatted_weighted_value":"R$534","owner_name":"Eduardo
+        Hertz","cc_email":"nexaastesting+deal7@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Fri, 18 Aug 2017 20:23:18 GMT
 recorded_with: VCR 3.0.3
