@@ -18,6 +18,7 @@ require 'resources/search_results'
 require 'resources/user_settings'
 require 'resources/users'
 require 'resources/products'
+require 'resources/webhooks'
 
 
 # TODO (Felipe Borges Ferreira)

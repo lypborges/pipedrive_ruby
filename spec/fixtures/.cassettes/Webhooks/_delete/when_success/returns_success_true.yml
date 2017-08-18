@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/webhooks/21000?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - d88e19d1-45e8-4f12-8bbb-c970e24aed4d
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '85'
+      X-Ratelimit-Reset:
+      - '5'
+      Content-Security-Policy:
+      - frame-ancestors https://*.pipedrive.com
+      Date:
+      - Fri, 18 Aug 2017 20:21:47 GMT
+      Access-Control-Allow-Origin:
+      - https://app.pipedrive.com
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","success":true}'
+    http_version: 
+  recorded_at: Fri, 18 Aug 2017 20:21:47 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/webhooks/21001?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - c98dfb90-df59-47c8-b5b5-66fcb23c64d5
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '93'
+      X-Ratelimit-Reset:
+      - '7'
+      Content-Security-Policy:
+      - frame-ancestors https://*.pipedrive.com
+      Date:
+      - Fri, 18 Aug 2017 20:22:04 GMT
+      Access-Control-Allow-Origin:
+      - https://app.pipedrive.com
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","success":true}'
+    http_version: 
+  recorded_at: Fri, 18 Aug 2017 20:22:04 GMT
+recorded_with: VCR 3.0.3

@@ -5,6 +5,7 @@ require 'webmock/rspec'
 require 'pipedrive_ruby'
 require 'vcr'
 require 'dotenv'
+require 'byebug'
 Dotenv.load
 
 WebMock.disable_net_connect!(allow_localhost: true)
