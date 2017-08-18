@@ -166,4 +166,63 @@ http_interactions:
         Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true}}}}'
     http_version: 
   recorded_at: Fri, 18 Aug 2017 20:23:13 GMT
+- request:
+    method: put
+    uri: https://api.pipedrive.com/v1/deals/12?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"id":12,"value":844}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 18 Aug 2017 20:27:09 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - bf502609-5661-47c0-b679-3ca07c8d692a
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '88'
+      X-Ratelimit-Reset:
+      - '0'
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":12,"creator_user_id":{"id":2876523,"name":"Eduardo
+        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true,"value":2876523},"user_id":{"id":2876523,"name":"Eduardo
+        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true,"value":2876523},"person_id":null,"org_id":null,"stage_id":1,"title":"0
+        - Novo Negocio","value":844,"currency":"BRL","add_time":"2017-08-18 20:27:06","update_time":"2017-08-18
+        20:27:09","stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":1,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$844","rotten_time":null,"weighted_value":844,"formatted_weighted_value":"R$844","owner_name":"Eduardo
+        Hertz","cc_email":"nexaastesting+deal12@pipedrivemail.com","org_hidden":false,"person_hidden":false},"related_objects":{"user":{"2876523":{"id":2876523,"name":"Eduardo
+        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Fri, 18 Aug 2017 20:27:09 GMT
 recorded_with: VCR 3.0.3
