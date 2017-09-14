@@ -20,8 +20,8 @@ http_interactions:
       code: 201
       message: Created
     headers:
-      Server:
-      - nginx
+      Date:
+      - Thu, 14 Sep 2017 21:22:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,26 +33,31 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 26336ab4-52f1-4c7e-8737-8af1c8e25847
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '91'
-      X-Ratelimit-Reset:
-      - '7'
+      - f175781c-6c0a-4b11-a7d0-6b848139668b
       Content-Security-Policy:
       - frame-ancestors https://*.pipedrive.com
-      Date:
-      - Fri, 18 Aug 2017 20:21:45 GMT
       Access-Control-Allow-Origin:
       - https://app.pipedrive.com
       Access-Control-Allow-Credentials:
       - 'true'
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRwEDClheXBU7QVlAFkRPUh5SCFIICBgCHVQBVwlTH09VGhUCUQJdVlRQAlECAw4CAAYDEU4AAg5DB2U=
       Strict-Transport-Security:
       - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424145029;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '97'
+      X-Ratelimit-Reset:
+      - '9'
+      Server:
+      - no-name-at-all
     body:
       encoding: UTF-8
-      string: '{"status":"ok","success":true,"data":{"id":21003,"company_id":1968662,"admin_id":2876523,"user_id":2876523,"event_action":"added","event_object":"activity","subscription_url":"https://requestb.in/r995rnr9","is_active":1,"add_time":"2017-08-18T20:21:45.000Z","remove_time":null,"type":"general","http_auth_user":null,"http_auth_password":null,"additional_data":{}}}'
+      string: '{"status":"ok","success":true,"data":{"id":24462,"company_id":2037553,"admin_id":742863,"user_id":742863,"event_action":"added","event_object":"activity","subscription_url":"https://requestb.in/r995rnr9","is_active":1,"add_time":"2017-09-14T21:22:25.000Z","remove_time":null,"type":"general","http_auth_user":null,"http_auth_password":null,"additional_data":{}}}'
     http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:21:45 GMT
+  recorded_at: Thu, 14 Sep 2017 21:22:25 GMT
 recorded_with: VCR 3.0.3

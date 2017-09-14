@@ -18,8 +18,8 @@ http_interactions:
       code: 404
       message: Not Found
     headers:
-      Server:
-      - nginx
+      Date:
+      - Thu, 14 Sep 2017 21:22:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,24 +31,28 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 18b6fcee-6478-4a11-857a-10011f1bcff8
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '83'
-      X-Ratelimit-Reset:
-      - '4'
+      - 30cb0a1e-b812-4731-8a44-6f853a5d266e
       Content-Security-Policy:
       - frame-ancestors https://*.pipedrive.com
-      Date:
-      - Fri, 18 Aug 2017 20:21:48 GMT
       Access-Control-Allow-Origin:
       - https://app.pipedrive.com
       Access-Control-Allow-Credentials:
       - 'true'
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRwEDClheXBU4HgxaFgMOPVQHVAdMXRYeA0sJUQFRA05UGAZWUloJHx1VTUADBAFeUQEPBQFSUANUVgEHGhRSU18WXDw=
+      Set-Cookie:
+      - pipe-last-active=1505424143057;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Server:
+      - no-name-at-all
     body:
       encoding: UTF-8
       string: '{"status":"error","success":false,"errors":{"id":["not found"]}}'
     http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:21:48 GMT
+  recorded_at: Thu, 14 Sep 2017 21:22:23 GMT
 recorded_with: VCR 3.0.3

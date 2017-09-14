@@ -14,16 +14,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 400
       message: Bad Request
     headers:
-      Server:
-      - nginx
       Date:
-      - Sun, 24 Jul 2016 20:14:56 GMT
+      - Thu, 14 Sep 2017 21:22:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -34,18 +32,28 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - bed2efe4-0f1e-4f18-be79-baa3245f6e73
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8KVVNLPRYMEURAFFIWCAQCA1UVUR9RB1NTBBtMV08aUgNTWVAPBlNUVAdXAVtVB0AcBFkOS11p
+      Set-Cookie:
+      - pipe-last-active=1505424169551;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '93'
       X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      - '5'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"success":false,"error":"Deal title must be given.","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Sun, 24 Jul 2016 20:14:56 GMT
+  recorded_at: Thu, 14 Sep 2017 21:22:49 GMT
 recorded_with: VCR 3.0.3

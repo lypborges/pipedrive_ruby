@@ -14,16 +14,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 400
       message: Bad Request
     headers:
-      Server:
-      - nginx
       Date:
-      - Tue, 19 Jul 2016 18:21:52 GMT
+      - Thu, 14 Sep 2017 21:24:17 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -34,18 +32,28 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - f8a263d7-10b8-45ba-a282-8926eda8ad20
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUREVClhDXhwFRV9cDBU/TVkMXAdAZ0RdQBEbTQFPA1JUBgdNVk0IAQNXVk4aABtEBggEVgFXUVBSW1tUAFoAUxFJXwBdElY/
+      Set-Cookie:
+      - pipe-last-active=1505424257322;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '95'
       X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      - '5'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"success":false,"error":"Wrong email\/password combination.","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:21:52 GMT
+  recorded_at: Thu, 14 Sep 2017 21:24:17 GMT
 recorded_with: VCR 3.0.3

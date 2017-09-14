@@ -2,68 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/searchResults?api_token=<API_KEY>&term=novo
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Tue, 19 Jul 2016 18:21:55 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"type":"deal","id":1444,"title":"Novo Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1445,"title":"Novo
-        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1448,"title":"Novo
-        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1449,"title":"Novo
-        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1457,"title":"Novo
-        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1458,"title":"Novo
-        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1456,"title":"Novo
-        Negocio (c\u00f3pia)","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"deal","id":1461,"title":"Novo
-        Negocio (c\u00f3pia)","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Ideia","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null}},{"type":"product","id":335,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/335"},{"type":"product","id":336,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/336"},{"type":"product","id":341,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/341"},{"type":"product","id":342,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/342"},{"type":"product","id":349,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/349"},{"type":"product","id":350,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/350"},{"type":"product","id":383,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/383"},{"type":"product","id":386,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/386"},{"type":"product","id":345,"title":"0
-        - Novo Produto","details":"","url":"\/product\/details\/345"},{"type":"product","id":346,"title":"1
-        - Novo Produto","details":"","url":"\/product\/details\/346"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
-    http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:21:56 GMT
-- request:
-    method: get
     uri: https://api.pipedrive.com/v1/searchResults/?api_token=<API_KEY>&term=novo
     body:
       encoding: US-ASCII
@@ -74,16 +12,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Thu, 21 Jul 2016 12:32:21 GMT
+      - Thu, 14 Sep 2017 21:24:04 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -94,28 +30,52 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - 64d0f56a-99ac-405b-a316-f01e0ad475b2
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQwEAEFRZZQMXRFpHETpMC14GXRpnX1FGEUkJTwFRA1JUGgdPVlYJAQZITFMbEwFWUlIPAlVQVVUHWgkBCQ0WHlUEVRJUPA==
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424244506;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '97'
       X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      - '6'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"type":"product","id":335,"title":"Novo Produto","details":"","url":"\/product\/details\/335"},{"type":"product","id":336,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/336"},{"type":"product","id":341,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/341"},{"type":"product","id":342,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/342"},{"type":"product","id":349,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/349"},{"type":"product","id":350,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/350"},{"type":"product","id":383,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/383"},{"type":"product","id":386,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/386"},{"type":"product","id":440,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/440"},{"type":"product","id":443,"title":"Novo
-        Produto","details":"","url":"\/product\/details\/443"},{"type":"product","id":345,"title":"0
-        - Novo Produto","details":"","url":"\/product\/details\/345"},{"type":"product","id":346,"title":"1
-        - Novo Produto","details":"","url":"\/product\/details\/346"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+      string: '{"success":true,"data":[{"type":"product","id":93,"source":"elastic2","result_score":6.441612,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/93"},{"type":"product","id":110,"source":"elastic2","result_score":6.441612,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/110"},{"type":"product","id":202,"source":"elastic2","result_score":6.372425,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/202"},{"type":"product","id":21,"source":"elastic2","result_score":6.3562346,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/21"},{"type":"product","id":107,"source":"elastic2","result_score":6.3562346,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/107"},{"type":"product","id":199,"source":"elastic2","result_score":6.3562346,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/199"},{"type":"product","id":24,"source":"elastic2","result_score":6.2586803,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/24"},{"type":"product","id":96,"source":"elastic2","result_score":6.2586803,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Produto","details":"","url":"\/product\/details\/96"},{"type":"deal","id":24,"source":"elastic2","result_score":5.106965,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Cliente
+        potencial - Em","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null,"org_address":""}},{"type":"deal","id":19,"source":"elastic2","result_score":5.1063633,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Cliente
+        potencial - Em","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null,"org_address":""}},{"type":"deal","id":18,"source":"elastic2","result_score":5.1063633,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Cliente
+        potencial - Em","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null,"org_address":""}},{"type":"deal","id":29,"source":"elastic2","result_score":5.1063633,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Cliente
+        potencial - Em","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null,"org_address":""}},{"type":"deal","id":28,"source":"elastic2","result_score":5.1059723,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Cliente
+        potencial - Em","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null,"org_address":""}},{"type":"deal","id":23,"source":"elastic2","result_score":5.1057076,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Negocio","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Cliente
+        potencial - Em","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null,"org_address":""}},{"type":"deal","id":27,"source":"elastic2","result_score":4.7914515,"notes":{"count":0,"content":[]},"fields":{"count":0,"names":[]},"title":"Novo
+        Negocio (c\u00f3pia)","details":{"value":0,"currency":"BRL","value_formatted":"R$0","status":"open","stage_name":"Cliente
+        potencial - Em","stage_id":1,"person_name":null,"person_id":null,"org_name":null,"org_id":null,"org_address":""}}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Thu, 21 Jul 2016 12:32:21 GMT
+  recorded_at: Thu, 14 Sep 2017 21:24:05 GMT
 recorded_with: VCR 3.0.3

@@ -12,16 +12,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Sun, 24 Jul 2016 20:15:07 GMT
+      - Thu, 14 Sep 2017 21:23:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -32,24 +30,38 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - 453ab767-3d9e-43ca-bbe5-e17a6bb3f93b
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGAANX1JsBQMXQBxSFlIICAQCH1UXUQdQBVdIGwZNRFcIUlIAWFUOBgUDVwdUC1FETwRRDksHZQ==
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424195008;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '93'
       X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      - '2'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"id":1633,"title":"Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal1633@pipedrivemail.com"},{"id":1647,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal1647@pipedrivemail.com"},{"id":1641,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal1641@pipedrivemail.com"},{"id":1634,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal1634@pipedrivemail.com"},{"id":1645,"title":"Novo
-        Negocio (c\u00f3pia)","user_id":742863,"visible_to":"3","status":"open","value":208,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$208","cc_email":"prepared-tray+deal1645@pipedrivemail.com"},{"id":1635,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal1635@pipedrivemail.com"},{"id":1646,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal1646@pipedrivemail.com"},{"id":1640,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"prepared-tray+deal1640@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+      string: '{"success":true,"data":[{"id":18,"title":"Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal18@pipedrivemail.com"},{"id":28,"title":"Novo
+        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal28@pipedrivemail.com"},{"id":25,"title":"0
+        - Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal25@pipedrivemail.com"},{"id":19,"title":"Novo
+        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal19@pipedrivemail.com"},{"id":29,"title":"Novo
+        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal29@pipedrivemail.com"},{"id":26,"title":"1
+        - Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":365,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$365","cc_email":"sampletest+deal26@pipedrivemail.com"},{"id":23,"title":"Novo
+        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal23@pipedrivemail.com"},{"id":27,"title":"Novo
+        Negocio (c\u00f3pia)","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal27@pipedrivemail.com"},{"id":24,"title":"Novo
+        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal24@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Sun, 24 Jul 2016 20:15:07 GMT
+  recorded_at: Thu, 14 Sep 2017 21:23:15 GMT
 recorded_with: VCR 3.0.3

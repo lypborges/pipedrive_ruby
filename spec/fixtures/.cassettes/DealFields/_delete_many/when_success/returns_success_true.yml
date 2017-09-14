@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"45 - New deal field","field_type":"text"}'
+      string: '{"name":"46 - New deal field","field_type":"text"}'
     headers:
       Connection:
       - close
@@ -14,16 +14,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 201
       message: Created
     headers:
-      Server:
-      - nginx
       Date:
-      - Tue, 19 Jul 2016 18:24:48 GMT
+      - Thu, 14 Sep 2017 21:23:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -34,27 +32,40 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - 5cc0c1fe-3ba6-4343-b915-10ade1545db0
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARQVlEJHx1VTUBWAgZRV1IAAAZWU1UDUwBWGhRSU18WXDw=
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424214458;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '95'
       X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      - '3'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12707,"key":"d4172c63ff76f2f8ebf826135578fe52264af307","name":"45
-        - New deal field","order_nr":263,"picklist_data":null,"field_type":"text","add_time":"2016-07-19
-        18:24:47","update_time":"2016-07-19 18:24:47","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"mandatory_flag":false}}'
+      string: '{"success":true,"data":{"id":12554,"key":"a0e35d6bc8c3ed91f784bbdb1df3f3aec6558064","name":"46
+        - New deal field","order_nr":106,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        21:23:34","update_time":"2017-09-14 21:23:34","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:24:48 GMT
+  recorded_at: Thu, 14 Sep 2017 21:23:34 GMT
 - request:
     method: delete
     uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"ids":"12697,12698,12699,12700,12701,12702,12704,12706,12707"}'
+      string: '{"ids":"12551,12552,12553,12554"}'
     headers:
       Connection:
       - close
@@ -63,16 +74,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Tue, 19 Jul 2016 18:24:53 GMT
+      - Thu, 14 Sep 2017 21:23:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -83,17 +92,30 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - 8bdfc49f-f792-4400-80c1-db6637f02bdb
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9XAdUXUBXEUkJTwFRA1JUGgdPUVILAwlITFMbEwZVUwACB1oDUwdRAAhSCwkWHlUEVRJUPA==
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424216701;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '94'
       X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      - '1'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":["12697","12698","12699","12700","12701","12702","12704","12706","12707"]}}'
+      string: '{"success":true,"data":{"id":["12551","12552","12553","12554"]}}'
     http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:24:53 GMT
+  recorded_at: Thu, 14 Sep 2017 21:23:37 GMT
 recorded_with: VCR 3.0.3

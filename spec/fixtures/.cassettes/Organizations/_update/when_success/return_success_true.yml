@@ -2,57 +2,6 @@
 http_interactions:
 - request:
     method: put
-    uri: https://api.pipedrive.com/v1/organizations/166?api_token=<API_KEY>
-    body:
-      encoding: UTF-8
-      string: '{"id":166,"name":"New Named"}'
-    headers:
-      Connection:
-      - close
-      Content-Type:
-      - application/json; charset=UTF-8
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Tue, 19 Jul 2016 18:25:14 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":166,"company_id":1051939,"owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
-        Named","open_deals_count":0,"closed_deals_count":null,"email_messages_count":0,"people_count":0,"activities_count":null,"done_activities_count":null,"undone_activities_count":null,"reference_activities_count":null,"files_count":null,"notes_count":0,"followers_count":1,"won_deals_count":0,"lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2016-07-19
-        18:25:14","add_time":"2016-07-08 23:56:49","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"prepared-tray@pipedrivemail.com"},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
-    http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:25:14 GMT
-- request:
-    method: put
     uri: https://api.pipedrive.com/v1/organizations/1?api_token=<API_KEY>
     body:
       encoding: UTF-8
@@ -71,10 +20,8 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Fri, 18 Aug 2017 20:23:30 GMT
+      - Thu, 14 Sep 2017 21:22:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -86,26 +33,33 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - bf189e69-c9d7-484a-b208-29ecf0c35ffe
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '90'
-      X-Ratelimit-Reset:
-      - '3'
+      - 64393eda-1dad-4855-9c1e-2a16674c0f62
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcXxYGA1lYTQcQWFldETpMC0QHVT1ITUAQH1UXUQFRA1JIBhlRUFMMCxxJUE4VBFJQBVUCBlRXAlcIUQ0HXRoYVFIJSgRs
       Strict-Transport-Security:
       - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424157629;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":1,"company_id":1968662,"owner_id":{"id":2876523,"name":"Eduardo
-        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true,"value":2876523},"name":"New
-        Named","open_deals_count":0,"related_open_deals_count":0,"closed_deals_count":0,"related_closed_deals_count":0,"email_messages_count":0,"people_count":1,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"files_count":0,"notes_count":0,"followers_count":1,"won_deals_count":0,"related_won_deals_count":0,"lost_deals_count":0,"related_lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2017-08-18
-        20:23:30","add_time":"2017-08-16 13:15:55","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"nexaastesting@pipedrivemail.com"},"related_objects":{"user":{"2876523":{"id":2876523,"name":"Eduardo
-        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true}}}}'
+      string: '{"success":true,"data":{"id":1,"company_id":2037553,"owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
+        Named","open_deals_count":0,"related_open_deals_count":0,"closed_deals_count":0,"related_closed_deals_count":0,"email_messages_count":0,"people_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"files_count":0,"notes_count":0,"followers_count":1,"won_deals_count":0,"related_won_deals_count":0,"lost_deals_count":0,"related_lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2017-09-14
+        21:22:37","add_time":"2017-09-14 18:49:22","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"sampletest@pipedrivemail.com"},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:23:30 GMT
+  recorded_at: Thu, 14 Sep 2017 21:22:37 GMT
 recorded_with: VCR 3.0.3

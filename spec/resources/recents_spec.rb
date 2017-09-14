@@ -10,7 +10,7 @@ describe 'Recents', vcr: true do
   describe '#all' do
     context 'when success' do
       it 'returns a list of recent changes' do
-        response = @recents.all({:since_timestamp => '2016-06-01'})
+        response = @recents.all({:since_timestamp => '2016-06-01 00:00:00'})
         expect(response['success']).to be_truthy
         expect(response['data']).to respond_to(:each)
       end

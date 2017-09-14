@@ -12,16 +12,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 404
       message: Not Found
     headers:
-      Server:
-      - nginx
       Date:
-      - Sun, 24 Jul 2016 20:15:04 GMT
+      - Thu, 14 Sep 2017 21:22:58 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -32,18 +30,28 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - 1fe74a83-2f87-4c62-a41f-0df4dfef1c00
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsEhQMBkUBTBFnX1FGEUkJTwFRA1JUGgdPVlcBAwRITFMbE1NSBgZSUFoFUwECUgkGXQ4WHlUEVRJUPA==
+      Set-Cookie:
+      - pipe-last-active=1505424178130;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '96'
       X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      - '8'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"success":false,"error":"Deal not found","error_info":"Please check
         developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Sun, 24 Jul 2016 20:15:04 GMT
+  recorded_at: Thu, 14 Sep 2017 21:22:58 GMT
 recorded_with: VCR 3.0.3

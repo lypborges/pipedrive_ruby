@@ -49,9 +49,12 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/lypbor
 
 ##Tips
 
+If the tests fail in CI. Try the following:
+
+1 - Remove the 
 before push/pull requests always run tests:
 - `codeclimate analyze`
-- `spec`
+- `rake spec`
 
 ## Thanks
 - Gustavo Maestri, for teach me ruby ;) (@gumaestri)

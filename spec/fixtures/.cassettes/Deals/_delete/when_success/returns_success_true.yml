@@ -2,97 +2,7 @@
 http_interactions:
 - request:
     method: delete
-    uri: https://api.pipedrive.com/v1/deals/1632?api_token=<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 410
-      message: Gone
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Sun, 24 Jul 2016 20:15:15 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":1632}}'
-    http_version: 
-  recorded_at: Sun, 24 Jul 2016 20:15:15 GMT
-- request:
-    method: delete
-    uri: https://api.pipedrive.com/v1/deals/1633?api_token=<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Sun, 24 Jul 2016 20:28:37 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '98'
-      X-Ratelimit-Reset:
-      - '2'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":1633}}'
-    http_version: 
-  recorded_at: Sun, 24 Jul 2016 20:28:38 GMT
-- request:
-    method: delete
-    uri: https://api.pipedrive.com/v1/deals/5?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/deals/10?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -108,10 +18,8 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Fri, 18 Aug 2017 20:23:14 GMT
+      - Thu, 14 Sep 2017 21:22:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -123,73 +31,29 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 50acbcdc-5edd-43fc-bd45-a899a19b228d
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '97'
-      X-Ratelimit-Reset:
-      - '9'
+      - 4fc9b620-aae9-405e-98e1-fdc2020e7009
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBgMPB0QHGk4IFgQCA1UJTQFPA1ZcAABNS1IUEQEHUQNUUwVfUQIOV1UFUAESTl4DVEtRbw==
       Strict-Transport-Security:
       - max-age=15768000
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":5}}'
-    http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:23:14 GMT
-- request:
-    method: delete
-    uri: https://api.pipedrive.com/v1/deals/12?api_token=<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.2.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424179856;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '94'
+      X-Ratelimit-Reset:
+      - '6'
       Server:
-      - nginx
-      Date:
-      - Fri, 18 Aug 2017 20:27:10 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Correlation-Id:
-      - d0907189-8e3a-4908-a578-cebee35752f6
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=15768000
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12}}'
+      string: '{"success":true,"data":{"id":10}}'
     http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:27:10 GMT
+  recorded_at: Thu, 14 Sep 2017 21:22:59 GMT
 recorded_with: VCR 3.0.3

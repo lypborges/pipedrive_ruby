@@ -2,97 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/deals/1632/participants?api_token=<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Sun, 24 Jul 2016 20:15:10 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
-    http_version: 
-  recorded_at: Sun, 24 Jul 2016 20:15:10 GMT
-- request:
-    method: get
-    uri: https://api.pipedrive.com/v1/deals/1633/participants?api_token=<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Sun, 24 Jul 2016 20:28:49 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
-    http_version: 
-  recorded_at: Sun, 24 Jul 2016 20:28:49 GMT
-- request:
-    method: get
-    uri: https://api.pipedrive.com/v1/deals/5/participants?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/deals/10/participants?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -108,10 +18,8 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Fri, 18 Aug 2017 20:23:23 GMT
+      - Thu, 14 Sep 2017 21:23:04 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -123,73 +31,29 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 52bb7e56-1b39-4496-b986-431d91452c24
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '98'
-      X-Ratelimit-Reset:
-      - '10'
+      - dc42945d-52b9-4640-aff6-09da6d30439d
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsEgcRFlkBURJZVkBBbAJcFRNNA0xUBgdRVk8IHQBQWFYDHRpXSBNSUQdTV1dUWg1UAQsFU1BVG01XAF8RAWs=
       Strict-Transport-Security:
       - max-age=15768000
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
-    http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:23:24 GMT
-- request:
-    method: get
-    uri: https://api.pipedrive.com/v1/deals/12/participants?api_token=<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.2.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Fri, 18 Aug 2017 20:27:19 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Correlation-Id:
-      - 5603ce6a-ac96-4b3e-b4da-5ee58af176cf
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424184305;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
       - '90'
       X-Ratelimit-Reset:
-      - '1'
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=15768000
+      - '2'
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:27:19 GMT
+  recorded_at: Thu, 14 Sep 2017 21:23:04 GMT
 recorded_with: VCR 3.0.3

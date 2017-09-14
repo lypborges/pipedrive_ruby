@@ -20,8 +20,8 @@ http_interactions:
       code: 400
       message: Bad Request
     headers:
-      Server:
-      - nginx
+      Date:
+      - Thu, 14 Sep 2017 21:22:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,26 +33,30 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 44f26f81-31f5-428c-bbba-380c2ebb16bd
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '89'
-      X-Ratelimit-Reset:
-      - '6'
+      - 827e88cb-4a4a-4585-a9a1-72cbab0c1592
       Content-Security-Policy:
       - frame-ancestors https://*.pipedrive.com
-      Date:
-      - Fri, 18 Aug 2017 20:21:46 GMT
       Access-Control-Allow-Origin:
       - https://app.pipedrive.com
       Access-Control-Allow-Credentials:
       - 'true'
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRwEDClheXBU7QVlAFkRPUh5SCFIICBgCHVQLVwdZH09VGhVWAltbBQlQUVQOBgNSBgMDEU4AAg5DB2U=
+      Set-Cookie:
+      - pipe-last-active=1505424146008;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '96'
+      X-Ratelimit-Reset:
+      - '8'
+      Server:
+      - no-name-at-all
     body:
       encoding: UTF-8
       string: '{"status":"error","success":false,"errors":{"event_action":["can''t
         be blank"],"event_object":["can''t be blank"],"subscription_url":["can''t
         be blank"]}}'
     http_version: 
-  recorded_at: Fri, 18 Aug 2017 20:21:46 GMT
+  recorded_at: Thu, 14 Sep 2017 21:22:26 GMT
 recorded_with: VCR 3.0.3

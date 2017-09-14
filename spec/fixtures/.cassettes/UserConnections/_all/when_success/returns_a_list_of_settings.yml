@@ -2,51 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/userConnections?api_token=<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.0.2
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Tue, 19 Jul 2016 18:25:05 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '99'
-      X-Ratelimit-Reset:
-      - '10'
-      Access-Control-Allow-Origin:
-      - "*"
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"google":false}}'
-    http_version: 
-  recorded_at: Tue, 19 Jul 2016 18:25:05 GMT
-- request:
-    method: get
     uri: https://api.pipedrive.com/v1/userConnections/?api_token=<API_KEY>
     body:
       encoding: US-ASCII
@@ -57,16 +12,14 @@ http_interactions:
       Host:
       - api.pipedrive.com
       User-Agent:
-      - http.rb/2.0.2
+      - http.rb/2.2.2
   response:
     status:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Thu, 21 Jul 2016 12:32:32 GMT
+      - Thu, 14 Sep 2017 21:24:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -77,17 +30,30 @@ http_interactions:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
+      X-Correlation-Id:
+      - 9d4672ec-efc2-4988-a023-e85cca5f02b7
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRRcEEHReWQgBUkJaDQgQPh8LVgZdQGtVVhEbTQFPA1JUBgdNVk0IAQhdWU4aABtEVVJVB1FQUVoIUwsHWVoDARFJXwBdElY/
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505424275949;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '98'
       X-Ratelimit-Reset:
       - '10'
-      Access-Control-Allow-Origin:
-      - "*"
+      Server:
+      - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":{"google":false}}'
     http_version: 
-  recorded_at: Thu, 21 Jul 2016 12:32:32 GMT
+  recorded_at: Thu, 14 Sep 2017 21:24:36 GMT
 recorded_with: VCR 3.0.3
