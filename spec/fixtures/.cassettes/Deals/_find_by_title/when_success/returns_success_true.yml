@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:37:51 GMT
+      - Thu, 14 Sep 2017 22:15:55 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,38 +31,34 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - a0ddd3ee-7ce5-4cbb-842b-e3eb33496677
+      - d44aec7e-6778-4b94-a4e2-94df33b63aee
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGAANX1JsBQMXQBxSFlIICAQCH1UXUQRXAlBIGwZNRABZBFQGWAMAAVZRUwlUVlpETwRRDksHZQ==
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGAANX1JsBQMXQBxSFlIICAQCH1UXUQRSC1JIGwZNRFQNVgQHVlsDAFZeU1MFUAZETwRRDksHZQ==
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505425071604;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427355477;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '96'
+      - '95'
       X-Ratelimit-Reset:
-      - '3'
+      - '5'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"id":18,"title":"Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":349,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$349","cc_email":"sampletest+deal18@pipedrivemail.com"},{"id":32,"title":"Novo
-        Negocio (c\u00f3pia)","user_id":742863,"visible_to":"3","status":"open","value":349,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$349","cc_email":"sampletest+deal32@pipedrivemail.com"},{"id":27,"title":"Novo
-        Negocio (c\u00f3pia)","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal27@pipedrivemail.com"},{"id":19,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal19@pipedrivemail.com"},{"id":33,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal33@pipedrivemail.com"},{"id":28,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal28@pipedrivemail.com"},{"id":23,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal23@pipedrivemail.com"},{"id":34,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal34@pipedrivemail.com"},{"id":29,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal29@pipedrivemail.com"},{"id":24,"title":"Novo
-        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal24@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+      string: '{"success":true,"data":[{"id":33,"title":"Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal33@pipedrivemail.com"},{"id":56,"title":"1
+        - Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal56@pipedrivemail.com"},{"id":34,"title":"Novo
+        Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal34@pipedrivemail.com"},{"id":57,"title":"Novo
+        Negocio (c\u00f3pia)","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal57@pipedrivemail.com"},{"id":44,"title":"0
+        - Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":398,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$398","cc_email":"sampletest+deal44@pipedrivemail.com"},{"id":55,"title":"0
+        - Novo Negocio","user_id":742863,"visible_to":"3","status":"open","value":0,"currency":"BRL","person_name":null,"person_id":null,"organization_name":null,"organization_id":null,"formatted_value":"R$0","cc_email":"sampletest+deal55@pipedrivemail.com"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:37:52 GMT
+  recorded_at: Thu, 14 Sep 2017 22:15:55 GMT
 recorded_with: VCR 3.0.3

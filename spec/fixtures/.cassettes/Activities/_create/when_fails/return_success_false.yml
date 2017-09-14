@@ -21,7 +21,7 @@ http_interactions:
       message: Bad Request
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:38:35 GMT
+      - Thu, 14 Sep 2017 22:20:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,21 +33,21 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - b6931c11-72b1-4b0a-9be2-f4b5512d5a44
+      - 9586976f-95af-4ab2-83a5-9d18c5cd1ec6
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGAdVXlcBHx1VTUBSBgZVUVVSUQZSAQFUBwhQGhRSU18WXDw=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGAdUVlAIHx1VTUABA1YCUVMHC1FfBgdSAwtaGhRSU18WXDw=
       Set-Cookie:
-      - pipe-last-active=1505425115242;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427628150;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '97'
+      - '99'
       X-Ratelimit-Reset:
-      - '9'
+      - '10'
       Server:
       - no-name-at-all
     body:
@@ -55,5 +55,5 @@ http_interactions:
       string: '{"success":false,"error":"Activity could not be created.","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:38:36 GMT
+  recorded_at: Thu, 14 Sep 2017 22:20:28 GMT
 recorded_with: VCR 3.0.3

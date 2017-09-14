@@ -14,7 +14,7 @@ describe 'Webhooks', vcr: true do
     @webhooks_response = []
     2.times do |number|
       @webhooks_response << @webhooks.create({
-        subscription_url: 'http://test.local', event_action: 'added',
+        subscription_url: 'https://requestb.in/r995rnr9', event_action: 'added',
         event_object: 'activity'
       })
     end

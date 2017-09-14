@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:37:48 GMT
+      - Thu, 14 Sep 2017 22:15:56 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,29 +31,29 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - c47afacf-55f4-4020-ac7c-773bd9658fa9
+      - 30b926f9-c223-4e56-bbe7-b1a33ca7906e
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGAANX1JsBQMXQBxSFlIICAQCH1UXUQNYAlNIGwZNRFMPCgFTVVIPVQIHUVJXUgNETwRRDksHZQ==
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGAANX1JsBQMXQBxSFlIICAQCH1UXUQVRAFNIGwZNRAIBBAlcAFMGBw9RUAdTUgNETwRRDksHZQ==
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505425068835;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427356633;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '97'
+      - '94'
       X-Ratelimit-Reset:
-      - '6'
+      - '4'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:37:48 GMT
+  recorded_at: Thu, 14 Sep 2017 22:15:57 GMT
 recorded_with: VCR 3.0.3

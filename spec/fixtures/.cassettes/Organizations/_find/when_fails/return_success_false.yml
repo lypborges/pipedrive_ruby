@@ -19,7 +19,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:40:29 GMT
+      - Thu, 14 Sep 2017 22:20:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,21 +31,21 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 44417955-424f-4fca-bba8-5a37cde360bb
+      - 08e69fcb-a899-4cad-9204-588d54f9741b
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcXxYGA1lYTQcQWFldETpMC0QHVT1fXUAQH1UXUQFRA1JIBhlRU1QAABxJUE4VCQIFVgYPVwZVAAYFVwFUWhoYVFIJSgRs
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcXxYGA1lYTQcQWFldETpMC0QHVT1fXUAQH1UXUQFRA1JIBhlRUFsKCxxJUE4VCQBRBwAABVpVBwcGUQkBXBoYVFIJSgRs
       Set-Cookie:
-      - pipe-last-active=1505425229393;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427659108;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '96'
+      - '99'
       X-Ratelimit-Reset:
-      - '6'
+      - '10'
       Server:
       - no-name-at-all
     body:
@@ -53,5 +53,5 @@ http_interactions:
       string: '{"success":false,"error":"Organization not found.","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:40:29 GMT
+  recorded_at: Thu, 14 Sep 2017 22:20:59 GMT
 recorded_with: VCR 3.0.3

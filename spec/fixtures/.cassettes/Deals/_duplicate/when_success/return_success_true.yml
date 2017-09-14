@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.pipedrive.com/v1/deals/18/duplicate?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/deals/33/duplicate?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:37:39 GMT
+      - Thu, 14 Sep 2017 22:15:54 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,32 +31,207 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 3f6e8bb5-c61c-4bc9-8230-6f281542ff30
+      - 70802992-3a17-4db2-8bcd-01756bfbc781
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBhMTDlkBWRZdZ0RdQBEbTQFPA1JUBgdNVk0ICgZQV04aABtEVQNTAgNTBwEJUQAGDw4CVxFJXwBdElY/
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBhMTDlkBWRZdZ0RdQBEbTQFPA1JUBgdNVk0IBANVVE4aABtEXAgBCwFXV1oFVwEBCQoFBRFJXwBdElY/
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505425059746;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427354274;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '94'
+      - '96'
       X-Ratelimit-Reset:
-      - '5'
+      - '6'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":32,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"Novo
-        Negocio (c\u00f3pia)","value":349,"currency":"BRL","add_time":"2017-09-14
-        21:37:39","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":0,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"26f3b1fb1d7cf5bb2f1842c0d1a14b07160dcbd5":null,"f27def360859c67830732851e849d101f3d20f56":null,"5e6e7db3c329b31e7005a86ec96c1a931ce4465c":null,"0cd6ce87bfd8842018010bd7c67dd2b4aa615952":null,"188fb5abca61d3fb9fcf03718f78d587dfe6de30":null,"d2a40aab8ffaa86f7aa5857be9505f0ea09ae829":null,"49b4f2d88f02c5e8a37f23cc01f65815d7864662":null,"1c7269023185d8b0349d0cb9337d7a1a92f1ac8e":null,"d8f2e98799fa223092c0fc384e7485dfb584f7ea":null,"f727fa8fd7dc53b44e6387c1253b038a0190a217":null,"ec436fee1ece57f040e11faa1a05f003835c44f8":null,"878539c1aeaef91ca91dd365283ad3fa28dc3d28":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$349","rotten_time":null,"weighted_value":349,"formatted_weighted_value":"R$349","owner_name":"Felipe
-        Borges Ferreira","cc_email":"sampletest+deal32@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+      string: '{"success":true,"data":{"id":57,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"Novo
+        Negocio (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2017-09-14 22:15:54","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":0,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"26f3b1fb1d7cf5bb2f1842c0d1a14b07160dcbd5":null,"f27def360859c67830732851e849d101f3d20f56":null,"5e6e7db3c329b31e7005a86ec96c1a931ce4465c":null,"0cd6ce87bfd8842018010bd7c67dd2b4aa615952":null,"188fb5abca61d3fb9fcf03718f78d587dfe6de30":null,"d2a40aab8ffaa86f7aa5857be9505f0ea09ae829":null,"49b4f2d88f02c5e8a37f23cc01f65815d7864662":null,"1c7269023185d8b0349d0cb9337d7a1a92f1ac8e":null,"d8f2e98799fa223092c0fc384e7485dfb584f7ea":null,"f727fa8fd7dc53b44e6387c1253b038a0190a217":null,"ec436fee1ece57f040e11faa1a05f003835c44f8":null,"878539c1aeaef91ca91dd365283ad3fa28dc3d28":null,"fc47319cb3aed9ec252867f4f2107cc7b65cda70":null,"285a86aaa754e8f1da68285f89f4539ba9250010":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"sampletest+deal57@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:37:39 GMT
+  recorded_at: Thu, 14 Sep 2017 22:15:54 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/34/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 22:28:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - 682fdd37-2fbf-41b8-bb64-e9cf6e1c52cc
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBhMTDlkBWRZdZ0RdQBEbTQFPA1JUBgdNVk0IBANUU04aABtEUAhSC1VRWgAAB1xTWw1QARFJXwBdElY/
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505428087433;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '92'
+      X-Ratelimit-Reset:
+      - '1'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":62,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"Novo
+        Negocio (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2017-09-14 22:28:07","update_time":null,"stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":0,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"26f3b1fb1d7cf5bb2f1842c0d1a14b07160dcbd5":null,"f27def360859c67830732851e849d101f3d20f56":null,"5e6e7db3c329b31e7005a86ec96c1a931ce4465c":null,"0cd6ce87bfd8842018010bd7c67dd2b4aa615952":null,"188fb5abca61d3fb9fcf03718f78d587dfe6de30":null,"d2a40aab8ffaa86f7aa5857be9505f0ea09ae829":null,"49b4f2d88f02c5e8a37f23cc01f65815d7864662":null,"1c7269023185d8b0349d0cb9337d7a1a92f1ac8e":null,"d8f2e98799fa223092c0fc384e7485dfb584f7ea":null,"f727fa8fd7dc53b44e6387c1253b038a0190a217":null,"ec436fee1ece57f040e11faa1a05f003835c44f8":null,"878539c1aeaef91ca91dd365283ad3fa28dc3d28":null,"fc47319cb3aed9ec252867f4f2107cc7b65cda70":null,"285a86aaa754e8f1da68285f89f4539ba9250010":null,"0868b9ed51387d19bf256ee77d23be4e5fb4284a":null,"57af3d7d1c378f1e85040ae8b1120e6b00058e57":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"sampletest+deal62@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 22:28:07 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/57/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 22:31:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - d826ef67-5b1c-4914-8406-a0fb63d596fe
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBhMTDlkBWRZdZ0RdQBEbTQFPA1JUBgdNVk0IBAVdUk4aABtEXQdUUlNRAFBSVg5XAF0DBRFJXwBdElY/
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505428295732;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '9'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":68,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"Novo
+        Negocio (c\u00f3pia) (c\u00f3pia)","value":807,"currency":"BRL","add_time":"2017-09-14
+        22:31:35","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":"2017-09-14
+        22:31:26","pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":0,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"26f3b1fb1d7cf5bb2f1842c0d1a14b07160dcbd5":null,"f27def360859c67830732851e849d101f3d20f56":null,"5e6e7db3c329b31e7005a86ec96c1a931ce4465c":null,"0cd6ce87bfd8842018010bd7c67dd2b4aa615952":null,"188fb5abca61d3fb9fcf03718f78d587dfe6de30":null,"d2a40aab8ffaa86f7aa5857be9505f0ea09ae829":null,"49b4f2d88f02c5e8a37f23cc01f65815d7864662":null,"1c7269023185d8b0349d0cb9337d7a1a92f1ac8e":null,"d8f2e98799fa223092c0fc384e7485dfb584f7ea":null,"f727fa8fd7dc53b44e6387c1253b038a0190a217":null,"ec436fee1ece57f040e11faa1a05f003835c44f8":null,"878539c1aeaef91ca91dd365283ad3fa28dc3d28":null,"fc47319cb3aed9ec252867f4f2107cc7b65cda70":null,"285a86aaa754e8f1da68285f89f4539ba9250010":null,"0868b9ed51387d19bf256ee77d23be4e5fb4284a":null,"57af3d7d1c378f1e85040ae8b1120e6b00058e57":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$807","rotten_time":null,"weighted_value":807,"formatted_weighted_value":"R$807","owner_name":"Felipe
+        Borges Ferreira","cc_email":"sampletest+deal68@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 22:31:36 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/deals/58/duplicate?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 23:04:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - bbe2f267-1be1-49f7-8e7a-9bc746d90647
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBhMTDlkBWRZdZ0RdQBEbTQFPA1JUBgdNVk0IBQdXUk4aABtEVQACAFFSB1JRUVxSXFxWABFJXwBdElY/
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505430291381;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '93'
+      X-Ratelimit-Reset:
+      - '2'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":71,"creator_user_id":742863,"user_id":742863,"person_id":null,"org_id":null,"stage_id":1,"title":"Novo
+        Negocio (c\u00f3pia)","value":0,"currency":"BRL","add_time":"2017-09-14 23:04:51","update_time":null,"stage_change_time":null,"active":false,"deleted":true,"status":"deleted","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":0,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"26f3b1fb1d7cf5bb2f1842c0d1a14b07160dcbd5":null,"f27def360859c67830732851e849d101f3d20f56":null,"5e6e7db3c329b31e7005a86ec96c1a931ce4465c":null,"0cd6ce87bfd8842018010bd7c67dd2b4aa615952":null,"188fb5abca61d3fb9fcf03718f78d587dfe6de30":null,"d2a40aab8ffaa86f7aa5857be9505f0ea09ae829":null,"49b4f2d88f02c5e8a37f23cc01f65815d7864662":null,"1c7269023185d8b0349d0cb9337d7a1a92f1ac8e":null,"d8f2e98799fa223092c0fc384e7485dfb584f7ea":null,"f727fa8fd7dc53b44e6387c1253b038a0190a217":null,"ec436fee1ece57f040e11faa1a05f003835c44f8":null,"878539c1aeaef91ca91dd365283ad3fa28dc3d28":null,"fc47319cb3aed9ec252867f4f2107cc7b65cda70":null,"285a86aaa754e8f1da68285f89f4539ba9250010":null,"0868b9ed51387d19bf256ee77d23be4e5fb4284a":null,"57af3d7d1c378f1e85040ae8b1120e6b00058e57":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$0","rotten_time":null,"weighted_value":0,"formatted_weighted_value":"R$0","owner_name":"Felipe
+        Borges Ferreira","cc_email":"sampletest+deal71@pipedrivemail.com","org_hidden":false,"person_hidden":false}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 23:04:51 GMT
 recorded_with: VCR 3.0.3

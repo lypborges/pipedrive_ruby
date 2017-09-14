@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: delete
-    uri: https://api.pipedrive.com/v1/deals/18?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/deals/33?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: Gone
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:37:58 GMT
+      - Thu, 14 Sep 2017 22:16:16 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,15 +31,68 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 694a6cbb-df30-460d-9469-ec89cb00fc28
+      - de49f797-1941-4262-b973-4f869fbfbe44
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBgMPB0QHGk4IFgQCA1UJTQFPA1dVAwFNS1IUEQBcUwEOCQ5VVwQPC1UFB1USTl4DVEtRbw==
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBgMPB0QHGk4IFgQCA1UJTQFPA1ZSDg5NS1IUEQIFAFEDCVNVVlMFBgNXVFASTl4DVEtRbw==
       Set-Cookie:
-      - pipe-last-active=1505425078164;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427376318;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '95'
+      X-Ratelimit-Reset:
+      - '5'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":33}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 22:16:16 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/34?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 22:28:12 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - 12dbb570-1b0d-4df5-93d1-f57e787ea0e4
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBgMPB0QHGk4IFgQCA1UJTQFPA1RUDgdNS1IUEQFUAAYDBg5VUQEAUlFXUFQSTl4DVEtRbw==
+      Set-Cookie:
+      - pipe-last-active=1505428092493;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
@@ -50,7 +103,116 @@ http_interactions:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":18}}'
+      string: '{"success":true,"data":{"id":34}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:37:58 GMT
+  recorded_at: Thu, 14 Sep 2017 22:28:12 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/57?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 22:31:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - c0b65e32-876f-48cd-9e35-2a01099d4fde
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBgMPB0QHGk4IFgQCA1UJTQFPA1RRDw5NS1IUEQhQA1JWUlIFUgMEClBVW1cSTl4DVEtRbw==
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505428286385;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '10'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":57}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 22:31:26 GMT
+- request:
+    method: delete
+    uri: https://api.pipedrive.com/v1/deals/58?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 410
+      message: Gone
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 23:04:58 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - 14bbdc7c-9a18-4fc2-80ba-c11507ed4e72
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBgMPB0QHGk4IFgQCA1UJTQFPA1ZcBgdNS1IUEQYBWQBTCAReBVRTBVADUlYSTl4DVEtRbw==
+      Set-Cookie:
+      - pipe-last-active=1505430298160;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '96'
+      X-Ratelimit-Reset:
+      - '5'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":58}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 23:04:58 GMT
 recorded_with: VCR 3.0.3

@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"6 - New deal field","field_type":"text"}'
+      string: '{"name":"20 - New deal field","field_type":"text"}'
     headers:
       Connection:
       - close
@@ -21,7 +21,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:39:03 GMT
+      - Thu, 14 Sep 2017 22:16:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,39 +33,39 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - ea9207b2-e506-4b8f-b07e-379ec2a3870e
+      - 43dccd0d-c4ee-40de-bcab-3ebb25751181
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARVXlYAHx1VTUAAAFVXXVMHUgMFUwcCBllXGhRSU18WXDw=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARQX1ABHx1VTUBSAAJQUgIOA1ACWlcDUAoHGhRSU18WXDw=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505425142848;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427393712;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
       - '98'
       X-Ratelimit-Reset:
-      - '6'
+      - '9'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12566,"key":"9a9c274a64c803bed4c2cca1a5caa88ca8e15db5","name":"6
-        - New deal field","order_nr":118,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
-        21:39:02","update_time":"2017-09-14 21:39:02","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
+      string: '{"success":true,"data":{"id":12581,"key":"978121e68d2f6f191b3919cfdce00ff7f4be3ff8","name":"20
+        - New deal field","order_nr":133,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        22:16:33","update_time":"2017-09-14 22:16:33","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:39:04 GMT
+  recorded_at: Thu, 14 Sep 2017 22:16:34 GMT
 - request:
     method: post
     uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"32 - New deal field","field_type":"text"}'
+      string: '{"name":"35 - New deal field","field_type":"text"}'
     headers:
       Connection:
       - close
@@ -81,7 +81,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:39:06 GMT
+      - Thu, 14 Sep 2017 22:16:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -93,33 +93,33 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - b168581a-b75b-496b-9d5e-8b140b4832b7
+      - fda6963d-cd92-45b5-ac6f-74700f27aac7
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARRVVUAHx1VTUBVBQUCUlBVA1sHVFsCVAkAGhRSU18WXDw=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARRVFYNHx1VTUBWUABRBggCA1JWUQABVwsGGhRSU18WXDw=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505425146230;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427395548;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
       - '97'
       X-Ratelimit-Reset:
-      - '2'
+      - '7'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12567,"key":"2f3087dadf1f040b671918d247c056b52e3794ba","name":"32
-        - New deal field","order_nr":119,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
-        21:39:06","update_time":"2017-09-14 21:39:06","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
+      string: '{"success":true,"data":{"id":12582,"key":"61d4c7b21df96916dda5fb4c356f6e97ddc89178","name":"35
+        - New deal field","order_nr":134,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        22:16:35","update_time":"2017-09-14 22:16:35","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:39:06 GMT
+  recorded_at: Thu, 14 Sep 2017 22:16:36 GMT
 - request:
     method: get
     uri: https://api.pipedrive.com/v1/dealFields//?api_token=<API_KEY>
@@ -139,7 +139,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:39:09 GMT
+      - Thu, 14 Sep 2017 22:16:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -151,24 +151,24 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 340aae5b-d55e-4815-9b84-a840be952801
+      - f9670394-fcc0-4c83-be55-327c99b27d8a
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9XwdMGhgCHVUJUQFRH1JKBgNVVlAUHgFIQwYGAgACVQhSBgdSB1QFBwlAFF5VXkAAZA==
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9XwdMGhgCHVUJUQFRH1JKBgJWV1UUHgFIQwYFCAVXVVQCUVQCV1UDBwhAFF5VXkAAZA==
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505425149708;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427397111;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '96'
       X-Ratelimit-Reset:
-      - '10'
+      - '6'
       Server:
       - no-name-at-all
     body:
@@ -244,11 +244,15 @@ http_interactions:
         deal field","order_nr":114,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
         21:23:53","update_time":"2017-09-14 21:23:53","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false},{"id":12564,"key":"878539c1aeaef91ca91dd365283ad3fa28dc3d28","name":"New
         deal field","order_nr":116,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
-        21:23:56","update_time":"2017-09-14 21:23:56","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false},{"id":12566,"key":"9a9c274a64c803bed4c2cca1a5caa88ca8e15db5","name":"6
-        - New deal field","order_nr":118,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
-        21:39:02","update_time":"2017-09-14 21:39:02","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false},{"id":12567,"key":"2f3087dadf1f040b671918d247c056b52e3794ba","name":"32
-        - New deal field","order_nr":119,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
-        21:39:06","update_time":"2017-09-14 21:39:06","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+        21:23:56","update_time":"2017-09-14 21:23:56","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false},{"id":12573,"key":"fc47319cb3aed9ec252867f4f2107cc7b65cda70","name":"New
+        deal field","order_nr":125,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        21:39:30","update_time":"2017-09-14 21:39:30","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false},{"id":12575,"key":"285a86aaa754e8f1da68285f89f4539ba9250010","name":"New
+        deal field","order_nr":127,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        21:39:32","update_time":"2017-09-14 21:39:32","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false},{"id":12581,"key":"978121e68d2f6f191b3919cfdce00ff7f4be3ff8","name":"20
+        - New deal field","order_nr":133,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        22:16:33","update_time":"2017-09-14 22:16:33","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false},{"id":12582,"key":"61d4c7b21df96916dda5fb4c356f6e97ddc89178","name":"35
+        - New deal field","order_nr":134,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        22:16:35","update_time":"2017-09-14 22:16:35","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:39:10 GMT
+  recorded_at: Thu, 14 Sep 2017 22:16:37 GMT
 recorded_with: VCR 3.0.3

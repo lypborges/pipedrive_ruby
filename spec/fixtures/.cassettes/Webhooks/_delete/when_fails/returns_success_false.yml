@@ -19,7 +19,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:44:56 GMT
+      - Thu, 14 Sep 2017 22:17:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,7 +31,7 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 9358904e-cb25-442d-9d6a-0fc413597ab3
+      - fa36eb63-b90a-46da-8c6e-e946bdd83035
       Content-Security-Policy:
       - frame-ancestors https://*.pipedrive.com
       Access-Control-Allow-Origin:
@@ -39,20 +39,20 @@ http_interactions:
       Access-Control-Allow-Credentials:
       - 'true'
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRwEDClheXBU4HgxaFgMOPVQHVAdMXRYeA0sJUQFRA05UGAZSXlcOHx1VTUBVCQMFAFUGAwFTAFQAAA9bGhRSU18WXDw=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRwEDClheXBU4HgxaFgMOPVQHVAdMXRYeA0sJUQFRA05UGAZVX1UOHx1VTUACCFJTXAUBBFUFAgNTAA5TGhRSU18WXDw=
       Set-Cookie:
-      - pipe-last-active=1505425496398;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427445550;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '93'
+      - '94'
       X-Ratelimit-Reset:
-      - '3'
+      - '2'
       Server:
       - no-name-at-all
     body:
       encoding: UTF-8
       string: '{"status":"error","success":false,"errors":{"id":["not found"]}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:44:56 GMT
+  recorded_at: Thu, 14 Sep 2017 22:17:25 GMT
 recorded_with: VCR 3.0.3

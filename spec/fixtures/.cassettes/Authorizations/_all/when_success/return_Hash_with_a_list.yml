@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:38:58 GMT
+      - Thu, 14 Sep 2017 22:15:39 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 16880e01-6d26-4f7c-8c87-576c1f1bb6ac
+      - 011172f6-6cd6-4ac9-ba45-7c1ee9c293e2
       Set-Cookie:
-      - pipe-last-active=1505425138114;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427339280;path=/;domain=.pipedrive.com;expires=0
       - pipe-verify=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/;
         domain=.pipedrive.com; secure
       Access-Control-Allow-Origin:
@@ -43,7 +43,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUREVClhDXhwFRV9cDBU/TVkMXAdAZ0RdQBEbTQFPA1JUBgdNVk0IBQRUVE4aABtEV1BVUgFWAFMFV1xUDlwFAxFJXwBdElY/
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUREVClhDXhwFRV9cDBU/TVkMXAdAZ0RdQBEbTQFPA1JUBgdNVk0IBQRcUk4aABtEBQQOAwADAFBTWllTXF1WBxFJXwBdElY/
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
@@ -68,5 +68,5 @@ http_interactions:
         address","add_followers_when_importing":false,"search_backend":"elastic2","billing_managed_by_sales":false,"max_deal_age_in_average_progress_calculation":90,"third_party_links":[],"elastic_write_target_during_migration":"","auto_create_new_persons_from_forwarder_emails":true,"company_advanced_debug_logs":false,"deal_block_order":[{"type":"detail","visible":true},{"type":"organization","visible":true},{"type":"person","visible":true},{"type":"participant","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true}],"person_block_order":[{"type":"detail","visible":true},{"type":"organization","visible":true},{"type":"deal","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true}],"organization_block_order":[{"type":"detail","visible":true},{"type":"people","visible":true},{"type":"deal","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true},{"type":"related_organizations","visible":true}],"nylas_sync":false,"onboarding_complete":true}}}],"additional_data":{"user":{"profile":{"id":742863,"email":"lypborges@gmail.com","name":"Felipe
         Borges Ferreira","is_admin":true,"default_currency":"BRL","icon_url":"https:\/\/d3myhnqlqw2314.cloudfront.net\/profile_120x120_742863_bfccbfcd721e34fd60c0851a2fd27332.jpg","activated":true},"locale":{"language":"pt","country":"BR","uses_12_hour_clock":false},"timezone":{"name":"America\/Sao_Paulo","offset":-10800}},"multiple_companies":false,"default_company_id":2037553}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:39:00 GMT
+  recorded_at: Thu, 14 Sep 2017 22:15:39 GMT
 recorded_with: VCR 3.0.3

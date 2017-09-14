@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/activities/19/?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/activities/37/?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:38:42 GMT
+      - Thu, 14 Sep 2017 22:20:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,18 +31,138 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 1e7d0b09-b23c-4dab-ab38-4e6d34ddf7f6
+      - 9b69538d-f388-4047-aca5-907c7cf1812e
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCxIGD28FXRYaFAQcA1UJUQFNA0xUAgBWXk8VAhxGVFAEBFMFAAIBAFFSB1JVUBpOXllYQVY4
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCxIGD28FXRYaFAQcA1UJUQFNA0xUAgZXUU8VAhxGUVsAVA5VXFQGAVNRUQBTABpOXllYQVY4
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505425122287;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505427634321;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '95'
+      X-Ratelimit-Reset:
+      - '4'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":37,"company_id":2037553,"user_id":742863,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2017-09-14","due_time":"","duration":"","add_time":"2017-09-14
+        22:20:19","marked_as_done_time":"","subject":"0 - Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":true,"update_time":"2017-09-14
+        22:20:25","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"note":"","participants":null,"person_name":null,"org_name":null,"deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+        Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 22:20:34 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/activities/39/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 22:27:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - d1562c8b-9a35-49b6-9c71-6a135629ba0b
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCxIGD28FXRYaFAQcA1UJUQFNA0xUAgZXXk8VAhxGUlRVBwcEVgkCAlNWVlIIVxpOXllYQVY4
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505428052912;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '94'
+      X-Ratelimit-Reset:
+      - '4'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":39,"company_id":2037553,"user_id":742863,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2017-09-14","due_time":"","duration":"","add_time":"2017-09-14
+        22:20:29","marked_as_done_time":"","subject":"Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2017-09-14
+        22:27:31","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"note":"","participants":null,"person_name":null,"org_name":null,"deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+        Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 22:27:33 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/activities/45/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 22:31:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - 506e9f22-a80a-4441-8a13-9cb2d7921a36
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCxIGD28FXRYaFAQcA1UJUQFNA0xUAgZQUU8VAhxGBANTAwNWU1UHAVJeVgYAVhpOXllYQVY4
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505428314688;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
@@ -53,11 +173,71 @@ http_interactions:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":19,"company_id":2037553,"user_id":742863,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2017-09-14","due_time":"","duration":"","add_time":"2017-09-14
-        21:38:25","marked_as_done_time":"","subject":"0 - Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2017-09-14
-        21:38:40","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"note":"","participants":null,"person_name":null,"org_name":null,"deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+      string: '{"success":true,"data":{"id":45,"company_id":2037553,"user_id":742863,"done":false,"type":"call","reference_type":"none","reference_id":null,"due_date":"2017-09-14","due_time":"","duration":"","add_time":"2017-09-14
+        22:31:49","marked_as_done_time":"","subject":"0 - Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":true,"update_time":"2017-09-14
+        22:31:49","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"note":"","participants":null,"person_name":null,"org_name":null,"deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
         Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:38:43 GMT
+  recorded_at: Thu, 14 Sep 2017 22:31:55 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/activities/47/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 23:04:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - ce9dd3b0-6f60-4583-a475-4f309339ba5d
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCxIGD28FXRYaFAQcA1UJUQFNA0xUAgJTVk8VAhxGWVUCBQdXBgQOA1QCUgcAWxpOXllYQVY4
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505430279641;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '94'
+      X-Ratelimit-Reset:
+      - '3'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":47,"company_id":2037553,"user_id":742863,"done":false,"type":"email","reference_type":"none","reference_id":null,"due_date":"2017-09-14","due_time":"","duration":"","add_time":"2017-09-14
+        23:04:32","marked_as_done_time":"","subject":"0 - Nova Atividade","deal_id":null,"org_id":null,"person_id":null,"active_flag":false,"update_time":"2017-09-14
+        23:04:38","gcal_event_id":null,"google_calendar_id":null,"google_calendar_etag":null,"note":"","participants":null,"person_name":null,"org_name":null,"deal_title":null,"assigned_to_user_id":742863,"created_by_user_id":742863,"owner_name":"Felipe
+        Borges Ferreira","person_dropbox_bcc":null,"deal_dropbox_bcc":null},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 23:04:39 GMT
 recorded_with: VCR 3.0.3
