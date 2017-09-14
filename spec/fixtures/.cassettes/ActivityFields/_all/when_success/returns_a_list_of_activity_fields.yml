@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:24:12 GMT
+      - Thu, 14 Sep 2017 21:40:00 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,24 +31,24 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 1cecd2e0-2423-4bb8-9297-4e7b54eff035
+      - 409aa261-0861-42a2-a657-cc6dc122d11d
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8iWFNfBhU/TVkMXAdAZ1NXR0cVUR9RA1JUBhtRSFMMAgBdTU8GHRVQUgECBlBRB1NTUlkGAVwCEB8DWA1CBG4=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8iWFNfBhU/TVkMXAdAZ1NXR0cVUR9RA1JUBhtRSFMLCgBcTU8GHRUEVgYOAANTV1sHUA1WXQsAEB8DWA1CBG4=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424252817;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425200149;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '98'
+      - '97'
       X-Ratelimit-Reset:
-      - '9'
+      - '8'
       Server:
       - no-name-at-all
     body:
@@ -118,5 +118,5 @@ http_interactions:
         atualizada","order_nr":16,"picklist_data":null,"field_type":"date","add_time":"2017-09-14
         17:07:04","update_time":"2017-09-14 17:06:57","active_flag":true,"edit_flag":false,"index_visible_flag":true,"details_visible_flag":false,"add_visible_flag":false,"important_flag":false,"bulk_edit_allowed":false,"mandatory_flag":true}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:24:13 GMT
+  recorded_at: Thu, 14 Sep 2017 21:40:03 GMT
 recorded_with: VCR 3.0.3

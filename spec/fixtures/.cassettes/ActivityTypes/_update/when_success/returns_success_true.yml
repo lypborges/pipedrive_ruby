@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"6 - Novo Produto","color":null}'
+      string: '{"name":"73 - Novo Produto","color":null}'
     headers:
       Connection:
       - close
@@ -21,7 +21,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:21:47 GMT
+      - Thu, 14 Sep 2017 21:40:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,39 +33,39 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 16449bcf-c157-415e-91fb-af33fe2dad47
+      - 1d3cf263-eaf0-4a91-a3ad-0a99a68edffd
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMMBQFWTU8GHRUHBQkFUQZWV1MJU1tXAA4AEB8DWA1CBG4=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMMBABXTU8GHRVRVgdTUFRSBlAEBwFbCQgAEB8DWA1CBG4=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424107108;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425249700;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
       - '97'
       X-Ratelimit-Reset:
-      - '9'
+      - '7'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":81,"order_nr":17,"name":"6 - Novo Produto","key_string":"6___novo_produto3","icon_key":"6
+      string: '{"success":true,"data":{"id":95,"order_nr":23,"name":"73 - Novo Produto","key_string":"73___novo_produto1","icon_key":"73
         - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2017-09-14
-        21:21:47","update_time":"2017-09-14 21:21:47"}}'
+        21:40:49","update_time":"2017-09-14 21:40:49"}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:21:47 GMT
+  recorded_at: Thu, 14 Sep 2017 21:40:49 GMT
 - request:
     method: post
     uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"90 - Novo Produto","color":null}'
+      string: '{"name":"70 - Novo Produto","color":null}'
     headers:
       Connection:
       - close
@@ -81,7 +81,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:21:48 GMT
+      - Thu, 14 Sep 2017 21:40:50 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -93,39 +93,39 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - cd5253f5-8011-4f34-8da2-c78ca33521fe
+      - 16d51fc5-8816-4aec-8f2b-a3f465d316a9
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMNAgNWTU8GHRUEUQZXBFdXUVFSAFxaAA8CEB8DWA1CBG4=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMMBARRTU8GHRVQV1IHA1VfWgEDWw0DCloCEB8DWA1CBG4=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424108011;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425250544;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
       - '96'
       X-Ratelimit-Reset:
-      - '8'
+      - '6'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":82,"order_nr":18,"name":"90 - Novo Produto","key_string":"90___novo_produto1","icon_key":"90
+      string: '{"success":true,"data":{"id":96,"order_nr":24,"name":"70 - Novo Produto","key_string":"70___novo_produto1","icon_key":"70
         - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2017-09-14
-        21:21:48","update_time":"2017-09-14 21:21:48"}}'
+        21:40:50","update_time":"2017-09-14 21:40:50"}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:21:48 GMT
+  recorded_at: Thu, 14 Sep 2017 21:40:50 GMT
 - request:
     method: put
-    uri: https://api.pipedrive.com/v1/activityTypes/81?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/activityTypes/95?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":81,"type":"email"}'
+      string: '{"id":95,"type":"email"}'
     headers:
       Connection:
       - close
@@ -141,7 +141,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:21:48 GMT
+      - Thu, 14 Sep 2017 21:40:51 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -153,31 +153,31 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 64d81f4a-46d8-4b8b-9fe6-a6ebd4715d41
+      - c7d21909-7ce6-4a35-bfa6-37870035155a
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC0QHVT1ITUAQH1UXUQFRA1JIBhlRU1QLBxxJUE4VAVUFVwZXClVXAlMCBgsGDxoYVFIJSgRs
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC0QHVT1ITUAQH1UXUQFRA1JIBhlRUlcLCxxJUE4VBgNeXFRSBlVSUAMFVA9UChoYVFIJSgRs
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424108851;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425251403;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
       - '95'
       X-Ratelimit-Reset:
-      - '7'
+      - '5'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":81,"order_nr":17,"name":"6 - Novo Produto","key_string":"6___novo_produto3","icon_key":"6
+      string: '{"success":true,"data":{"id":95,"order_nr":23,"name":"73 - Novo Produto","key_string":"73___novo_produto1","icon_key":"73
         - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2017-09-14
-        21:21:47","update_time":"2017-09-14 21:21:48"}}'
+        21:40:49","update_time":"2017-09-14 21:40:51"}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:21:48 GMT
+  recorded_at: Thu, 14 Sep 2017 21:40:51 GMT
 recorded_with: VCR 3.0.3

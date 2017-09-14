@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"15 - New deal field","field_type":"text"}'
+      string: '{"name":"64 - New deal field","field_type":"text"}'
     headers:
       Connection:
       - close
@@ -21,7 +21,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:23:53 GMT
+      - Thu, 14 Sep 2017 21:39:31 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,33 +33,33 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 14c78aba-5925-410c-ae9f-069e66759baa
+      - 9cfa296b-f6e5-4f28-a4fd-fc51284def61
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARQU1cNHx1VTUAOVQVfAAYHCgECBlZSAFpWGhRSU18WXDw=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARVVFYMHx1VTUAECQBQBwQFAlJUUFICUFsHGhRSU18WXDw=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424232755;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425171389;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '97'
+      - '94'
       X-Ratelimit-Reset:
-      - '7'
+      - '4'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12561,"key":"56d7be5915ad5cac10aaf95afab3eccd56bfc51f","name":"15
-        - New deal field","order_nr":113,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
-        21:23:52","update_time":"2017-09-14 21:23:52","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
+      string: '{"success":true,"data":{"id":12574,"key":"dacc937013d38380983034f32a712b5ad5c7efe1","name":"64
+        - New deal field","order_nr":126,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        21:39:31","update_time":"2017-09-14 21:39:31","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:23:53 GMT
+  recorded_at: Thu, 14 Sep 2017 21:39:31 GMT
 - request:
     method: post
     uri: https://api.pipedrive.com/v1/dealFields/?api_token=<API_KEY>
@@ -81,7 +81,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:23:54 GMT
+      - Thu, 14 Sep 2017 21:39:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -93,31 +93,31 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 57daef26-d620-47ab-ade7-a03980f13bff
+      - c425b0f0-0734-48f2-81c5-6febe06761a1
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARSUlUJHx1VTUAOBw5TXVVUB1FXVAMDW11QGhRSU18WXDw=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADnFYUgoAQmocCwgHB0g9SA1LTBYeA0sJUQFRA05UGARQUloIHx1VTUAPBwIFBQcDAVdeWlsDWw4DGhRSU18WXDw=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424233878;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425172743;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '96'
+      - '93'
       X-Ratelimit-Reset:
-      - '6'
+      - '2'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":12562,"key":"ec436fee1ece57f040e11faa1a05f003835c44f8","name":"New
-        deal field","order_nr":114,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
-        21:23:53","update_time":"2017-09-14 21:23:53","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
+      string: '{"success":true,"data":{"id":12575,"key":"285a86aaa754e8f1da68285f89f4539ba9250010","name":"New
+        deal field","order_nr":127,"picklist_data":null,"field_type":"text","add_time":"2017-09-14
+        21:39:32","update_time":"2017-09-14 21:39:32","active_flag":true,"edit_flag":true,"index_visible_flag":true,"details_visible_flag":true,"add_visible_flag":true,"important_flag":false,"bulk_edit_allowed":true,"searchable_flag":true,"mandatory_flag":false}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:23:54 GMT
+  recorded_at: Thu, 14 Sep 2017 21:39:34 GMT
 recorded_with: VCR 3.0.3

@@ -21,7 +21,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:22:24 GMT
+      - Thu, 14 Sep 2017 21:44:53 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,7 +33,7 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 506ef239-efd3-4218-a477-8960ab2db10e
+      - df757312-fdbb-4c7f-b409-f86a10ac721a
       Content-Security-Policy:
       - frame-ancestors https://*.pipedrive.com
       Access-Control-Allow-Origin:
@@ -41,23 +41,23 @@ http_interactions:
       Access-Control-Allow-Credentials:
       - 'true'
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRwEDClheXBU7QVlAFkRPUh5SCFIICBgCHVQPVAZRH09VGhVYXltaAQEHBVUHVQdSVlRSEU4AAg5DB2U=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRwEDClheXBU7QVlAFkRPUh5SCFIICBgCHVQKVwZWH09VGhVYX1tZAgkFA1QPBA9WUwkEEU4AAg5DB2U=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424144050;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425493341;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '98'
+      - '96'
       X-Ratelimit-Reset:
-      - '10'
+      - '6'
       Server:
       - no-name-at-all
     body:
       encoding: UTF-8
-      string: '{"status":"ok","success":true,"data":{"id":24461,"company_id":2037553,"admin_id":742863,"user_id":742863,"event_action":"added","event_object":"activity","subscription_url":"https://requestb.in/r995rnr9","is_active":1,"add_time":"2017-09-14T21:22:24.000Z","remove_time":null,"type":"general","http_auth_user":null,"http_auth_password":null,"additional_data":{}}}'
+      string: '{"status":"ok","success":true,"data":{"id":24463,"company_id":2037553,"admin_id":742863,"user_id":742863,"event_action":"added","event_object":"activity","subscription_url":"https://requestb.in/r995rnr9","is_active":1,"add_time":"2017-09-14T21:44:53.000Z","remove_time":null,"type":"general","http_auth_user":null,"http_auth_password":null,"additional_data":{}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:22:24 GMT
+  recorded_at: Thu, 14 Sep 2017 21:44:53 GMT
 recorded_with: VCR 3.0.3

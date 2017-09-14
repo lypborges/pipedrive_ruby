@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/deals/10/files?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/deals/18/files?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:22:46 GMT
+      - Thu, 14 Sep 2017 21:37:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,29 +31,29 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 8c5cd68a-a12e-41d7-99a7-853c57eaf121
+      - afacc4d1-afd4-4998-a936-d2c6d1c1e57f
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBA8PB0M9XwdMGhgCHVUJUQFRH1JKBgNWVVsUHgFIQ1IDAlZXVgAGVlcCAFFSWw5AFF5VXkAAZA==
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBA8PB0M9XwdMGhgCHVUJUQFRH1JKBgJQUFUUHgFIQ1UPVQIHVgkCUlACVAZVAQlAFF5VXkAAZA==
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424166930;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425044214;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '96'
+      - '98'
       X-Ratelimit-Reset:
-      - '8'
+      - '10'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"success":true,"data":null,"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:22:47 GMT
+  recorded_at: Thu, 14 Sep 2017 21:37:24 GMT
 recorded_with: VCR 3.0.3

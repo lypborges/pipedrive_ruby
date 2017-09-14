@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.pipedrive.com/v1/deals/10/followers?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/deals/18/followers?api_token=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:23:02 GMT
+      - Thu, 14 Sep 2017 21:37:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,30 +31,30 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - c162ed7c-7709-42b2-8873-1805b6487b07
+      - d3f964f5-2b03-4e61-98e1-463c491bd882
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBAkPDl8VXRBLZ1NXR0cVUR9RA1JUBhtRSFMPAAhcTU8GHRVUUVNXUgFRVFAIVgBbClsMEB8DWA1CBG4=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsBAkPDl8VXRBLZ1NXR0cVUR9RA1JUBhtRSFMMBQJcTU8GHRVQXFIDAFsEAAEIWlkDDQ1WEB8DWA1CBG4=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424182598;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425061636;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '92'
       X-Ratelimit-Reset:
-      - '10'
+      - '3'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":[{"user_id":742863,"id":12,"deal_id":10,"add_time":"2017-09-14
-        18:56:35"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
+      string: '{"success":true,"data":[{"user_id":742863,"id":21,"deal_id":18,"add_time":"2017-09-14
+        21:07:59"}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:23:02 GMT
+  recorded_at: Thu, 14 Sep 2017 21:37:41 GMT
 recorded_with: VCR 3.0.3

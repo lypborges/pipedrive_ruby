@@ -5,6 +5,67 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/products/?api_token=<API_KEY>
     body:
       encoding: UTF-8
+      string: '{"name":"5 - Novo Produto"}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 21:42:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - 93fdbb5f-3bc2-46b3-95d5-599a2144f290
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAAdYVk8VAhxGUlQCAlJQVVUEUAYCBldVWxpOXllYQVY4
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505425370863;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '97'
+      X-Ratelimit-Reset:
+      - '7'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":238,"name":"5 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"5","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:50","update_time":"2017-09-14 21:42:50","prices":[{"id":243,"product_id":238,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 21:42:51 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/products/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
       string: '{"name":"45 - Novo Produto"}'
     headers:
       Connection:
@@ -21,7 +82,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:20:37 GMT
+      - Thu, 14 Sep 2017 21:42:52 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,95 +94,34 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 34965121-ba2e-437c-8b2a-fabcad3abff2
+      - b737a460-2ba0-46a6-8028-56fdbf20b42d
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAw9VUU8VAhxGUFAEBFZQVwQOV1cDUlAGABpOXllYQVY4
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAQ9XV08VAhxGWFsGA1ZQAANXV1ReWlUJAxpOXllYQVY4
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424037005;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425372022;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '93'
+      - '96'
       X-Ratelimit-Reset:
-      - '5'
+      - '6'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":195,"name":"45 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":239,"name":"45 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:37","update_time":"2017-09-14 21:20:37","prices":[{"id":199,"product_id":195,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        21:42:52","update_time":"2017-09-14 21:42:52","prices":[{"id":244,"product_id":239,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:20:36 GMT
-- request:
-    method: post
-    uri: https://api.pipedrive.com/v1/products/?api_token=<API_KEY>
-    body:
-      encoding: UTF-8
-      string: '{"name":"96 - Novo Produto"}'
-    headers:
-      Connection:
-      - close
-      Content-Type:
-      - application/json; charset=UTF-8
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.2.2
-  response:
-    status:
-      code: 201
-      message: Created
-    headers:
-      Date:
-      - Thu, 14 Sep 2017 21:20:37 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Correlation-Id:
-      - aef1722a-7dda-450b-9229-28f7b7a20361
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Content-Type-Options:
-      - nosniff
-      X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAwNTV08VAhxGUlMAUlZRVAABV1ZSAFoGVRpOXllYQVY4
-      Strict-Transport-Security:
-      - max-age=15768000
-      - max-age=15768000
-      Set-Cookie:
-      - pipe-last-active=1505424037859;path=/;domain=.pipedrive.com;expires=0
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '92'
-      X-Ratelimit-Reset:
-      - '4'
-      Server:
-      - no-name-at-all
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":196,"name":"96 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:37","update_time":"2017-09-14 21:20:37","prices":[{"id":200,"product_id":196,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
-    http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:20:37 GMT
+  recorded_at: Thu, 14 Sep 2017 21:42:52 GMT
 - request:
     method: get
     uri: https://api.pipedrive.com/v1/products/?api_token=<API_KEY>
@@ -141,7 +141,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:20:38 GMT
+      - Thu, 14 Sep 2017 21:42:52 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -153,24 +153,24 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 4f484e42-049e-4666-8bb0-781c5608ae44
+      - 7302f942-601e-48e3-a924-41211fa900fd
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPVcHTEAUCBoCA1UJUR1RHVJTBwFRSk4JHxIGA1IGBVMHAQQCC1tfVFdVQBQEWVRHV24=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPVcHTEAUCBoCA1UJUR1RHVJTBwVXSk4JHxJWVVoAUwFXAQIPC1IHWwEIQBQEWVRHV24=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424038710;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425372906;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '91'
+      - '95'
       X-Ratelimit-Reset:
-      - '4'
+      - '5'
       Server:
       - no-name-at-all
     body:
@@ -192,134 +192,119 @@ http_interactions:
         21:11:06","update_time":"2017-09-14 21:11:06","prices":[{"id":109,"product_id":107,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":110,"name":"Novo
         Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"n","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:11:09","update_time":"2017-09-14 21:11:09","prices":[{"id":112,"product_id":110,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":154,"name":"77
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        21:11:09","update_time":"2017-09-14 21:11:09","prices":[{"id":112,"product_id":110,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":199,"name":"Novo
+        Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"n","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:30","update_time":"2017-09-14 21:19:30","prices":[{"id":157,"product_id":154,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":155,"name":"54
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"5","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        21:20:41","update_time":"2017-09-14 21:20:41","prices":[{"id":203,"product_id":199,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":202,"name":"Novo
+        Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"n","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:32","update_time":"2017-09-14 21:19:32","prices":[{"id":158,"product_id":155,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":156,"name":"75
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:34","update_time":"2017-09-14 21:19:34","prices":[{"id":159,"product_id":156,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":157,"name":"9
+        21:20:44","update_time":"2017-09-14 21:20:44","prices":[{"id":206,"product_id":202,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":205,"name":"93
         - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:35","update_time":"2017-09-14 21:19:35","prices":[{"id":160,"product_id":157,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":158,"name":"10
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        21:41:53","update_time":"2017-09-14 21:41:53","prices":[{"id":209,"product_id":205,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":206,"name":"30
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:41:55","update_time":"2017-09-14 21:41:55","prices":[{"id":210,"product_id":206,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":207,"name":"82
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"8","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:41:56","update_time":"2017-09-14 21:41:56","prices":[{"id":211,"product_id":207,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":208,"name":"32
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:41:57","update_time":"2017-09-14 21:41:57","prices":[{"id":212,"product_id":208,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":209,"name":"34
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:41:59","update_time":"2017-09-14 21:41:59","prices":[{"id":213,"product_id":209,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":210,"name":"0
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"0","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:00","update_time":"2017-09-14 21:42:00","prices":[{"id":214,"product_id":210,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":211,"name":"79
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:02","update_time":"2017-09-14 21:42:02","prices":[{"id":215,"product_id":211,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":212,"name":"22
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:03","update_time":"2017-09-14 21:42:03","prices":[{"id":216,"product_id":212,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":213,"name":"91
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:04","update_time":"2017-09-14 21:42:05","prices":[{"id":217,"product_id":213,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":214,"name":"2
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":1,"add_time":"2017-09-14
-        21:19:36","update_time":"2017-09-14 21:19:38","prices":[{"id":161,"product_id":158,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":159,"name":"12
+        21:42:06","update_time":"2017-09-14 21:42:09","prices":[{"id":219,"product_id":214,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":215,"name":"35
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:07","update_time":"2017-09-14 21:42:07","prices":[{"id":220,"product_id":215,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":216,"name":"68
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"6","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:10","update_time":"2017-09-14 21:42:10","prices":[{"id":221,"product_id":216,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":217,"name":"12
         - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:37","update_time":"2017-09-14 21:19:37","prices":[{"id":162,"product_id":159,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":160,"name":"28
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        21:42:11","update_time":"2017-09-14 21:42:11","prices":[{"id":222,"product_id":217,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":218,"name":"41
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:39","update_time":"2017-09-14 21:19:39","prices":[{"id":163,"product_id":160,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":161,"name":"70
+        21:42:13","update_time":"2017-09-14 21:42:13","prices":[{"id":223,"product_id":218,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":219,"name":"79
         - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:43","update_time":"2017-09-14 21:19:43","prices":[{"id":164,"product_id":161,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":162,"name":"82
+        21:42:15","update_time":"2017-09-14 21:42:15","prices":[{"id":224,"product_id":219,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":220,"name":"27
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:18","update_time":"2017-09-14 21:42:18","prices":[{"id":225,"product_id":220,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":221,"name":"42
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:20","update_time":"2017-09-14 21:42:20","prices":[{"id":226,"product_id":221,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":222,"name":"48
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:26","update_time":"2017-09-14 21:42:26","prices":[{"id":227,"product_id":222,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":223,"name":"82
         - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"8","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:46","update_time":"2017-09-14 21:19:46","prices":[{"id":165,"product_id":162,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":163,"name":"59
+        21:42:29","update_time":"2017-09-14 21:42:29","prices":[{"id":228,"product_id":223,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":224,"name":"81
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"8","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:31","update_time":"2017-09-14 21:42:31","prices":[{"id":229,"product_id":224,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":225,"name":"36
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:31","update_time":"2017-09-14 21:42:31","prices":[{"id":230,"product_id":225,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":226,"name":"9
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:35","update_time":"2017-09-14 21:42:34","prices":[{"id":231,"product_id":226,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":227,"name":"95
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:36","update_time":"2017-09-14 21:42:35","prices":[{"id":232,"product_id":227,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":228,"name":"4
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:37","update_time":"2017-09-14 21:42:37","prices":[{"id":233,"product_id":228,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":229,"name":"21
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:38","update_time":"2017-09-14 21:42:38","prices":[{"id":234,"product_id":229,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":230,"name":"77
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:40","update_time":"2017-09-14 21:42:40","prices":[{"id":235,"product_id":230,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":231,"name":"42
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:41","update_time":"2017-09-14 21:42:41","prices":[{"id":236,"product_id":231,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":232,"name":"Novo
+        Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"n","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:42","update_time":"2017-09-14 21:42:42","prices":[{"id":237,"product_id":232,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":233,"name":"7
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:43","update_time":"2017-09-14 21:42:43","prices":[{"id":238,"product_id":233,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":234,"name":"38
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:44","update_time":"2017-09-14 21:42:44","prices":[{"id":239,"product_id":234,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":235,"name":"Novo
+        Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"n","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:46","update_time":"2017-09-14 21:42:45","prices":[{"id":240,"product_id":235,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":236,"name":"40
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:47","update_time":"2017-09-14 21:42:46","prices":[{"id":241,"product_id":236,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":237,"name":"31
+        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
+        21:42:47","update_time":"2017-09-14 21:42:47","prices":[{"id":242,"product_id":237,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":238,"name":"5
         - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"5","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:47","update_time":"2017-09-14 21:19:47","prices":[{"id":166,"product_id":163,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":164,"name":"11
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:49","update_time":"2017-09-14 21:19:49","prices":[{"id":167,"product_id":164,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":165,"name":"36
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:50","update_time":"2017-09-14 21:19:50","prices":[{"id":168,"product_id":165,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":167,"name":"91
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:54","update_time":"2017-09-14 21:19:54","prices":[{"id":170,"product_id":167,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":168,"name":"44
+        21:42:50","update_time":"2017-09-14 21:42:50","prices":[{"id":243,"product_id":238,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":239,"name":"45
         - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:57","update_time":"2017-09-14 21:19:57","prices":[{"id":171,"product_id":168,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":169,"name":"54
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"5","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:19:58","update_time":"2017-09-14 21:19:58","prices":[{"id":172,"product_id":169,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":170,"name":"73
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:02","update_time":"2017-09-14 21:20:02","prices":[{"id":173,"product_id":170,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":171,"name":"83
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"8","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:03","update_time":"2017-09-14 21:20:03","prices":[{"id":174,"product_id":171,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":172,"name":"43
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:05","update_time":"2017-09-14 21:20:05","prices":[{"id":175,"product_id":172,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":173,"name":"95
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:06","update_time":"2017-09-14 21:20:06","prices":[{"id":176,"product_id":173,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":174,"name":"12
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:07","update_time":"2017-09-14 21:20:08","prices":[{"id":177,"product_id":174,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":175,"name":"77
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:09","update_time":"2017-09-14 21:20:09","prices":[{"id":179,"product_id":175,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":176,"name":"21
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:10","update_time":"2017-09-14 21:20:10","prices":[{"id":180,"product_id":176,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":177,"name":"34
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:12","update_time":"2017-09-14 21:20:12","prices":[{"id":181,"product_id":177,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":178,"name":"40
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:12","update_time":"2017-09-14 21:20:12","prices":[{"id":182,"product_id":178,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":179,"name":"69
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"6","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:14","update_time":"2017-09-14 21:20:14","prices":[{"id":183,"product_id":179,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":180,"name":"63
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"6","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:15","update_time":"2017-09-14 21:20:15","prices":[{"id":184,"product_id":180,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":181,"name":"39
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:17","update_time":"2017-09-14 21:20:17","prices":[{"id":185,"product_id":181,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":182,"name":"35
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:18","update_time":"2017-09-14 21:20:18","prices":[{"id":186,"product_id":182,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":183,"name":"44
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":1,"add_time":"2017-09-14
-        21:20:19","update_time":"2017-09-14 21:20:21","prices":[{"id":187,"product_id":183,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":184,"name":"3
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"3","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:20","update_time":"2017-09-14 21:20:20","prices":[{"id":188,"product_id":184,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":185,"name":"73
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:23","update_time":"2017-09-14 21:20:25","prices":[{"id":189,"product_id":185,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":186,"name":"24
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:24","update_time":"2017-09-14 21:20:24","prices":[{"id":190,"product_id":186,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":187,"name":"4
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:26","update_time":"2017-09-14 21:20:26","prices":[{"id":191,"product_id":187,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":188,"name":"65
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"6","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:27","update_time":"2017-09-14 21:20:27","prices":[{"id":192,"product_id":188,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":189,"name":"12
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:29","update_time":"2017-09-14 21:20:29","prices":[{"id":193,"product_id":189,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":190,"name":"18
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:30","update_time":"2017-09-14 21:20:30","prices":[{"id":194,"product_id":190,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":191,"name":"60
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"6","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:31","update_time":"2017-09-14 21:20:31","prices":[{"id":195,"product_id":191,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":192,"name":"88
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"8","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:32","update_time":"2017-09-14 21:20:32","prices":[{"id":196,"product_id":192,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":193,"name":"74
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:34","update_time":"2017-09-14 21:20:34","prices":[{"id":197,"product_id":193,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":194,"name":"41
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:35","update_time":"2017-09-14 21:20:35","prices":[{"id":198,"product_id":194,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":195,"name":"45
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:37","update_time":"2017-09-14 21:20:37","prices":[{"id":199,"product_id":195,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},{"id":196,"name":"96
-        - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
-        Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:37","update_time":"2017-09-14 21:20:37","prices":[{"id":200,"product_id":196,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        21:42:52","update_time":"2017-09-14 21:42:52","prices":[{"id":244,"product_id":239,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]}],"additional_data":{"pagination":{"start":0,"limit":100,"more_items_in_collection":false}},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:20:38 GMT
+  recorded_at: Thu, 14 Sep 2017 21:42:56 GMT
 recorded_with: VCR 3.0.3

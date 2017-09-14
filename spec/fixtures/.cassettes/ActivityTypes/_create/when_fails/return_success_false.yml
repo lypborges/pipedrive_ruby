@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"25 - Novo Produto","color":null}'
+      string: '{"name":"18 - Novo Produto","color":null}'
     headers:
       Connection:
       - close
@@ -21,7 +21,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:21:39 GMT
+      - Thu, 14 Sep 2017 21:40:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,78 +33,18 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - a12b048a-2dbe-462a-a7f1-bdd44c0a6d4c
+      - 99a215a5-93f6-4395-925d-427213fd0b9e
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMAAQFWTU8GHRUCAQQAUAEFUFYAVVwHXA8CEB8DWA1CBG4=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMNAQBSTU8GHRVeAQYABVpUVFMJW1oACV1QEB8DWA1CBG4=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424099292;path=/;domain=.pipedrive.com;expires=0
-      X-Ratelimit-Limit:
-      - '100'
-      X-Ratelimit-Remaining:
-      - '94'
-      X-Ratelimit-Reset:
-      - '6'
-      Server:
-      - no-name-at-all
-    body:
-      encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":75,"order_nr":21,"name":"25 - Novo Produto","key_string":"25___novo_produto","icon_key":"25
-        - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2017-09-14
-        21:21:39","update_time":"2017-09-14 21:21:39"}}'
-    http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:21:39 GMT
-- request:
-    method: post
-    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
-    body:
-      encoding: UTF-8
-      string: '{"name":"25 - Novo Produto","color":null}'
-    headers:
-      Connection:
-      - close
-      Content-Type:
-      - application/json; charset=UTF-8
-      Host:
-      - api.pipedrive.com
-      User-Agent:
-      - http.rb/2.2.2
-  response:
-    status:
-      code: 201
-      message: Created
-    headers:
-      Date:
-      - Thu, 14 Sep 2017 21:21:40 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - close
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Correlation-Id:
-      - ff8e9eed-011d-43cd-8f00-71c49299dcbd
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Content-Type-Options:
-      - nosniff
-      X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMNBQRRTU8GHRVeBgBSUQFRUAEIWloHD1lWEB8DWA1CBG4=
-      Strict-Transport-Security:
-      - max-age=15768000
-      - max-age=15768000
-      Set-Cookie:
-      - pipe-last-active=1505424100202;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425235071;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
@@ -115,11 +55,71 @@ http_interactions:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":76,"order_nr":22,"name":"25 - Novo Produto","key_string":"25___novo_produto1","icon_key":"25
+      string: '{"success":true,"data":{"id":87,"order_nr":15,"name":"18 - Novo Produto","key_string":"18___novo_produto1","icon_key":"18
         - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2017-09-14
-        21:21:40","update_time":"2017-09-14 21:21:40"}}'
+        21:40:35","update_time":"2017-09-14 21:40:35"}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:21:40 GMT
+  recorded_at: Thu, 14 Sep 2017 21:40:35 GMT
+- request:
+    method: post
+    uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"name":"58 - Novo Produto","color":null}'
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 14 Sep 2017 21:40:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - fc934c78-89c4-45a7-b081-23e5c71322c4
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      X-Newrelic-App-Data:
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMMBQFVTU8GHRVUBwdSAloHBlMDAQ5WDF0AEB8DWA1CBG4=
+      Strict-Transport-Security:
+      - max-age=15768000
+      - max-age=15768000
+      Set-Cookie:
+      - pipe-last-active=1505425235922;path=/;domain=.pipedrive.com;expires=0
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '10'
+      Server:
+      - no-name-at-all
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":88,"order_nr":16,"name":"58 - Novo Produto","key_string":"58___novo_produto","icon_key":"58
+        - novo produto","active_flag":true,"color":null,"is_custom_flag":true,"add_time":"2017-09-14
+        21:40:35","update_time":"2017-09-14 21:40:35"}}'
+    http_version: 
+  recorded_at: Thu, 14 Sep 2017 21:40:37 GMT
 - request:
     method: post
     uri: https://api.pipedrive.com/v1/activityTypes/?api_token=<API_KEY>
@@ -141,7 +141,7 @@ http_interactions:
       message: Bad Request
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:21:41 GMT
+      - Thu, 14 Sep 2017 21:40:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -153,21 +153,21 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 0b3a0e03-b461-44ca-a703-54ae29701c9b
+      - 3cf0b782-80b2-4ed1-8454-1c246885db02
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMMCglXTU8GHRVXUQYFC1pWAQFTU1sDC10GEB8DWA1CBG4=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQx8wSEZWETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMMAARUTU8GHRUDUFQOClsDAVVRAQpSClpVEB8DWA1CBG4=
       Set-Cookie:
-      - pipe-last-active=1505424101097;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425237778;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '92'
+      - '97'
       X-Ratelimit-Reset:
-      - '4'
+      - '8'
       Server:
       - no-name-at-all
     body:
@@ -176,5 +176,5 @@ http_interactions:
         some information missing.","error_info":"Please check developers.pipedrive.com
         for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:21:41 GMT
+  recorded_at: Thu, 14 Sep 2017 21:40:38 GMT
 recorded_with: VCR 3.0.3

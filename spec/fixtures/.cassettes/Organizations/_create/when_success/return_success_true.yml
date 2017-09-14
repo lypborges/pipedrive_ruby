@@ -21,7 +21,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:22:38 GMT
+      - Thu, 14 Sep 2017 21:40:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,34 +33,34 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 252ca801-920c-4aef-bee1-2d8d5abaffe6
+      - e793457f-15e9-4396-8d62-e652799ba459
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcXxYGA1lYTQcQWFldETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMOAwZXTU8GHRVeAVUAAVIEBgNUW10GDVkAEB8DWA1CBG4=
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcXxYGA1lYTQcQWFldETpMC14GXRpnSFtBR0cVUR9RA1JUBhtRSFMPAgJWTU8GHRVRVgkDUFJQBlJTVltXDgoFEB8DWA1CBG4=
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424158490;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425227044;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '94'
+      - '97'
       X-Ratelimit-Reset:
-      - '6'
+      - '8'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":23,"company_id":2037553,"owner_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":28,"company_id":2037553,"owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"name":"New
         Company","open_deals_count":0,"related_open_deals_count":0,"closed_deals_count":0,"related_closed_deals_count":0,"email_messages_count":0,"people_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"files_count":0,"notes_count":0,"followers_count":0,"won_deals_count":0,"related_won_deals_count":0,"lost_deals_count":0,"related_lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2017-09-14
-        21:22:38","add_time":"2017-09-14 21:22:38","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"sampletest@pipedrivemail.com","owner_name":"Felipe
+        21:40:27","add_time":"2017-09-14 21:40:27","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"sampletest@pipedrivemail.com","owner_name":"Felipe
         Borges Ferreira","edit_name":true},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:22:38 GMT
+  recorded_at: Thu, 14 Sep 2017 21:40:27 GMT
 recorded_with: VCR 3.0.3

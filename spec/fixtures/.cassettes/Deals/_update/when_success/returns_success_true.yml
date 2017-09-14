@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: put
-    uri: https://api.pipedrive.com/v1/deals/10?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/deals/18?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":10,"value":365}'
+      string: '{"id":18,"value":349}'
     headers:
       Connection:
       - close
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:22:56 GMT
+      - Thu, 14 Sep 2017 21:37:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,35 +33,35 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 9ec5577e-a2ef-4135-b591-90c74921d017
+      - 74280ed4-7694-4c9b-a334-2391c47e0319
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsEhMXQBxSFlIICAQCH1UXUQlXAVdIGwZNRFBdUgRUUFNWBwdUBQcPBFdETwRRDksHZQ==
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcVAEADkRtGA8QVFtsEhMXQBxSFlIICAQCH1UXUABTA1JIGwZNRFNdBQdRVFsBAwReVlVSBVBETwRRDksHZQ==
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424176376;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425048249;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '94'
       X-Ratelimit-Reset:
-      - '10'
+      - '6'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":10,"creator_user_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":18,"creator_user_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"user_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"person_id":null,"org_id":null,"stage_id":1,"title":"Novo
-        Negocio","value":365,"currency":"BRL","add_time":"2017-09-14 18:56:35","update_time":"2017-09-14
-        21:22:56","stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":1,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"26f3b1fb1d7cf5bb2f1842c0d1a14b07160dcbd5":null,"f27def360859c67830732851e849d101f3d20f56":null,"5e6e7db3c329b31e7005a86ec96c1a931ce4465c":null,"0cd6ce87bfd8842018010bd7c67dd2b4aa615952":null,"188fb5abca61d3fb9fcf03718f78d587dfe6de30":null,"d2a40aab8ffaa86f7aa5857be9505f0ea09ae829":null,"49b4f2d88f02c5e8a37f23cc01f65815d7864662":null,"1c7269023185d8b0349d0cb9337d7a1a92f1ac8e":null,"d8f2e98799fa223092c0fc384e7485dfb584f7ea":null,"f727fa8fd7dc53b44e6387c1253b038a0190a217":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$365","rotten_time":null,"weighted_value":365,"formatted_weighted_value":"R$365","owner_name":"Felipe
-        Borges Ferreira","cc_email":"sampletest+deal10@pipedrivemail.com","org_hidden":false,"person_hidden":false},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        Negocio","value":349,"currency":"BRL","add_time":"2017-09-14 21:07:59","update_time":"2017-09-14
+        21:37:28","stage_change_time":null,"active":true,"deleted":false,"status":"open","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"lost_reason":null,"visible_to":"3","close_time":null,"pipeline_id":1,"won_time":null,"first_won_time":null,"lost_time":null,"products_count":0,"files_count":0,"notes_count":0,"followers_count":1,"email_messages_count":0,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"participants_count":0,"expected_close_date":null,"last_incoming_mail_time":null,"last_outgoing_mail_time":null,"26f3b1fb1d7cf5bb2f1842c0d1a14b07160dcbd5":null,"f27def360859c67830732851e849d101f3d20f56":null,"5e6e7db3c329b31e7005a86ec96c1a931ce4465c":null,"0cd6ce87bfd8842018010bd7c67dd2b4aa615952":null,"188fb5abca61d3fb9fcf03718f78d587dfe6de30":null,"d2a40aab8ffaa86f7aa5857be9505f0ea09ae829":null,"49b4f2d88f02c5e8a37f23cc01f65815d7864662":null,"1c7269023185d8b0349d0cb9337d7a1a92f1ac8e":null,"d8f2e98799fa223092c0fc384e7485dfb584f7ea":null,"f727fa8fd7dc53b44e6387c1253b038a0190a217":null,"ec436fee1ece57f040e11faa1a05f003835c44f8":null,"878539c1aeaef91ca91dd365283ad3fa28dc3d28":null,"stage_order_nr":1,"person_name":null,"org_name":null,"next_activity_subject":null,"next_activity_type":null,"next_activity_duration":null,"next_activity_note":null,"formatted_value":"R$349","rotten_time":null,"weighted_value":349,"formatted_weighted_value":"R$349","owner_name":"Felipe
+        Borges Ferreira","cc_email":"sampletest+deal18@pipedrivemail.com","org_hidden":false,"person_hidden":false},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:22:56 GMT
+  recorded_at: Thu, 14 Sep 2017 21:37:28 GMT
 recorded_with: VCR 3.0.3

@@ -19,7 +19,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:22:44 GMT
+      - Thu, 14 Sep 2017 21:37:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,26 +31,26 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - f1542973-ea01-46fe-9a87-a4555b7bd005
+      - 91ba28e4-69b7-484c-9934-9368509eb29a
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOZBNaPktfWQUDGxZDWBRDTgcfB1ZUAQYfUkhTUANWCU4VCRgQUlIJUVICAAAFBAUCVFNdChJIBwNbQlI7
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOZBNaPktfWQUDGxZDWBRDTgcfB1ZUAQYfUkhTUAdRD04VCRgQCgQOVVAABwNVAlNVVQddUhJIBwNbQlI7
       Set-Cookie:
-      - pipe-last-active=1505424164354;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425057097;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '97'
       X-Ratelimit-Reset:
-      - '10'
+      - '8'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
       string: '{"status":false,"error":"Unknown method ."}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:22:44 GMT
+  recorded_at: Thu, 14 Sep 2017 21:37:37 GMT
 recorded_with: VCR 3.0.3

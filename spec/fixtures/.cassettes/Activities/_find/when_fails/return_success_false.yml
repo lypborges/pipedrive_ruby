@@ -19,7 +19,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:24:31 GMT
+      - Thu, 14 Sep 2017 21:38:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,15 +31,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - bcd1f365-ce7b-45ca-bee6-3ef0e9b04357
+      - 1564ea97-9b7c-4df8-9f3c-e514216e10da
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCxIGD28FXRYaFAQcA1UJUQFNA0xUAgVQUU8VAhxGVFIOUw9fUFACAFUCUFYEURpOXllYQVY4
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcUQcVC0FYQw8BQmocCxIGD28FXRYaFAQcA1UJUQFNA0xUAgBSUk8VAhxGU1tSCVNeBQYEUQFRUlsFUxpOXllYQVY4
       Set-Cookie:
-      - pipe-last-active=1505424271456;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425121257;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
@@ -53,5 +53,5 @@ http_interactions:
       string: '{"success":false,"error":"Activity not found.","error_info":"Please
         check developers.pipedrive.com for more information about Pipedrive API.","data":null,"additional_data":null}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:24:31 GMT
+  recorded_at: Thu, 14 Sep 2017 21:38:41 GMT
 recorded_with: VCR 3.0.3

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:24:11 GMT
+      - Thu, 14 Sep 2017 21:45:08 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,24 +31,24 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 161113a9-76a7-4593-b817-1063b2fa92da
+      - 8791bbc5-8772-4262-9893-3774702498a6
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRRcEEGRUQxINX1FAPkkKDFQHQD1fXUAQH1UXUQFRA1JIBhlRVVUMABxJUE4VAVUHU1UOBFNQAQAFAAtSDBoYVFIJSgRs
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcRRcEEGRUQxINX1FAPkkKDFQHQD1fXUAQH1UXUQFRA1JIBhlRVFUKAxxJUE4VUwZWAAdVClEHVFYIWwhQXBoYVFIJSgRs
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424251630;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425508158;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '99'
+      - '94'
       X-Ratelimit-Reset:
-      - '10'
+      - '2'
       Server:
       - no-name-at-all
     body:
@@ -56,7 +56,7 @@ http_interactions:
       string: '{"success":true,"data":{"show_getting_started_video":true,"list_limit":100,"beta_app":true,"file_upload_destination":"s3","callto_link_syntax":"callto:[number]","autofill_deal_expected_close_date":false,"person_duplicate_condition":"name
         && (org_id || email || phone)","organization_duplicate_condition":"name &&
         address","add_followers_when_importing":false,"search_backend":"elastic2","billing_managed_by_sales":false,"max_deal_age_in_average_progress_calculation":90,"third_party_links":[],"elastic_write_target_during_migration":"","auto_create_new_persons_from_forwarder_emails":true,"company_advanced_debug_logs":false,"deal_block_order":[{"type":"detail","visible":true},{"type":"organization","visible":true},{"type":"person","visible":true},{"type":"participant","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true}],"person_block_order":[{"type":"detail","visible":true},{"type":"organization","visible":true},{"type":"deal","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true}],"organization_block_order":[{"type":"detail","visible":true},{"type":"people","visible":true},{"type":"deal","visible":true},{"type":"overview","visible":true},{"type":"follower","visible":true},{"type":"forwarder","visible":true},{"type":"related_organizations","visible":true}],"nylas_sync":false,"onboarding_complete":true,"activity_email_reminders":true,"activity_email_reminders_send_type":"same_day","activity_email_reminders_amount_before":1,"file_convert_allowed":true,"default_currency":"BRL","send_email_notifications":"every_night","show_update_notifications":false,"create_folder_in_google_drive":true,"share_google_drive_files_with_company":true,"deals_timeline_default_field":"","deals_timeline_interval":"month","deals_timeline_arrange_by":"open","deals_timeline_column_count":4,"deals_timeline_show_progress":true,"share_incoming_emails":true,"connect_threads_with_deals":true,"email_signature":false,"email_signature_text":"","global_search_survey_link_clicked":false,"google_calendar_activity_type":"task","google_calendar_ignore_activity_types":[],"upload_all_visible_persons_to_google":false,"format_phone_numbers_enabled":true,"onboarding_completed_tours":[],"open_email_links_in_new_tab":false,"totals_convert_currency":true,"email_sync_filter":"all","email_sync_filter_labels":[],"deal_details_open":false,"person_details_open":false,"organization_details_open":false,"google_calendar_subject_format":"[deal]
-        > [person] > [organization] > [subject]","google_calendar_activity_reminders":[],"hide_email_settings_promotion_banner":false,"user_advanced_debug_logs":false,"show_filtercolumns_tutorial":false,"show_duplicates":true,"show_import_tutorial":false,"show_statistics_tutorial":true,"show_activitycrossitem_tutorial":false,"has_seen_dropbox_old_details_deprec_notice":false,"link_person_to_org":true,"timezone_automatic_update":true,"use_pipedrive_mailto_links":true,"ab_mail_promotion1_enabled":false,"mail_filters_inbox":[],"mail_filters_drafts":[],"mail_filters_sent":[],"mail_filters_archive":[],"promote_gs_filters":true,"promote_gs_notes_and_fields":true,"has_seen_help_tooltip":false,"invitation_last_time":0,"invitation_resent_count":0,"user_first_login":true,"current_pipeline_id":1,"deals_view_mode":"pipeline","filter_pipeline_1":"user_742863"}}'
+        > [person] > [organization] > [subject]","google_calendar_activity_reminders":[],"hide_email_settings_promotion_banner":false,"user_advanced_debug_logs":false,"show_filtercolumns_tutorial":false,"show_duplicates":true,"show_import_tutorial":false,"show_statistics_tutorial":true,"show_activitycrossitem_tutorial":false,"has_seen_dropbox_old_details_deprec_notice":false,"link_person_to_org":true,"timezone_automatic_update":true,"use_pipedrive_mailto_links":true,"ab_mail_promotion1_enabled":false,"mail_filters_inbox":[],"mail_filters_drafts":[],"mail_filters_sent":[],"mail_filters_archive":[],"promote_gs_filters":true,"promote_gs_notes_and_fields":true,"has_seen_help_tooltip":false,"invitation_last_time":0,"invitation_resent_count":0,"user_first_login":true,"activities_view_mode":"calendar","current_pipeline_id":1,"deals_view_mode":"pipeline","filter_pipeline_1":"user_742863"}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:24:12 GMT
+  recorded_at: Thu, 14 Sep 2017 21:45:08 GMT
 recorded_with: VCR 3.0.3

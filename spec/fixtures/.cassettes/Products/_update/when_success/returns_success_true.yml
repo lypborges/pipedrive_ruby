@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.pipedrive.com/v1/products/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"43 - Novo Produto"}'
+      string: '{"name":"79 - Novo Produto"}'
     headers:
       Connection:
       - close
@@ -21,7 +21,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:20:05 GMT
+      - Thu, 14 Sep 2017 21:42:02 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,40 +33,40 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - e4bf5508-be60-450f-8b6c-d6e5ead07808
+      - d6a65cb6-ad8d-4e47-950a-ad17856568ef
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAANXV08VAhxGUAAOCA5WVQQOBQYHVAMCURpOXllYQVY4
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAAZSV08VAhxGUVBVUABTBQBUUVVfV1JUUhpOXllYQVY4
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424005886;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425322853;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '95'
+      - '89'
       X-Ratelimit-Reset:
-      - '6'
+      - '1'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":172,"name":"43 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"4","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":211,"name":"79 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"7","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:05","update_time":"2017-09-14 21:20:05","prices":[{"id":175,"product_id":172,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        21:42:02","update_time":"2017-09-14 21:42:02","prices":[{"id":215,"product_id":211,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:20:05 GMT
+  recorded_at: Thu, 14 Sep 2017 21:42:03 GMT
 - request:
     method: post
     uri: https://api.pipedrive.com/v1/products/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"95 - Novo Produto"}'
+      string: '{"name":"22 - Novo Produto"}'
     headers:
       Connection:
       - close
@@ -82,7 +82,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:20:06 GMT
+      - Thu, 14 Sep 2017 21:42:03 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -94,40 +94,40 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - 0cd6d837-24c0-4e89-8d48-4519cdb40344
+      - 30961289-0d85-45b9-9537-5d44f66770ac
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAQNUVk8VAhxGUltWUFZUVVIPAVAHW1MDBhpOXllYQVY4
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAAVUU08VAhxGUwZSBQEHAQUAVwZfUFsAVxpOXllYQVY4
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424006755;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425323715;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '94'
+      - '99'
       X-Ratelimit-Reset:
-      - '5'
+      - '10'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":173,"name":"95 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":212,"name":"22 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"2","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:06","update_time":"2017-09-14 21:20:06","prices":[{"id":176,"product_id":173,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        21:42:03","update_time":"2017-09-14 21:42:03","prices":[{"id":216,"product_id":212,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:20:06 GMT
+  recorded_at: Thu, 14 Sep 2017 21:42:03 GMT
 - request:
     method: post
     uri: https://api.pipedrive.com/v1/products/?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"name":"12 - Novo Produto"}'
+      string: '{"name":"91 - Novo Produto"}'
     headers:
       Connection:
       - close
@@ -143,7 +143,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:20:07 GMT
+      - Thu, 14 Sep 2017 21:42:04 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -155,42 +155,42 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - df70ffd9-f828-4d04-be0c-d21a77aa6afe
+      - 2ca2b019-727a-4674-a4c8-5c12b1a6a1fd
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUDgdVUU8VAhxGBFJWCQEDUlUOUFAHAgcIUxpOXllYQVY4
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9dBgMbPUANSxYaFAQcA1UJUQFNA0xUAQNUVk8VAhxGWVQBUAcDBQEGVgNRBlFUAxpOXllYQVY4
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424007612;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425324577;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '93'
+      - '98'
       X-Ratelimit-Reset:
-      - '4'
+      - '10'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":174,"name":"12 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":213,"name":"91 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:07","update_time":"2017-09-14 21:20:07","prices":[{"id":177,"product_id":174,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        21:42:04","update_time":"2017-09-14 21:42:04","prices":[{"id":217,"product_id":213,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:20:07 GMT
+  recorded_at: Thu, 14 Sep 2017 21:42:04 GMT
 - request:
     method: put
-    uri: https://api.pipedrive.com/v1/products/174?api_token=<API_KEY>
+    uri: https://api.pipedrive.com/v1/products/213?api_token=<API_KEY>
     body:
       encoding: UTF-8
-      string: '{"id":174,"name":"12 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+      string: '{"id":213,"name":"91 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:07","update_time":"2017-09-14 21:20:07","prices":[{"id":177,"product_id":174,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]}'
+        21:42:04","update_time":"2017-09-14 21:42:04","prices":[{"id":217,"product_id":213,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}]}'
     headers:
       Connection:
       - close
@@ -206,7 +206,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Sep 2017 21:20:08 GMT
+      - Thu, 14 Sep 2017 21:42:05 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -218,32 +218,32 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Correlation-Id:
-      - a3e20fad-913e-451d-8103-36d3b0b164c4
+      - cfa5542d-5bdb-4a6c-9d70-6a02b6b5d3c4
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       X-Newrelic-App-Data:
-      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9HBws8EkUWGk4IFgQCA1UJTQFPA1VVAQJNS1IUEVNSU1FSVFNeBwQGAVFTVQYSTl4DVEtRbw==
+      - PxQOVVFaCwoTVlJUAwMPVFMTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04QUmQcQBYOBkJSQxU4Hl9HBws8EkUWGk4IFgQCA1UJTQFPA1RTAAZNS1IUEQMGUQcPUlRWUVVXUVAFWlUSTl4DVEtRbw==
       Strict-Transport-Security:
       - max-age=15768000
       - max-age=15768000
       Set-Cookie:
-      - pipe-last-active=1505424008499;path=/;domain=.pipedrive.com;expires=0
+      - pipe-last-active=1505425325451;path=/;domain=.pipedrive.com;expires=0
       X-Ratelimit-Limit:
       - '100'
       X-Ratelimit-Remaining:
-      - '92'
+      - '97'
       X-Ratelimit-Reset:
-      - '3'
+      - '9'
       Server:
       - no-name-at-all
     body:
       encoding: ASCII-8BIT
-      string: '{"success":true,"data":{"id":174,"name":"12 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"1","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
+      string: '{"success":true,"data":{"id":213,"name":"91 - Novo Produto","code":null,"unit":null,"tax":0,"active_flag":true,"selectable":true,"first_char":"9","visible_to":"3","owner_id":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true,"value":742863},"files_count":null,"followers_count":0,"add_time":"2017-09-14
-        21:20:07","update_time":"2017-09-14 21:20:08","prices":{"BRL":{"id":177,"product_id":174,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}}},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
+        21:42:04","update_time":"2017-09-14 21:42:05","prices":{"BRL":{"id":217,"product_id":213,"price":0,"currency":"BRL","cost":0,"overhead_cost":0}}},"related_objects":{"user":{"742863":{"id":742863,"name":"Felipe
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
-  recorded_at: Thu, 14 Sep 2017 21:20:08 GMT
+  recorded_at: Thu, 14 Sep 2017 21:42:05 GMT
 recorded_with: VCR 3.0.3
