@@ -4,7 +4,7 @@
 # See https://app.pipedrive.com/push_notifications#dialog:/push_notifications/help for detailed documentation of web hooks.
 module PipedriveRuby
   # Returns data about all subscriptions.
-  class PushNotifications < PipedriveRuby::Base
-    def_delegators :endpoints, :all, :find, :create, :remove
+  class Webhooks < PipedriveRuby::Base
+    def_delegators :endpoints, :all, :create, :remove
   end
 end

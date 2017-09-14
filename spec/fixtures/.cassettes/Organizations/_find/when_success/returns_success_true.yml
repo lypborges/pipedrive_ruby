@@ -51,4 +51,61 @@ http_interactions:
         Borges Ferreira","email":"lypborges@gmail.com","has_pic":true,"pic_hash":"bfccbfcd721e34fd60c0851a2fd27332","active_flag":true}}}}'
     http_version: 
   recorded_at: Tue, 19 Jul 2016 18:25:15 GMT
+- request:
+    method: get
+    uri: https://api.pipedrive.com/v1/organizations/1/?api_token=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.pipedrive.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 18 Aug 2017 20:23:29 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Correlation-Id:
+      - 00dac22c-27c0-459f-99e4-2474f00d4f79
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '91'
+      X-Ratelimit-Reset:
+      - '4'
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"data":{"id":1,"company_id":1968662,"owner_id":{"id":2876523,"name":"Eduardo
+        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true,"value":2876523},"name":"New
+        Named","open_deals_count":0,"related_open_deals_count":0,"closed_deals_count":0,"related_closed_deals_count":0,"email_messages_count":0,"people_count":1,"activities_count":0,"done_activities_count":0,"undone_activities_count":0,"reference_activities_count":0,"files_count":0,"notes_count":0,"followers_count":1,"won_deals_count":0,"related_won_deals_count":0,"lost_deals_count":0,"related_lost_deals_count":0,"active_flag":true,"category_id":null,"picture_id":null,"country_code":null,"first_char":"n","update_time":"2017-08-18
+        19:50:43","add_time":"2017-08-16 13:15:55","visible_to":"3","next_activity_date":null,"next_activity_time":null,"next_activity_id":null,"last_activity_id":null,"last_activity_date":null,"address":null,"address_subpremise":null,"address_street_number":null,"address_route":null,"address_sublocality":null,"address_locality":null,"address_admin_area_level_1":null,"address_admin_area_level_2":null,"address_country":null,"address_postal_code":null,"address_formatted_address":null,"cc_email":"nexaastesting@pipedrivemail.com","owner_name":"Eduardo
+        Hertz","edit_name":true,"last_activity":null,"next_activity":null},"additional_data":{"followers":{"2876523":{"name":"Eduardo
+        Hertz","email":"eduardo.hertz@myfreecomm.com.br","user_id":2876523,"has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","id":1}},"dropbox_email":"nexaastesting@pipedrivemail.com"},"related_objects":{"user":{"2876523":{"id":2876523,"name":"Eduardo
+        Hertz","email":"eduardo.hertz@myfreecomm.com.br","has_pic":true,"pic_hash":"22c0479868f91c939f3f1c860fd1b757","active_flag":true}}}}'
+    http_version: 
+  recorded_at: Fri, 18 Aug 2017 20:23:29 GMT
 recorded_with: VCR 3.0.3

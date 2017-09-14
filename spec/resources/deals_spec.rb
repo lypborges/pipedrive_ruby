@@ -264,20 +264,4 @@ describe 'Deals', vcr: true do
     end
   end # end of files
 
-  describe '#emails' do
-    context 'when success' do
-      it 'return success true' do
-        response = @deals.emails(@deal)
-        expect(response['success']).to be_truthy
-      end
-    end
-
-    context 'when fails' do
-      it 'return success false' do
-        response = @deals.emails(invalid_new_deal)
-        expect(response['success']).to be_falsey
-      end
-    end
-  end # end of emails
-
 end # end of Deals Resource

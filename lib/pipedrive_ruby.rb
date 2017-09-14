@@ -12,12 +12,12 @@ require 'resources/activity_types'
 require 'resources/authorizations'
 require 'resources/currencies'
 require 'resources/deal_fields'
-require 'resources/push_notifications'
 require 'resources/recents'
 require 'resources/search_results'
 require 'resources/user_settings'
 require 'resources/users'
 require 'resources/products'
+require 'resources/webhooks'
 
 
 # TODO (Felipe Borges Ferreira)

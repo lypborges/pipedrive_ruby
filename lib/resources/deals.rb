@@ -42,10 +42,6 @@ module PipedriveRuby
         def delete_participant(deal, participant)
         end
 
-        def emails(deal)
-          custom_get(:path => "#{deal['id']}/emailMessages")
-        end
-
         def find_by_title(term)
             find_by(term)
         end
